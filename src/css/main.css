@@ -1,0 +1,44 @@
+/* 
+
+/js
+> Header
+> Container 
+> Footer 
+
+*/
+
+/* Header Stylesheet */
+
+.header-container {
+    background-color: #282c34;
+    height: 100px;
+    color: white;
+    padding: 10px;
+}
+
+/* Container Stylesheet */
+
+.main-container {
+    background-color: #ececec;
+    min-height: 400px;
+    height: auto;
+    color: white;
+    padding: 10px;
+}
+
+/* Footer Stylesheet */
+
+.footer-container {
+    background-color: #282c34;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.react-logo {
+    height: 30px;
+}
+  
