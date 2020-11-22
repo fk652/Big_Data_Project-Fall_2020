@@ -1,1 +1,45 @@
+Data Analysis Project
+Fahim Khan
+Nathalie Darvas
+Parth Merchant
 
+
+---------------------------------------------
+
+Whenever you hit a project milestone:
+
+Milestone You Hit {Parth,11/21/2020}
+
+---------------------------------------------
+
+
+A. Project Definition
+	1. Organization and Collaboration Tools (Slack, Trello, GitHub, Zoom) {Team,11/18/2020}
+	2. GitHub: https://github.com/fk652/Big_Data_Project-Fall_2020 {Team,11/18/2020}
+	3. Goals: 
+B. Data Sources, Hypothesis
+	1. Data Sources 
+		https://pypi.org/project/yfinance/ #Stock market data we will primarily use
+		https://github.com/OpportunityInsights/EconomicTracker #Harvard economic data we can tie in with the stock market data
+		https://newsapi.org/s/google-news-api #For finding covid events and headline dates
+		https://github.com/CSSEGISandData/COVID-19 #COVID-19 data repository John Hopkins University (worldwide)
+		https://github.com/OpportunityInsights/EconomicTracker/blob/main/data/COVID%20-%20National%20-%20Daily.csv #COVID-19 US Daily (clean file)
+		https://www.coronanet-project.org/index.html #Government response to COVID-19 (most comprehensive and granular)
+		https://github.com/OpportunityInsights/EconomicTracker/blob/main/data/Policy%20Milestones%20-%20State.csv #Government policies - US only - by State
+		https://data.cityofnewyork.us/Health/COVID-19-Daily-Counts-of-Cases-Hospitalizations-an/rc75-m7u3 #NYC daily count of Covid-19 cases
+		https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker #Government response index by country from Oxford University (Stringency Index)
+	2. Hypothesis: 
+C. Data Cleaning & Preprocessing (OpenRefine, Jupyter Notebook, Notes)
+	1. 
+D. Data Exploration & Transformation (Spark MapReduce)
+	1. 
+D. Data Exploration (Jupyter Notebook, Notes)
+	1. 
+E. Data Analysis
+	1. S&P Index Analysis
+	2. Sectoral Analysis
+	3. Stock Analysis
+F. Data Visualization & Knowledge Discovery
+	1. React, D3, Recharts Interface {Parth,11/21/2020}
+	2. Visualization Techniques
+	3. Correlation between COVID-19 Data and Economic Data

@@ -20,8 +20,7 @@
 
 .main-container {
     background-color: #ececec;
-    min-height: 400px;
-    height: auto;
+    min-height: 600px;
     color: white;
     padding: 10px;
 }
