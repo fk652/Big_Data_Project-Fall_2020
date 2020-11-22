@@ -4,7 +4,7 @@ Parth Merchant, Fahim Khan, Nathalie Darvas
 
 ## How to use
 1. Clone/Download the repo.
-2. cd/Big_Data_Project-Fall_2020
+2. ``` cd/Big_Data_Project-Fall_2020 ```
 
 ### Dependencies
 1. Jupyter Notebook: Python3, NumPy, Pandas, Matplotlib, Seaborn, Spark
