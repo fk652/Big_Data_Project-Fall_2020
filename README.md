@@ -1,5 +1,5 @@
-# Big Data Project - Fall 2020 NYU Tandon School of Engineering
-### Data Analysis: Impact of COVID-19 on the S&P 500 Index and US Economy
+##  Data Analysis: Impact of COVID-19 on the S&P 500 Index and US Economy
+### Big Data Project - Fall 2020 NYU Tandon School of Engineering
 Parth Merchant, Fahim Khan, Nathalie Darvas
 
 ## How to use
