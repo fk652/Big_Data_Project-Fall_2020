@@ -3,13 +3,13 @@
 Parth Merchant, Fahim Khan, Nathalie Darvas
 
 ## How to use
--> Clone/Download the repo.
--> cd/Big_Data_Project-Fall_2020
+1. Clone/Download the repo.
+2. cd/Big_Data_Project-Fall_2020
 
 ### Dependencies
-Jupyter Notebook: Python3, NumPy, Pandas, Matplotlib, Seaborn, Spark
-Visualization Interface: NodeJS, npm (Node Package Manager), D3, recharts, colorbrewer
+1. Jupyter Notebook: Python3, NumPy, Pandas, Matplotlib, Seaborn, Spark
+2. Visualization Interface: NodeJS, npm (Node Package Manager), D3, recharts, colorbrewer
 
--> To run Interactive Visualization Tool ``` npm install ```. Once the node_modules have been downloaded, ``` npm start ``` to spin the up the local dev server port 3000.(http://localhost:3000).
+3. To run Interactive Visualization Tool ``` npm install ```. Once the node_modules have been downloaded, ``` npm start ``` to spin the up the local dev server port 3000.(http://localhost:3000).
 
--> To view Jupyter Notebooks and Data Analysis of the datasets, ``` jupyter notebook ``` or ``` python3 -m notebook ```
+4. To view Jupyter Notebooks and Data Analysis of the datasets, ``` jupyter notebook ``` or ``` python3 -m notebook ```
