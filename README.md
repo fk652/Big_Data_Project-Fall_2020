@@ -1,4 +1,4 @@
-##  Data Analysis: Impact of COVID-19 on the S&P 500 Index and US Economy
+##  Data Analysis: Impact of COVID-19 on the S&P 500 Companies
 ### Big Data Project - Fall 2020 NYU Tandon School of Engineering
 Parth Merchant, Fahim Khan, Nathalie Darvas
 
