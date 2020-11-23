@@ -12,35 +12,30 @@ Milestone You Hit {Parth,11/21/2020}
 
 ---------------------------------------------
 
-
 A. Project Definition
 	1. Organization and Collaboration Tools (Slack, Trello, GitHub, Zoom) {Team,11/18/2020}
 	2. GitHub: https://github.com/fk652/Big_Data_Project-Fall_2020 {Team,11/18/2020}
-	3. Goals: 
+	3. Goals: Analyze the impact of COVID-19 on S&P 500 companies on an aggregate, sectoral and individual basis 
+	to understand the varied impact of the pandemic and inform public policy {Team,11/18/2020}
 B. Data Sources, Hypothesis
-	1. Data Sources 
+	1. Identified data sources {Team,11/18/2020}
 		https://pypi.org/project/yfinance/ #Stock market data we will primarily use
-		https://github.com/OpportunityInsights/EconomicTracker #Harvard economic data we can tie in with the stock market data
-		https://newsapi.org/s/google-news-api #For finding covid events and headline dates
-		https://github.com/CSSEGISandData/COVID-19 #COVID-19 data repository John Hopkins University (worldwide)
-		https://github.com/OpportunityInsights/EconomicTracker/blob/main/data/COVID%20-%20National%20-%20Daily.csv #COVID-19 US Daily (clean file)
-		https://www.coronanet-project.org/index.html #Government response to COVID-19 (most comprehensive and granular)
-		https://github.com/OpportunityInsights/EconomicTracker/blob/main/data/Policy%20Milestones%20-%20State.csv #Government policies - US only - by State
-		https://data.cityofnewyork.us/Health/COVID-19-Daily-Counts-of-Cases-Hospitalizations-an/rc75-m7u3 #NYC daily count of Covid-19 cases
-		https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker #Government response index by country from Oxford University (Stringency Index)
-	2. Hypothesis: 
+		https://github.com/CSSEGISandData/COVID-19 #COVID-19 data repository John Hopkins University
+		https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker #Government response index by country from Oxford University 
+	2. Identified previous work and references {Nathalie, 11/18/2020}
+	3. Developed preliminary list of questions and analyses {Nathalie, 11/21/2020}
 C. Data Cleaning & Preprocessing (OpenRefine, Jupyter Notebook, Notes)
 	1. Scraping S&P 500 Wikipedia information and pulling historical data from Yahoo Finance {Fahim, 11/18/2020}
 	2. Formatting stock data and calculating daily returns and daily log returns {Fahim, 11/20/2020}
 D. Data Exploration & Transformation (Spark MapReduce)
 	1. 
-D. Data Exploration (Jupyter Notebook, Notes)
-	1. 
-E. Data Analysis
+E. Data Exploration (Jupyter Notebook, Notes)
+	1. Exploration of S&P Index and sectors on Jupyter Notebook to inform future analyses (e,g, top S&P gains and losses, sectors volatility, etc.) {Nathalie, 11/19/2020}
+F. Data Analysis
 	1. S&P Index Analysis
 	2. Sectoral Analysis
 	3. Stock Analysis
-F. Data Visualization & Knowledge Discovery
+G. Data Visualization & Knowledge Discovery
 	1. React, D3, Recharts Interface {Parth,11/21/2020}
 	2. Visualization Techniques
 	3. Correlation between COVID-19 Data and Economic Data
