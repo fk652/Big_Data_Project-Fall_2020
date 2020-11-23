@@ -30,7 +30,8 @@ B. Data Sources, Hypothesis
 		https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker #Government response index by country from Oxford University (Stringency Index)
 	2. Hypothesis: 
 C. Data Cleaning & Preprocessing (OpenRefine, Jupyter Notebook, Notes)
-	1. 
+	1. Scraping S&P 500 Wikipedia information and pulling historical data from Yahoo Finance {Fahim, 11/18/2020}
+	2. Formatting stock data and calculating daily returns and daily log returns {Fahim, 11/20/2020}
 D. Data Exploration & Transformation (Spark MapReduce)
 	1. 
 D. Data Exploration (Jupyter Notebook, Notes)
