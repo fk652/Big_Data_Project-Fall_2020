@@ -1,52 +1,69 @@
 from __future__ import print_function
 
 import sys
-from pyspark import SparkContext
-from csv import reader
-from datetime import datetime
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, unix_timestamp, to_date
+from pyspark.sql.types import DecimalType
 
 if __name__ == "__main__":
 
-    sc = SparkContext()
+    spark = SparkSession.builder.appName("oxford_clean").getOrCreate()
 
-    lines = sc.textFile(sys.argv[1], 1)
+    data = spark.read.format('csv') \
+                    .options(header='true', inferschema='false') \
+                    .load(sys.argv[1]) 
 
-    def firstMap(line):
-        line = next(reader([line]))
+    data = data.filter((data.CountryName == 'United States') & (data.Jurisdiction == 'NAT_TOTAL'))
 
-        if line[0] != 'United States':
-            return []
-        else:
-            keyIndices = [2,4]
-            dataLen = len(line)
+    data = data.withColumn('Date', to_date(unix_timestamp(col('Date'), 'yyyyMMdd').cast("timestamp")))
 
-            key = [line[i].strip() for i in keyIndices]
-            key[1] = datetime.strptime(key[1], '%Y%m%d')
-            value = [line[i].strip() for i in range(dataLen) if i not in keyIndices]
+    float_columns = ['C1_School closing',
+                    'C2_Workplace closing',
+                    'C3_Cancel public events',
+                    'C4_Restrictions on gatherings',
+                    'C5_Close public transport',
+                    'C6_Stay at home requirements',
+                    'C7_Restrictions on internal movement',
+                    'C8_International travel controls',
+                    'E1_Income support',
+                    'E2_Debt/contract relief',
+                    'E3_Fiscal measures', #
+                    'E4_International support', #
+                    'H1_Public information campaigns',
+                    'H2_Testing policy',
+                    'H3_Contact tracing',
+                    'H4_Emergency investment in healthcare', #
+                    'H5_Investment in vaccines', #
+                    'H6_Facial Coverings',
+                    'StringencyIndex',
+                    'StringencyIndexForDisplay',
+                    'StringencyLegacyIndex',
+                    'StringencyLegacyIndexForDisplay',
+                    'GovernmentResponseIndex',
+                    'GovernmentResponseIndexForDisplay',
+                    'ContainmentHealthIndex',
+                    'ContainmentHealthIndexForDisplay',
+                    'EconomicSupportIndex',
+                    'EconomicSupportIndexForDisplay']
+    for c in float_columns:
+        data = data.withColumn(c, col(c).cast(DecimalType(38,2)).alias(c))
 
-            floatIndices = [3, 5, 7, 9, 11, 13, 15, 17, 18, 20, 21, 22, 23, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
-            for i in floatIndices:
-                if value[i] != '':
-                    value[i] = "%.2f" % float(value[i])
+    int_columns = ['C1_Flag',
+                    'C2_Flag',
+                    'C3_Flag',
+                    'C4_Flag',
+                    'C5_Flag',
+                    'C6_Flag',
+                    'C7_Flag',
+                    'E1_Flag',
+                    'H1_Flag',
+                    'H6_Flag',
+                    'ConfirmedCases',
+                    'ConfirmedDeaths']
+    for c in int_columns:
+        data = data.withColumn(c, col(c).cast("int").alias(c))
 
-            intIndices = [4, 6, 8, 10, 12, 14, 16, 19, 24, 30, 32, 33]
-            for i in intIndices:
-                if value[i] != '':
-                    value[i] = str(int(float(value[i])))
-            
-            return [(tuple(key), value)]
+    data = data.sort("Date")
 
-    cleanData = lines.flatMap(firstMap)
-    cleanData = cleanData.sortByKey(ascending=True)
-
-    def finalMap(line):
-        key = list(line[0])
-        value = line[1]
-        key[1] = key[1].strftime('%Y-%m-%d')
-        finalList = value[:2] + [key[0]] + [value[2]] + [key[1]] + value[3:]
-        joinedValue = ",".join(finalList)
-        return joinedValue
-    
-    cleanData = cleanData.map(finalMap)
-    cleanData.saveAsTextFile("oxford_clean.out")
-    sc.stop()
+    data.write.options(timestampFormat='yyyy-MM-dd', emptyValue='').csv('oxford_clean.out')
+    spark.stop()
