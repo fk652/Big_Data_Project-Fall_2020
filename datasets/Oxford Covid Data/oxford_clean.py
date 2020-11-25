@@ -15,6 +15,8 @@ if __name__ == "__main__":
 
     data = data.filter((data.CountryName == 'United States') & (data.Jurisdiction == 'NAT_TOTAL'))
 
+    data = data.drop("RegionName", "RegionCode")
+
     data = data.withColumn('Date', to_date(unix_timestamp(col('Date'), 'yyyyMMdd').cast('timestamp')))
 
     float_columns = ['C1_School closing',
@@ -65,5 +67,10 @@ if __name__ == "__main__":
 
     data = data.sort('Date')
 
+    header = [tuple(data.columns)]
+    header = spark.createDataFrame(header)
+    data = header.union(data)
+
     data.write.options(timestampFormat='yyyy-MM-dd', emptyValue='').csv('oxford_clean.out')
     spark.stop()
+

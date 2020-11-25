@@ -28,8 +28,4 @@ spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python oxf
 echo "retrieving oxford clean output"
 hfs -getmerge oxford_clean.out oxford_clean.csv
 
-# adding header to top of file
-echo "adding header to top of csv file"
-head -1 OxCGRT_latest.csv | cat - oxford_clean.csv > oxford_clean.csv."$$" && mv oxford_clean.csv."$$" oxford_clean.csv
-
 echo "done cleaning oxford data"
