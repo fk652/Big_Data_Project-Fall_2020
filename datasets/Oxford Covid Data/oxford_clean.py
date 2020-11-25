@@ -7,7 +7,7 @@ from pyspark.sql.types import DecimalType
 
 if __name__ == "__main__":
 
-    spark = SparkSession.builder.appName("oxford_clean").getOrCreate()
+    spark = SparkSession.builder.appName('oxford_clean').getOrCreate()
 
     data = spark.read.format('csv') \
                     .options(header='true', inferschema='false') \
@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     data = data.filter((data.CountryName == 'United States') & (data.Jurisdiction == 'NAT_TOTAL'))
 
-    data = data.withColumn('Date', to_date(unix_timestamp(col('Date'), 'yyyyMMdd').cast("timestamp")))
+    data = data.withColumn('Date', to_date(unix_timestamp(col('Date'), 'yyyyMMdd').cast('timestamp')))
 
     float_columns = ['C1_School closing',
                     'C2_Workplace closing',
@@ -61,9 +61,9 @@ if __name__ == "__main__":
                     'ConfirmedCases',
                     'ConfirmedDeaths']
     for c in int_columns:
-        data = data.withColumn(c, col(c).cast("int").alias(c))
+        data = data.withColumn(c, col(c).cast('int').alias(c))
 
-    data = data.sort("Date")
+    data = data.sort('Date')
 
     data.write.options(timestampFormat='yyyy-MM-dd', emptyValue='').csv('oxford_clean.out')
     spark.stop()
