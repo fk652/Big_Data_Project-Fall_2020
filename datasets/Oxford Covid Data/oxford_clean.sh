@@ -13,13 +13,16 @@ echo "removing existing output files"
 hfs -rm -r oxford_clean.out
 rm -r oxford_clean.csv
 
-# uploading latest oxford data to hadoop (to try: retrieve latest file from github)
+# uploading latest oxford data to hadoop
+echo "uploading oxford covid data to hadoop"
 hfs -rm -r OxCGRT_latest.csv
+# rm -r OxCGRT_latest.csv
+# wget  https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv
 hfs -put OxCGRT_latest.csv
 
 # run spark job
 echo "running spark job"
-spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python ~/Project/Datasets/Oxford\ Datasets/oxford_clean.py  OxCGRT_latest.csv
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python oxford_clean.py OxCGRT_latest.csv
 
 # retrieve output from Hadoop
 echo "retrieving oxford clean output"
