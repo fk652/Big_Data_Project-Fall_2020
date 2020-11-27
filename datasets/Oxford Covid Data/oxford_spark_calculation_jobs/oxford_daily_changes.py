@@ -38,19 +38,19 @@ if __name__ == "__main__":
 
     # percent changes column
     data = data.withColumn('ConfirmedCases_PercentChange', 
-        when(isnull((data.cases_prev - data.ConfirmedCases)/data.ConfirmedCases), 0).otherwise((data.cases_prev - data.ConfirmedCases)/data.ConfirmedCases))
+        when(isnull((data.ConfirmedCases - data.cases_prev)/data.cases_prev), 0).otherwise((data.ConfirmedCases - data.cases_prev)/data.cases_prev))
     data = data.withColumn('ConfirmedDeaths_PercentChange', 
-        when(isnull((data.deaths_prev - data.ConfirmedDeaths)/data.ConfirmedDeaths), 0).otherwise((data.deaths_prev - data.ConfirmedDeaths)/data.ConfirmedDeaths))
+        when(isnull((data.ConfirmedDeaths - data.deaths_prev)/data.deaths_prev), 0).otherwise((data.ConfirmedDeaths - data.deaths_prev)/data.deaths_prev))
     data = data.withColumn('StringencyIndexForDisplay_PercentChange', 
-        when(isnull((data.stringency_prev - data.StringencyIndexForDisplay)/data.StringencyIndexForDisplay), 0).otherwise((data.stringency_prev - data.StringencyIndexForDisplay)/data.StringencyIndexForDisplay))
+        when(isnull((data.StringencyIndexForDisplay - data.stringency_prev)/data.stringency_prev), 0).otherwise((data.StringencyIndexForDisplay - data.stringency_prev)/data.stringency_prev))
     data = data.withColumn('StringencyLegacyIndexForDisplay_PercentChange', 
-        when(isnull((data.legacy_prev - data.StringencyLegacyIndexForDisplay)/data.StringencyLegacyIndexForDisplay), 0).otherwise((data.legacy_prev - data.StringencyLegacyIndexForDisplay)/data.StringencyLegacyIndexForDisplay))
+        when(isnull((data.StringencyLegacyIndexForDisplay - data.legacy_prev)/data.legacy_prev), 0).otherwise((data.StringencyLegacyIndexForDisplay - data.legacy_prev)/data.legacy_prev))
     data = data.withColumn('GovernmentResponseIndexForDisplay_PercentChange', 
-        when(isnull((data.government_prev - data.GovernmentResponseIndexForDisplay)/data.GovernmentResponseIndexForDisplay), 0).otherwise((data.government_prev - data.GovernmentResponseIndexForDisplay)/data.GovernmentResponseIndexForDisplay))
+        when(isnull((data.GovernmentResponseIndexForDisplay - data.government_prev)/data.government_prev), 0).otherwise((data.GovernmentResponseIndexForDisplay - data.government_prev)/data.government_prev))
     data = data.withColumn('ContainmentHealthIndexForDisplay_PercentChange', 
-        when(isnull((data.containment_prev - data.ContainmentHealthIndexForDisplay)/data.ContainmentHealthIndexForDisplay), 0).otherwise((data.containment_prev - data.ContainmentHealthIndexForDisplay)/data.ContainmentHealthIndexForDisplay))
+        when(isnull((data.ContainmentHealthIndexForDisplay - data.containment_prev)/data.containment_prev), 0).otherwise((data.ContainmentHealthIndexForDisplay - data.containment_prev)/data.containment_prev))
     data = data.withColumn('EconomicSupportIndexForDisplay_PercentChange', 
-        when(isnull((data.economic_prev - data.EconomicSupportIndexForDisplay)/data.EconomicSupportIndexForDisplay), 0).otherwise((data.economic_prev - data.EconomicSupportIndexForDisplay)/data.EconomicSupportIndexForDisplay))
+        when(isnull((data.EconomicSupportIndexForDisplay - data.economic_prev)/data.economic_prev), 0).otherwise((data.EconomicSupportIndexForDisplay - data.economic_prev)/data.economic_prev))
 
     # log percent changes column
     data = data.withColumn('ConfirmedCases_LogChange', 
@@ -102,4 +102,5 @@ if __name__ == "__main__":
 
     data.write.options(timestampFormat='yyyy-MM-dd', emptyValue='').csv('oxford_daily_changes.out')
     spark.stop()
+
 
