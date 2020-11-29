@@ -6,7 +6,7 @@ import index_data from '../datasets/s&p500_index.json';
 export default class Index extends Component { 
   render() {
   return (
-    <div className="main-container">
+    <div className="viz-container">
       <br></br>
       <AreaChart width={1000} height={600} data={index_data}
         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>

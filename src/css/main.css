@@ -26,6 +26,20 @@
     padding: 10px;
 }
 
+.viz-container {
+    background-color: #ffffff;
+    min-height: 600px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    margin: 10px;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
 /* Footer Stylesheet */
 
 .footer-container {

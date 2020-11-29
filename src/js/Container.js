@@ -4,6 +4,7 @@ import {React, Component} from 'react';
 import Sectors from './Sectors';
 import Index from './Index';
 import Sector_Filter from './Sector_Filter';
+import Aggregate from './Aggregate';
 
 export default class Container extends Component { 
 
@@ -11,10 +12,12 @@ export default class Container extends Component {
   return (
     <div className="main-container">
       <Sectors />
-      <hr></hr>
+      <br></br>
       <Index />
-      <hr></hr>
+      <br></br>
       <Sector_Filter />
+      <br></br>
+      <Aggregate />
     </div>
   );
   }

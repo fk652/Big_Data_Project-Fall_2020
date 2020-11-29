@@ -18,7 +18,7 @@ export default class Sector_Filter extends Component {
 
     render() {
       return (
-        <div className="main-container">
+        <div className="viz-container">
         <select value={this.state.value} onChange={this.handleChange}>
             <option value="XLB Materials">XLB Materials</option>
             <option value="XLC Communication Services">XLC Communication Services</option>

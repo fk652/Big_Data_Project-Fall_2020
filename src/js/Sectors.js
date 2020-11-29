@@ -7,7 +7,7 @@ export default class Sectors extends Component {
 
   render() {
   return (
-    <div className="main-container">
+    <div className="viz-container">
       <br></br>
       <LineChart
         width={1000}
