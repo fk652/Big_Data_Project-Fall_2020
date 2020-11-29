@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
     # top 5 gains per company
     top_gain_window = Window.partitionBy(data['Symbol']).orderBy(data['Log Return'].desc())
-    top_5_gains = data.select('*', rank().over(top_drop_window).alias('rank')) \
+    top_5_gains = data.select('*', rank().over(top_gain_window).alias('rank')) \
                         .filter(col('rank') <= 5) \
                         .drop('rank') \
                         .orderBy(col('Symbol'), col('Log Return').desc())
