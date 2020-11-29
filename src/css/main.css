@@ -10,18 +10,19 @@
 /* Header Stylesheet */
 
 .header-container {
-    background-color: #282c34;
+    background-color: #f8f8f8;
     height: 100px;
-    color: white;
+    color: rgb(31, 31, 31);
     padding: 10px;
+    font-size: 24px;
 }
 
 /* Container Stylesheet */
 
 .main-container {
-    background-color: #ececec;
+    background-color: #ffffff;
     min-height: 600px;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
 }
 

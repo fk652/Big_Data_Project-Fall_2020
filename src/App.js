@@ -1,9 +1,10 @@
 import './App.css';
 import Header from './js/Header';
+import React, { Component } from 'react';
 import Container from './js/Container';
-import Footer from './js/Footer';
 
-function App() {
+class App extends Component { 
+  render() {
   return (
     <div className="App">
       <Header/>
@@ -12,6 +13,7 @@ function App() {
       </center>
     </div>
   );
+  }
 }
 
 export default App;
