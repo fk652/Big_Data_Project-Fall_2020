@@ -61,7 +61,7 @@ sp500_info.to_csv('S&P_500_Information.csv', index=False, header=True)
 Creating S&P 500 stock market data csv from Yahoo Finance
 '''
 start = datetime.datetime(2019,12,15)
-end = datetime.datetime(2020,11,15)
+end = datetime.datetime(2020,11,27)
 data = yf.download(tickers, start=start, end=end)
 
 data = data.unstack().reset_index()

@@ -24,11 +24,21 @@ B. Data Sources, Hypothesis
 		https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker #Government response index by country from Oxford University 
 	2. Identified previous work and references {Nathalie, 11/18/2020}
 	3. Developed preliminary list of questions and analyses {Nathalie, 11/21/2020}
-C. Data Cleaning & Preprocessing (OpenRefine, Jupyter Notebook, Notes)
+C. Data Cleaning & Preprocessing (OpenRefine, Jupyter Notebook, Notes, Spark)
 	1. Scraping S&P 500 Wikipedia information and pulling historical data from Yahoo Finance {Fahim, 11/18/2020}
 	2. Formatting stock data and calculating daily returns and daily log returns {Fahim, 11/20/2020}
+	3. Cleaned and formatted Oxford Covid Data {Fahim 11/24/2020}
+		- Fixed date format and decimal precisions
 D. Data Exploration & Transformation (Spark MapReduce)
-	1. 
+	1. Calculated Oxford data information {Fahim 11/26/2020}
+		- Indexes percent change
+		- Indexes log change
+	2. Calculated Stock data information {Fahim 11/28/2020}
+		- total log return sums
+		- cumulative log return sums
+		- top and bottom companies/sectors by total sum
+		- top 5 gains per company/sector/aggregate
+		- top 5 drops per company/sector/aggregate
 E. Data Exploration (Jupyter Notebook, Notes)
 	1. Exploration of S&P Index and sectors on Jupyter Notebook to inform future analyses (e,g, top S&P gains and losses, sectors volatility, etc.) {Nathalie, 11/19/2020}
 F. Data Analysis
