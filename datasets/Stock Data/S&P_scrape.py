@@ -60,8 +60,8 @@ sp500_info.to_csv('S&P_500_Information.csv', index=False, header=True)
 '''
 Creating S&P 500 stock market data csv from Yahoo Finance
 '''
-start = datetime.datetime(2019,12,15)
-end = datetime.datetime(2020,11,27)
+start = datetime.datetime(2019,11,15)
+end = datetime.datetime(2020,11,15)
 data = yf.download(tickers, start=start, end=end)
 
 data = data.unstack().reset_index()
@@ -103,6 +103,9 @@ final_data['Volume'] = volume.iloc[:,2:]
 sp500_names = sp500_info.iloc[:,:2]
 joined_data = final_data.join(sp500_names.set_index('Symbol'), on='Symbol')
 joined_data = joined_data[['Date', 'Symbol', 'Name', 'Daily Return', 'Log Return', 'Close', 'Adj Close', 'High', 'Low', 'Open', 'Volume']]
+
+joined_data['Daily Return'] = joined_data['Daily Return'].fillna(0)
+joined_data['Log Return'] = joined_data['Log Return'].fillna(0)
 
 joined_data.to_csv('S&P_500_stock_data.csv', index=False, header=True)
 
@@ -156,6 +159,9 @@ sector_names = pd.DataFrame(sector_names)
 joined_data = final_data.join(sector_names.set_index('Symbol'), on='Symbol')
 joined_data = joined_data[['Date', 'Symbol', 'Name', 'Daily Return', 'Log Return', 'Close', 'Adj Close', 'High', 'Low', 'Open', 'Volume']]
 
+joined_data['Daily Return'] = joined_data['Daily Return'].fillna(0)
+joined_data['Log Return'] = joined_data['Log Return'].fillna(0)
+
 joined_data.to_csv('Sectoral_stock_data.csv', index=False, header=True)
 
 
@@ -172,6 +178,9 @@ final_data['Log Return'] = np.log(final_data['Close']) - np.log(final_data['Clos
 final_data['Symbol'] = '^GSPC'
 final_data['Name'] = 'S&P 500'
 final_data = final_data[['Date', 'Symbol', 'Name', 'Daily Return', 'Log Return', 'Close', 'Adj Close', 'High', 'Low', 'Open', 'Volume']]
+
+final_data['Daily Return'] = joined_data['Daily Return'].fillna(0)
+final_data['Log Return'] = joined_data['Log Return'].fillna(0)
 
 final_data.to_csv('S&P_500_aggregate_stock_data.csv', index=False, header=True)
 
