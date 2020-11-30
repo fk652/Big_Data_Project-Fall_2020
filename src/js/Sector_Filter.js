@@ -16,6 +16,7 @@ export default class Sector_Filter extends Component {
         this.setState({value: event.target.value});
       }
 
+
     render() {
       return (
         <div className="viz-container">
