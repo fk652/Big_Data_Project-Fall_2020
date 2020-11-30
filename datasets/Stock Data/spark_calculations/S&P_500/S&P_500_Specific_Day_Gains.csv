@@ -485,21 +485,25 @@ Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
 2020-03-13,484,DHI,D- R- Horton,Consumer Discretionary,Homebuilding,0.0020376476
 2020-03-13,485,PHM,PulteGroup,Consumer Discretionary,Homebuilding,0.0013110758
 2020-03-13,486,YUM,Yum! Brands Inc,Consumer Discretionary,Restaurants,1.2748883E-4
-2020-03-13,487,DPZ,Domino's Pizza,Consumer Discretionary,Restaurants,-0.0015147554
-2020-03-13,488,CHD,Church & Dwight,Consumer Staples,Household Products,-0.0018942221
-2020-03-13,489,FOXA,Fox Corporation (Class A),Communication Services,Movies & Entertainment,-0.0026732762
-2020-03-13,490,CERN,Cerner,Health Care,Health Care Technology,-0.0038726716
-2020-03-13,491,TSCO,Tractor Supply Company,Consumer Discretionary,Specialty Stores,-0.0039288034
-2020-03-13,492,FOX,Fox Corporation (Class B),Communication Services,Movies & Entertainment,-0.0070671793
-2020-03-13,493,EW,Edwards Lifesciences,Health Care,Health Care Equipment,-0.008160704
-2020-03-13,494,NVR,"NVR, Inc-",Consumer Discretionary,Homebuilding,-0.008491407
-2020-03-13,495,MHK,Mohawk Industries,Consumer Discretionary,Home Furnishings,-0.009798407
-2020-03-13,496,PEG,Public Service Enterprise Group (PSEG),Utilities,Electric Utilities,-0.010143235
-2020-03-13,497,DXCM,DexCom,Health Care,Health Care Equipment,-0.0147258695
-2020-03-13,498,LEN,Lennar Corp-,Consumer Discretionary,Homebuilding,-0.016069788
-2020-03-13,499,HPQ,HP Inc-,Information Technology,"Technology Hardware, Storage & Peripherals",-0.019026225
-2020-03-13,500,ZBH,Zimmer Biomet,Health Care,Health Care Equipment,-0.042342268
-2020-03-13,501,NEM,Newmont Corporation,Materials,Gold,-0.11783926
+2020-03-13,487,CARR,Carrier Global,Industrials,Building Products,0.0
+2020-03-13,487,LUMN,Lumen Technologies,Communication Services,Alternative Carriers,0.0
+2020-03-13,487,OTIS,Otis Worldwide,Industrials,Industrial Machinery,0.0
+2020-03-13,487,VNT,Vontier,Information Technology,Electronic Equipment & Instruments,0.0
+2020-03-13,491,DPZ,Domino's Pizza,Consumer Discretionary,Restaurants,-0.0015147554
+2020-03-13,492,CHD,Church & Dwight,Consumer Staples,Household Products,-0.0018942221
+2020-03-13,493,FOXA,Fox Corporation (Class A),Communication Services,Movies & Entertainment,-0.0026732762
+2020-03-13,494,CERN,Cerner,Health Care,Health Care Technology,-0.0038726716
+2020-03-13,495,TSCO,Tractor Supply Company,Consumer Discretionary,Specialty Stores,-0.0039288034
+2020-03-13,496,FOX,Fox Corporation (Class B),Communication Services,Movies & Entertainment,-0.0070671793
+2020-03-13,497,EW,Edwards Lifesciences,Health Care,Health Care Equipment,-0.008160704
+2020-03-13,498,NVR,"NVR, Inc-",Consumer Discretionary,Homebuilding,-0.008491407
+2020-03-13,499,MHK,Mohawk Industries,Consumer Discretionary,Home Furnishings,-0.009798407
+2020-03-13,500,PEG,Public Service Enterprise Group (PSEG),Utilities,Electric Utilities,-0.010143235
+2020-03-13,501,DXCM,DexCom,Health Care,Health Care Equipment,-0.0147258695
+2020-03-13,502,LEN,Lennar Corp-,Consumer Discretionary,Homebuilding,-0.016069788
+2020-03-13,503,HPQ,HP Inc-,Information Technology,"Technology Hardware, Storage & Peripherals",-0.019026225
+2020-03-13,504,ZBH,Zimmer Biomet,Health Care,Health Care Equipment,-0.042342268
+2020-03-13,505,NEM,Newmont Corporation,Materials,Gold,-0.11783926
 2020-03-17,1,DOW,Dow Inc-,Materials,Commodity Chemicals,0.18986878
 2020-03-17,2,LYB,LyondellBasell,Materials,Specialty Chemicals,0.17849378
 2020-03-17,3,SO,Southern Company,Utilities,Electric Utilities,0.17204922
@@ -905,102 +909,106 @@ Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
 2020-03-17,403,MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,4.926495E-4
 2020-03-17,404,PNR,Pentair plc,Industrials,Industrial Machinery,3.291173E-4
 2020-03-17,405,ALK,Alaska Air Group Inc,Industrials,Airlines,0.0
+2020-03-17,405,CARR,Carrier Global,Industrials,Building Products,0.0
 2020-03-17,405,F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,0.0
-2020-03-17,407,FLS,Flowserve Corporation,Industrials,Industrial Machinery,-0.0013342536
-2020-03-17,408,DGX,Quest Diagnostics,Health Care,Health Care Services,-0.0020857516
-2020-03-17,409,STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,-0.0024077303
-2020-03-17,410,WELL,Welltower Inc-,Real Estate,Health Care REITs,-0.003617559
-2020-03-17,411,DHI,D- R- Horton,Consumer Discretionary,Homebuilding,-0.0038351226
-2020-03-17,412,HPQ,HP Inc-,Information Technology,"Technology Hardware, Storage & Peripherals",-0.004158039
-2020-03-17,413,HIG,Hartford Financial Svc-Gp-,Financials,Property & Casualty Insurance,-0.0056877453
-2020-03-17,414,EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,-0.0067753443
-2020-03-17,415,KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,-0.0070949607
-2020-03-17,416,HBAN,Huntington Bancshares,Financials,Regional Banks,-0.0071429373
-2020-03-17,417,WYNN,Wynn Resorts Ltd,Consumer Discretionary,Casinos & Gaming,-0.007693721
-2020-03-17,418,PCAR,PACCAR Inc-,Industrials,Construction Machinery & Heavy Trucks,-0.008344508
-2020-03-17,419,MCD,McDonald's Corp-,Consumer Discretionary,Restaurants,-0.00937201
-2020-03-17,420,HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals",-0.00962702
-2020-03-17,421,EXPE,Expedia Group,Consumer Discretionary,Internet & Direct Marketing Retail,-0.01065994
-2020-03-17,422,UHS,Universal Health Services,Health Care,Health Care Facilities,-0.011572145
-2020-03-17,423,NLOK,NortonLifeLock,Information Technology,Application Software,-0.011947619
-2020-03-17,424,XRX,Xerox,Information Technology,"Technology Hardware, Storage & Peripherals",-0.013124884
-2020-03-17,425,HES,Hess Corporation,Energy,Integrated Oil & Gas,-0.013945366
-2020-03-17,426,DIS,The Walt Disney Company,Communication Services,Movies & Entertainment,-0.015699944
-2020-03-17,427,ABBV,AbbVie Inc-,Health Care,Pharmaceuticals,-0.016973726
-2020-03-17,428,XRAY,Dentsply Sirona,Health Care,Health Care Supplies,-0.017202215
-2020-03-17,429,INCY,Incyte,Health Care,Biotechnology,-0.017327977
-2020-03-17,430,DXCM,DexCom,Health Care,Health Care Equipment,-0.017754294
-2020-03-17,431,ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,-0.021200337
-2020-03-17,432,VMC,Vulcan Materials,Materials,Construction Materials,-0.021384954
-2020-03-17,433,AAL,American Airlines Group,Industrials,Airlines,-0.02158815
-2020-03-17,434,URI,"United Rentals, Inc-",Industrials,Trading Companies & Distributors,-0.02186414
-2020-03-17,435,NVR,"NVR, Inc-",Consumer Discretionary,Homebuilding,-0.021871706
-2020-03-17,436,KMX,Carmax Inc,Consumer Discretionary,Specialty Stores,-0.02189403
-2020-03-17,437,SYF,Synchrony Financial,Financials,Consumer Finance,-0.022091031
-2020-03-17,438,PFG,Principal Financial Group,Financials,Life & Health Insurance,-0.02242632
-2020-03-17,439,C,Citigroup Inc-,Financials,Diversified Banks,-0.023085471
-2020-03-17,440,HOLX,Hologic,Health Care,Health Care Equipment,-0.024483355
-2020-03-17,441,SYK,Stryker Corp-,Health Care,Health Care Equipment,-0.025847405
-2020-03-17,442,HON,Honeywell Int'l Inc-,Industrials,Industrial Conglomerates,-0.025987167
-2020-03-17,443,DFS,Discover Financial Services,Financials,Consumer Finance,-0.02676103
-2020-03-17,444,FFIV,F5 Networks,Information Technology,Communications Equipment,-0.026803939
-2020-03-17,445,COF,Capital One Financial,Financials,Consumer Finance,-0.027980294
-2020-03-17,446,MOS,The Mosaic Company,Materials,Fertilizers & Agricultural Chemicals,-0.028544215
-2020-03-17,447,SLB,Schlumberger Ltd-,Energy,Oil & Gas Equipment & Services,-0.02886507
-2020-03-17,448,IT,Gartner Inc,Information Technology,IT Consulting & Other Services,-0.029986903
-2020-03-17,449,BKR,Baker Hughes Co,Energy,Oil & Gas Equipment & Services,-0.031498637
-2020-03-17,450,GM,General Motors,Consumer Discretionary,Automobile Manufacturers,-0.03291683
-2020-03-17,451,LKQ,LKQ Corporation,Consumer Discretionary,Distributors,-0.033461303
-2020-03-17,452,BWA,BorgWarner,Consumer Discretionary,Auto Parts & Equipment,-0.03352755
-2020-03-17,453,PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,-0.03370874
-2020-03-17,454,FMC,FMC Corporation,Materials,Fertilizers & Agricultural Chemicals,-0.033945296
-2020-03-17,455,JCI,Johnson Controls International,Industrials,Building Products,-0.0355933
-2020-03-17,456,IDXX,IDEXX Laboratories,Health Care,Health Care Equipment,-0.036164124
-2020-03-17,457,AON,Aon plc,Financials,Insurance Brokers,-0.036183037
-2020-03-17,458,PXD,Pioneer Natural Resources,Energy,Oil & Gas Exploration & Production,-0.037360463
-2020-03-17,459,PHM,PulteGroup,Consumer Discretionary,Homebuilding,-0.041981988
-2020-03-17,460,BA,Boeing Company,Industrials,Aerospace & Defense,-0.04311999
-2020-03-17,461,ULTA,Ulta Beauty,Consumer Discretionary,Specialty Stores,-0.043911573
-2020-03-17,462,AIG,American International Group,Financials,Property & Casualty Insurance,-0.043963123
-2020-03-17,463,SEE,Sealed Air,Materials,Paper Packaging,-0.045473505
-2020-03-17,464,RHI,Robert Half International,Industrials,Human Resource & Employment Services,-0.046892744
-2020-03-17,465,LEN,Lennar Corp-,Consumer Discretionary,Homebuilding,-0.048831012
-2020-03-17,466,CXO,Concho Resources,Energy,Oil & Gas Exploration & Production,-0.05380392
-2020-03-17,467,NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,-0.05449139
-2020-03-17,468,APTV,Aptiv PLC,Consumer Discretionary,Auto Parts & Equipment,-0.05653718
-2020-03-17,469,CBRE,CBRE Group,Real Estate,Real Estate Services,-0.056790907
-2020-03-17,470,OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,-0.058235656
-2020-03-17,471,ROST,Ross Stores,Consumer Discretionary,Apparel Retail,-0.06092905
-2020-03-17,472,YUM,Yum! Brands Inc,Consumer Discretionary,Restaurants,-0.064166315
-2020-03-17,473,VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,-0.06474674
-2020-03-17,474,ZBH,Zimmer Biomet,Health Care,Health Care Equipment,-0.0655825
-2020-03-17,475,VIAC,ViacomCBS,Communication Services,Movies & Entertainment,-0.06605816
-2020-03-17,476,LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,-0.068088464
-2020-03-17,477,HLT,Hilton Worldwide Holdings Inc,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.07013365
-2020-03-17,478,MGM,MGM Resorts International,Consumer Discretionary,Casinos & Gaming,-0.07073653
-2020-03-17,479,TDG,TransDigm Group,Industrials,Aerospace & Defense,-0.071742415
-2020-03-17,480,TFX,Teleflex,Health Care,Health Care Equipment,-0.07269931
-2020-03-17,481,SYY,Sysco Corp-,Consumer Staples,Food Distributors,-0.07392456
-2020-03-17,482,RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.079208076
-2020-03-17,483,DXC,DXC Technology,Information Technology,IT Consulting & Other Services,-0.08158002
-2020-03-17,484,PVH,PVH Corp-,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",-0.08498331
-2020-03-17,485,CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,-0.08600823
-2020-03-17,486,HCA,HCA Healthcare,Health Care,Health Care Facilities,-0.086397946
-2020-03-17,487,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.08684518
-2020-03-17,488,MRO,Marathon Oil Corp-,Energy,Oil & Gas Exploration & Production,-0.09982037
-2020-03-17,489,WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,-0.10626692
-2020-03-17,490,SPG,Simon Property Group Inc,Real Estate,Retail REITs,-0.11130611
-2020-03-17,491,DAL,Delta Air Lines Inc-,Industrials,Airlines,-0.12064952
-2020-03-17,492,VTR,Ventas Inc,Real Estate,Health Care REITs,-0.12421116
-2020-03-17,493,CCL,Carnival Corp-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.1365755
-2020-03-17,494,MAR,Marriott Int'l-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.13853614
-2020-03-17,495,LB,L Brands Inc-,Consumer Discretionary,Apparel Retail,-0.13980481
-2020-03-17,496,UAL,United Airlines Holdings,Industrials,Airlines,-0.14540233
-2020-03-17,497,FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,-0.14940816
-2020-03-17,498,OKE,ONEOK,Energy,Oil & Gas Storage & Transportation,-0.15168805
-2020-03-17,499,DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,-0.15856376
-2020-03-17,500,DRI,Darden Restaurants,Consumer Discretionary,Restaurants,-0.16009527
-2020-03-17,501,APA,Apache Corporation,Energy,Oil & Gas Exploration & Production,-0.20230003
+2020-03-17,405,LUMN,Lumen Technologies,Communication Services,Alternative Carriers,0.0
+2020-03-17,405,OTIS,Otis Worldwide,Industrials,Industrial Machinery,0.0
+2020-03-17,405,VNT,Vontier,Information Technology,Electronic Equipment & Instruments,0.0
+2020-03-17,411,FLS,Flowserve Corporation,Industrials,Industrial Machinery,-0.0013342536
+2020-03-17,412,DGX,Quest Diagnostics,Health Care,Health Care Services,-0.0020857516
+2020-03-17,413,STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,-0.0024077303
+2020-03-17,414,WELL,Welltower Inc-,Real Estate,Health Care REITs,-0.003617559
+2020-03-17,415,DHI,D- R- Horton,Consumer Discretionary,Homebuilding,-0.0038351226
+2020-03-17,416,HPQ,HP Inc-,Information Technology,"Technology Hardware, Storage & Peripherals",-0.004158039
+2020-03-17,417,HIG,Hartford Financial Svc-Gp-,Financials,Property & Casualty Insurance,-0.0056877453
+2020-03-17,418,EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,-0.0067753443
+2020-03-17,419,KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,-0.0070949607
+2020-03-17,420,HBAN,Huntington Bancshares,Financials,Regional Banks,-0.0071429373
+2020-03-17,421,WYNN,Wynn Resorts Ltd,Consumer Discretionary,Casinos & Gaming,-0.007693721
+2020-03-17,422,PCAR,PACCAR Inc-,Industrials,Construction Machinery & Heavy Trucks,-0.008344508
+2020-03-17,423,MCD,McDonald's Corp-,Consumer Discretionary,Restaurants,-0.00937201
+2020-03-17,424,HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals",-0.00962702
+2020-03-17,425,EXPE,Expedia Group,Consumer Discretionary,Internet & Direct Marketing Retail,-0.01065994
+2020-03-17,426,UHS,Universal Health Services,Health Care,Health Care Facilities,-0.011572145
+2020-03-17,427,NLOK,NortonLifeLock,Information Technology,Application Software,-0.011947619
+2020-03-17,428,XRX,Xerox,Information Technology,"Technology Hardware, Storage & Peripherals",-0.013124884
+2020-03-17,429,HES,Hess Corporation,Energy,Integrated Oil & Gas,-0.013945366
+2020-03-17,430,DIS,The Walt Disney Company,Communication Services,Movies & Entertainment,-0.015699944
+2020-03-17,431,ABBV,AbbVie Inc-,Health Care,Pharmaceuticals,-0.016973726
+2020-03-17,432,XRAY,Dentsply Sirona,Health Care,Health Care Supplies,-0.017202215
+2020-03-17,433,INCY,Incyte,Health Care,Biotechnology,-0.017327977
+2020-03-17,434,DXCM,DexCom,Health Care,Health Care Equipment,-0.017754294
+2020-03-17,435,ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,-0.021200337
+2020-03-17,436,VMC,Vulcan Materials,Materials,Construction Materials,-0.021384954
+2020-03-17,437,AAL,American Airlines Group,Industrials,Airlines,-0.02158815
+2020-03-17,438,URI,"United Rentals, Inc-",Industrials,Trading Companies & Distributors,-0.02186414
+2020-03-17,439,NVR,"NVR, Inc-",Consumer Discretionary,Homebuilding,-0.021871706
+2020-03-17,440,KMX,Carmax Inc,Consumer Discretionary,Specialty Stores,-0.02189403
+2020-03-17,441,SYF,Synchrony Financial,Financials,Consumer Finance,-0.022091031
+2020-03-17,442,PFG,Principal Financial Group,Financials,Life & Health Insurance,-0.02242632
+2020-03-17,443,C,Citigroup Inc-,Financials,Diversified Banks,-0.023085471
+2020-03-17,444,HOLX,Hologic,Health Care,Health Care Equipment,-0.024483355
+2020-03-17,445,SYK,Stryker Corp-,Health Care,Health Care Equipment,-0.025847405
+2020-03-17,446,HON,Honeywell Int'l Inc-,Industrials,Industrial Conglomerates,-0.025987167
+2020-03-17,447,DFS,Discover Financial Services,Financials,Consumer Finance,-0.02676103
+2020-03-17,448,FFIV,F5 Networks,Information Technology,Communications Equipment,-0.026803939
+2020-03-17,449,COF,Capital One Financial,Financials,Consumer Finance,-0.027980294
+2020-03-17,450,MOS,The Mosaic Company,Materials,Fertilizers & Agricultural Chemicals,-0.028544215
+2020-03-17,451,SLB,Schlumberger Ltd-,Energy,Oil & Gas Equipment & Services,-0.02886507
+2020-03-17,452,IT,Gartner Inc,Information Technology,IT Consulting & Other Services,-0.029986903
+2020-03-17,453,BKR,Baker Hughes Co,Energy,Oil & Gas Equipment & Services,-0.031498637
+2020-03-17,454,GM,General Motors,Consumer Discretionary,Automobile Manufacturers,-0.03291683
+2020-03-17,455,LKQ,LKQ Corporation,Consumer Discretionary,Distributors,-0.033461303
+2020-03-17,456,BWA,BorgWarner,Consumer Discretionary,Auto Parts & Equipment,-0.03352755
+2020-03-17,457,PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,-0.03370874
+2020-03-17,458,FMC,FMC Corporation,Materials,Fertilizers & Agricultural Chemicals,-0.033945296
+2020-03-17,459,JCI,Johnson Controls International,Industrials,Building Products,-0.0355933
+2020-03-17,460,IDXX,IDEXX Laboratories,Health Care,Health Care Equipment,-0.036164124
+2020-03-17,461,AON,Aon plc,Financials,Insurance Brokers,-0.036183037
+2020-03-17,462,PXD,Pioneer Natural Resources,Energy,Oil & Gas Exploration & Production,-0.037360463
+2020-03-17,463,PHM,PulteGroup,Consumer Discretionary,Homebuilding,-0.041981988
+2020-03-17,464,BA,Boeing Company,Industrials,Aerospace & Defense,-0.04311999
+2020-03-17,465,ULTA,Ulta Beauty,Consumer Discretionary,Specialty Stores,-0.043911573
+2020-03-17,466,AIG,American International Group,Financials,Property & Casualty Insurance,-0.043963123
+2020-03-17,467,SEE,Sealed Air,Materials,Paper Packaging,-0.045473505
+2020-03-17,468,RHI,Robert Half International,Industrials,Human Resource & Employment Services,-0.046892744
+2020-03-17,469,LEN,Lennar Corp-,Consumer Discretionary,Homebuilding,-0.048831012
+2020-03-17,470,CXO,Concho Resources,Energy,Oil & Gas Exploration & Production,-0.05380392
+2020-03-17,471,NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,-0.05449139
+2020-03-17,472,APTV,Aptiv PLC,Consumer Discretionary,Auto Parts & Equipment,-0.05653718
+2020-03-17,473,CBRE,CBRE Group,Real Estate,Real Estate Services,-0.056790907
+2020-03-17,474,OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,-0.058235656
+2020-03-17,475,ROST,Ross Stores,Consumer Discretionary,Apparel Retail,-0.06092905
+2020-03-17,476,YUM,Yum! Brands Inc,Consumer Discretionary,Restaurants,-0.064166315
+2020-03-17,477,VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,-0.06474674
+2020-03-17,478,ZBH,Zimmer Biomet,Health Care,Health Care Equipment,-0.0655825
+2020-03-17,479,VIAC,ViacomCBS,Communication Services,Movies & Entertainment,-0.06605816
+2020-03-17,480,LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,-0.068088464
+2020-03-17,481,HLT,Hilton Worldwide Holdings Inc,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.07013365
+2020-03-17,482,MGM,MGM Resorts International,Consumer Discretionary,Casinos & Gaming,-0.07073653
+2020-03-17,483,TDG,TransDigm Group,Industrials,Aerospace & Defense,-0.071742415
+2020-03-17,484,TFX,Teleflex,Health Care,Health Care Equipment,-0.07269931
+2020-03-17,485,SYY,Sysco Corp-,Consumer Staples,Food Distributors,-0.07392456
+2020-03-17,486,RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.079208076
+2020-03-17,487,DXC,DXC Technology,Information Technology,IT Consulting & Other Services,-0.08158002
+2020-03-17,488,PVH,PVH Corp-,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",-0.08498331
+2020-03-17,489,CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,-0.08600823
+2020-03-17,490,HCA,HCA Healthcare,Health Care,Health Care Facilities,-0.086397946
+2020-03-17,491,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.08684518
+2020-03-17,492,MRO,Marathon Oil Corp-,Energy,Oil & Gas Exploration & Production,-0.09982037
+2020-03-17,493,WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,-0.10626692
+2020-03-17,494,SPG,Simon Property Group Inc,Real Estate,Retail REITs,-0.11130611
+2020-03-17,495,DAL,Delta Air Lines Inc-,Industrials,Airlines,-0.12064952
+2020-03-17,496,VTR,Ventas Inc,Real Estate,Health Care REITs,-0.12421116
+2020-03-17,497,CCL,Carnival Corp-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.1365755
+2020-03-17,498,MAR,Marriott Int'l-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.13853614
+2020-03-17,499,LB,L Brands Inc-,Consumer Discretionary,Apparel Retail,-0.13980481
+2020-03-17,500,UAL,United Airlines Holdings,Industrials,Airlines,-0.14540233
+2020-03-17,501,FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,-0.14940816
+2020-03-17,502,OKE,ONEOK,Energy,Oil & Gas Storage & Transportation,-0.15168805
+2020-03-17,503,DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,-0.15856376
+2020-03-17,504,DRI,Darden Restaurants,Consumer Discretionary,Restaurants,-0.16009527
+2020-03-17,505,APA,Apache Corporation,Energy,Oil & Gas Exploration & Production,-0.20230003
 2020-03-24,1,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0.35201052
 2020-03-24,2,LB,L Brands Inc-,Consumer Discretionary,Apparel Retail,0.329594
 2020-03-24,3,DXC,DXC Technology,Information Technology,IT Consulting & Other Services,0.32414028
@@ -1495,16 +1503,17 @@ Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
 2020-03-24,492,CTXS,Citrix Systems,Information Technology,Application Software,0.0032840876
 2020-03-24,493,HBI,Hanesbrands Inc,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",0.002224746
 2020-03-24,494,OTIS,Otis Worldwide,Industrials,Industrial Machinery,0.0
-2020-03-24,495,SEE,Sealed Air,Materials,Paper Packaging,-9.040937E-4
-2020-03-24,496,COST,Costco Wholesale Corp-,Consumer Staples,Hypermarkets & Super Centers,-0.0020684577
-2020-03-24,497,VZ,Verizon Communications,Communication Services,Integrated Telecommunication Services,-0.006380873
-2020-03-24,498,NFLX,Netflix Inc-,Communication Services,Movies & Entertainment,-0.008221961
-2020-03-24,499,CLX,The Clorox Company,Consumer Staples,Household Products,-0.01075465
-2020-03-24,500,EA,Electronic Arts,Communication Services,Interactive Home Entertainment,-0.012330852
-2020-03-24,501,REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,-0.013478498
-2020-03-24,502,KR,Kroger Co-,Consumer Staples,Food Retail,-0.030379612
-2020-03-24,503,ATVI,Activision Blizzard,Communication Services,Interactive Home Entertainment,-0.036794066
-2020-03-24,504,VTRS,Viatris,Health Care,Pharmaceuticals,-0.03886496
+2020-03-24,494,VNT,Vontier,Information Technology,Electronic Equipment & Instruments,0.0
+2020-03-24,496,SEE,Sealed Air,Materials,Paper Packaging,-9.040937E-4
+2020-03-24,497,COST,Costco Wholesale Corp-,Consumer Staples,Hypermarkets & Super Centers,-0.0020684577
+2020-03-24,498,VZ,Verizon Communications,Communication Services,Integrated Telecommunication Services,-0.006380873
+2020-03-24,499,NFLX,Netflix Inc-,Communication Services,Movies & Entertainment,-0.008221961
+2020-03-24,500,CLX,The Clorox Company,Consumer Staples,Household Products,-0.01075465
+2020-03-24,501,EA,Electronic Arts,Communication Services,Interactive Home Entertainment,-0.012330852
+2020-03-24,502,REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,-0.013478498
+2020-03-24,503,KR,Kroger Co-,Consumer Staples,Food Retail,-0.030379612
+2020-03-24,504,ATVI,Activision Blizzard,Communication Services,Interactive Home Entertainment,-0.036794066
+2020-03-24,505,VTRS,Viatris,Health Care,Pharmaceuticals,-0.03886496
 2020-03-26,1,SYY,Sysco Corp-,Consumer Staples,Food Distributors,0.15830411
 2020-03-26,2,CFG,Citizens Financial Group,Financials,Regional Banks,0.15696998
 2020-03-26,3,FITB,Fifth Third Bancorp,Financials,Regional Banks,0.15588428
@@ -1980,35 +1989,36 @@ Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
 2020-03-26,473,LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,8.7101705E-4
 2020-03-26,474,STT,State Street Corp-,Financials,Asset Management & Custody Banks,8.0965797E-4
 2020-03-26,475,FLT,FleetCor Technologies Inc,Information Technology,Data Processing & Outsourced Services,1.4127378E-4
-2020-03-26,476,SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,-2.926481E-4
-2020-03-26,477,MHK,Mohawk Industries,Consumer Discretionary,Home Furnishings,-9.7172154E-4
-2020-03-26,478,DISCK,"Discovery, Inc- (Class C)",Communication Services,Broadcasting,-0.0037263655
-2020-03-26,479,SPG,Simon Property Group Inc,Real Estate,Retail REITs,-0.0038573125
-2020-03-26,480,EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,-0.004039386
-2020-03-26,481,MCHP,Microchip Technology,Information Technology,Semiconductors,-0.005486848
-2020-03-26,482,DISCA,"Discovery, Inc- (Class A)",Communication Services,Broadcasting,-0.0061919303
-2020-03-26,483,MMC,Marsh & McLennan,Financials,Insurance Brokers,-0.011579564
-2020-03-26,484,MOS,The Mosaic Company,Materials,Fertilizers & Agricultural Chemicals,-0.01389551
-2020-03-26,485,ULTA,Ulta Beauty,Consumer Discretionary,Specialty Stores,-0.016023053
-2020-03-26,486,SJM,JM Smucker,Consumer Staples,Packaged Foods & Meats,-0.016486535
-2020-03-26,487,ADI,"Analog Devices, Inc-",Information Technology,Semiconductors,-0.01861213
-2020-03-26,488,APA,Apache Corporation,Energy,Oil & Gas Exploration & Production,-0.02231846
-2020-03-26,489,EXPE,Expedia Group,Consumer Discretionary,Internet & Direct Marketing Retail,-0.022717718
-2020-03-26,490,DOW,Dow Inc-,Materials,Commodity Chemicals,-0.023311041
-2020-03-26,491,F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,-0.026317284
-2020-03-26,492,AFL,AFLAC Inc,Financials,Life & Health Insurance,-0.02648428
-2020-03-26,493,MAR,Marriott Int'l-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.029039318
-2020-03-26,494,UAL,United Airlines Holdings,Industrials,Airlines,-0.029108064
-2020-03-26,495,TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,-0.03150878
-2020-03-26,496,FCX,Freeport-McMoRan Inc-,Materials,Copper,-0.036520947
-2020-03-26,497,FRC,First Republic Bank,Financials,Regional Banks,-0.0369072
-2020-03-26,498,RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.043369822
-2020-03-26,499,KMX,Carmax Inc,Consumer Discretionary,Specialty Stores,-0.047444843
-2020-03-26,500,WYNN,Wynn Resorts Ltd,Consumer Discretionary,Casinos & Gaming,-0.048450433
-2020-03-26,501,VIAC,ViacomCBS,Communication Services,Movies & Entertainment,-0.0522221
-2020-03-26,502,LB,L Brands Inc-,Consumer Discretionary,Apparel Retail,-0.05838377
-2020-03-26,503,GPS,Gap Inc-,Consumer Discretionary,Apparel Retail,-0.060833413
-2020-03-26,504,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.076560125
+2020-03-26,476,VNT,Vontier,Information Technology,Electronic Equipment & Instruments,0.0
+2020-03-26,477,SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,-2.926481E-4
+2020-03-26,478,MHK,Mohawk Industries,Consumer Discretionary,Home Furnishings,-9.7172154E-4
+2020-03-26,479,DISCK,"Discovery, Inc- (Class C)",Communication Services,Broadcasting,-0.0037263655
+2020-03-26,480,SPG,Simon Property Group Inc,Real Estate,Retail REITs,-0.0038573125
+2020-03-26,481,EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,-0.004039386
+2020-03-26,482,MCHP,Microchip Technology,Information Technology,Semiconductors,-0.005486848
+2020-03-26,483,DISCA,"Discovery, Inc- (Class A)",Communication Services,Broadcasting,-0.0061919303
+2020-03-26,484,MMC,Marsh & McLennan,Financials,Insurance Brokers,-0.011579564
+2020-03-26,485,MOS,The Mosaic Company,Materials,Fertilizers & Agricultural Chemicals,-0.01389551
+2020-03-26,486,ULTA,Ulta Beauty,Consumer Discretionary,Specialty Stores,-0.016023053
+2020-03-26,487,SJM,JM Smucker,Consumer Staples,Packaged Foods & Meats,-0.016486535
+2020-03-26,488,ADI,"Analog Devices, Inc-",Information Technology,Semiconductors,-0.01861213
+2020-03-26,489,APA,Apache Corporation,Energy,Oil & Gas Exploration & Production,-0.02231846
+2020-03-26,490,EXPE,Expedia Group,Consumer Discretionary,Internet & Direct Marketing Retail,-0.022717718
+2020-03-26,491,DOW,Dow Inc-,Materials,Commodity Chemicals,-0.023311041
+2020-03-26,492,F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,-0.026317284
+2020-03-26,493,AFL,AFLAC Inc,Financials,Life & Health Insurance,-0.02648428
+2020-03-26,494,MAR,Marriott Int'l-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.029039318
+2020-03-26,495,UAL,United Airlines Holdings,Industrials,Airlines,-0.029108064
+2020-03-26,496,TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,-0.03150878
+2020-03-26,497,FCX,Freeport-McMoRan Inc-,Materials,Copper,-0.036520947
+2020-03-26,498,FRC,First Republic Bank,Financials,Regional Banks,-0.0369072
+2020-03-26,499,RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.043369822
+2020-03-26,500,KMX,Carmax Inc,Consumer Discretionary,Specialty Stores,-0.047444843
+2020-03-26,501,WYNN,Wynn Resorts Ltd,Consumer Discretionary,Casinos & Gaming,-0.048450433
+2020-03-26,502,VIAC,ViacomCBS,Communication Services,Movies & Entertainment,-0.0522221
+2020-03-26,503,LB,L Brands Inc-,Consumer Discretionary,Apparel Retail,-0.05838377
+2020-03-26,504,GPS,Gap Inc-,Consumer Discretionary,Apparel Retail,-0.060833413
+2020-03-26,505,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.076560125
 2020-04-06,1,PVH,PVH Corp-,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",0.24793845
 2020-04-06,2,MGM,MGM Resorts International,Consumer Discretionary,Casinos & Gaming,0.19903678
 2020-04-06,3,ETSY,Etsy,Consumer Discretionary,Internet & Direct Marketing Retail,0.1970659
@@ -2501,15 +2511,16 @@ Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
 2020-04-06,490,HRL,Hormel Foods Corp-,Consumer Staples,Packaged Foods & Meats,0.0035076519
 2020-04-06,491,CAG,Conagra Brands,Consumer Staples,Packaged Foods & Meats,0.0028795463
 2020-04-06,492,PGR,Progressive Corp-,Financials,Property & Casualty Insurance,6.581376E-4
-2020-04-06,493,TIF,Tiffany & Co-,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",-8.5787184E-4
-2020-04-06,494,K,Kellogg Co-,Consumer Staples,Packaged Foods & Meats,-0.0011016369
-2020-04-06,495,COP,ConocoPhillips,Energy,Oil & Gas Exploration & Production,-0.0033480662
-2020-04-06,496,MO,Altria Group Inc,Consumer Staples,Tobacco,-0.0034810873
-2020-04-06,497,GILD,Gilead Sciences,Health Care,Biotechnology,-0.0061561787
-2020-04-06,498,DAL,Delta Air Lines Inc-,Industrials,Airlines,-0.007142881
-2020-04-06,499,MRO,Marathon Oil Corp-,Energy,Oil & Gas Exploration & Production,-0.008253199
-2020-04-06,500,WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,-0.011049808
-2020-04-06,501,EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,-0.011598695
-2020-04-06,502,OTIS,Otis Worldwide,Industrials,Industrial Machinery,-0.029596865
-2020-04-06,503,CPB,Campbell Soup,Consumer Staples,Packaged Foods & Meats,-0.039535686
-2020-04-06,504,CARR,Carrier Global,Industrials,Building Products,-0.09153484
+2020-04-06,493,VNT,Vontier,Information Technology,Electronic Equipment & Instruments,0.0
+2020-04-06,494,TIF,Tiffany & Co-,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",-8.5787184E-4
+2020-04-06,495,K,Kellogg Co-,Consumer Staples,Packaged Foods & Meats,-0.0011016369
+2020-04-06,496,COP,ConocoPhillips,Energy,Oil & Gas Exploration & Production,-0.0033480662
+2020-04-06,497,MO,Altria Group Inc,Consumer Staples,Tobacco,-0.0034810873
+2020-04-06,498,GILD,Gilead Sciences,Health Care,Biotechnology,-0.0061561787
+2020-04-06,499,DAL,Delta Air Lines Inc-,Industrials,Airlines,-0.007142881
+2020-04-06,500,MRO,Marathon Oil Corp-,Energy,Oil & Gas Exploration & Production,-0.008253199
+2020-04-06,501,WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,-0.011049808
+2020-04-06,502,EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,-0.011598695
+2020-04-06,503,OTIS,Otis Worldwide,Industrials,Industrial Machinery,-0.029596865
+2020-04-06,504,CPB,Campbell Soup,Consumer Staples,Packaged Foods & Meats,-0.039535686
+2020-04-06,505,CARR,Carrier Global,Industrials,Building Products,-0.09153484
