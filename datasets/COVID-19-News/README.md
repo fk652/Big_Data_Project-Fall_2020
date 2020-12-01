@@ -13,6 +13,8 @@ COVID-19-News
 ├── covid_api_news.csv - output of COVID-19 News Data Collection and Cleaning for News APIs 
 ├── news_cleaner.py - PySpark MapReduce program to clean all_news.txt and output to all_news.csv
 ├── news_by_date.py - PySpark MapReduce program takes one agrument joined_news.csv and returns all_news_by_date.csv
+├── covid_news_api.py - API calls using Python requests from RapidAPI Covid-19 API and Pandas for cleaning
+├── news_api.py - News API calls using Python requests and Pandas for cleaning
 └── cnn_website_news
     ├── april_2020.txt
     ├── august_2020.txt
