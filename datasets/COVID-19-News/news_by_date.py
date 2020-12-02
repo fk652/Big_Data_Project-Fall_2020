@@ -13,20 +13,28 @@ sc = SparkContext()
 # Read in the joined_news.csv File
 joined_news = sc.textFile(sys.argv[1])
 
-# Map date as key and news headline+source as value
-dates_keys = lines.map(lambda line: ((line.split(',')[0]).encode("utf-8"),(line.split(',')[1]).encode("utf-8”)+'--'+(line.split(',')[2]).encode("utf-8”)))
+dates_keys = joined_news.map(lambda line: ((line.split(',')[0]).encode("utf-8"),(line.split(",")[1]).encode("utf-8")+"--"+(line.split(',')[2]).encode("utf-8")))
 
-# Reduce by key and combine news headlines+source by commas
-reduced_keys = dates_keys.reduceByKey(lambda x,y: x+','+y)
+filtered_covid_news = dates_keys.filter(lambda line: "COVID" in line[1])
 
-# Sort tuples by key date
+filtered_coronavirus_news = dates_keys.filter(lambda line: “coronavirus” in (line[1]).lower())
+
+filtered_stock_news = dates_keys.filter(lambda line: "stock" in (line[1]).lower())
+
+filtered_market_news = dates_keys.filter(lambda line: "market" in (line[1]).lower())
+
+first_union = filtered_covid_news.union(filtered_coronavirus_news)
+
+second_union = filtered_stock_news.union(filtered_market_news)
+
+all_news = first_union.union(second_union)
+
+reduced_keys = all_news.reduceByKey(lambda x,y: x+','+y)
+
 sorted_dates = reduced_keys.sortByKey()
 
-# Comma separate key and value(s)
-all_news_by_date = sorted_dates.map(lambda x: x[0]+’,’+x[1])
+all_news_by_date = sorted_dates.map(lambda x: x[0]+','+x[1])
 
-# Save as textFile
-all_news_by_date.saveAsTextFile("sorted_by_date.out")
+all_news_by_date.saveAsTextFile("all_news_by_date.out")
 
-# Stop SparkContext agent
 sc.stop()
