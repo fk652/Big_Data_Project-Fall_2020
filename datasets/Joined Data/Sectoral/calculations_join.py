@@ -4,6 +4,7 @@ import sys
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, unix_timestamp, to_date
 from pyspark.sql.window import Window
+from pyspark.sql.types import IntegerType
 
 if __name__ == "__main__":
 
@@ -24,21 +25,25 @@ if __name__ == "__main__":
                     .options(header='true', inferschema='false') \
                     .load(sys.argv[3])
     specific_day_gains_data = specific_day_gains_data.withColumn('Date', to_date(unix_timestamp(col('Date'), 'yyyy-MM-dd').cast('timestamp')))
+    specific_day_gains_data = specific_day_gains_data.withColumn('Rank', col('Rank').cast(IntegerType()))
 
     specific_day_gains_top_data = spark.read.format('csv') \
                     .options(header='true', inferschema='false') \
                     .load(sys.argv[4])
     specific_day_gains_top_data = specific_day_gains_top_data.withColumn('Date', to_date(unix_timestamp(col('Date'), 'yyyy-MM-dd').cast('timestamp')))
+    specific_day_gains_top_data = specific_day_gains_top_data.withColumn('Rank', col('Rank').cast(IntegerType()))
 
     specific_day_drops_data = spark.read.format('csv') \
                     .options(header='true', inferschema='false') \
                     .load(sys.argv[5])
     specific_day_drops_data = specific_day_drops_data.withColumn('Date', to_date(unix_timestamp(col('Date'), 'yyyy-MM-dd').cast('timestamp')))
+    specific_day_drops_data = specific_day_drops_data.withColumn('Rank', col('Rank').cast(IntegerType()))
 
     specific_day_drops_top_data = spark.read.format('csv') \
                     .options(header='true', inferschema='false') \
                     .load(sys.argv[6])
     specific_day_drops_top_data = specific_day_drops_top_data.withColumn('Date', to_date(unix_timestamp(col('Date'), 'yyyy-MM-dd').cast('timestamp')))
+    specific_day_drops_top_data = specific_day_drops_top_data.withColumn('Rank', col('Rank').cast(IntegerType()))
 
     news_data = spark.read.format('csv') \
                     .options(header='true', inferschema='false') \
