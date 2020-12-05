@@ -48,6 +48,11 @@ D. Data Exploration & Transformation (Spark MapReduce Python)
 	3. Augmented John Hopkins data {Nathalie, 11/26/2020}
 		- Percent change for confirmed cases and deaths (US and Worldwide)
 		- Aggregated all countries data to create Worldwide output file
+	4. Joined Datasets {Fahim 12/5/2020}
+		- S&P_500 joined with news, oxford, and john-hopkins Datasets
+		- S&P_500 aggregate joined with news, oxford, and john-hopkins Datasets
+		- Sectoral joined with news, oxford, and john-hopkins Datasets
+		- All stock calculation jobs joined with news
 E. Data Exploration (Jupyter Notebook, Notes)
 	1. Exploration of S&P Index and sectors on Jupyter Notebook to inform future analyses (e,g, top S&P gains and losses, sectors volatility, etc.) {Nathalie, 11/19/2020}
 F. Data Analysis

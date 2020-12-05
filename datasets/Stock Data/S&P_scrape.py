@@ -179,8 +179,8 @@ final_data['Symbol'] = '^GSPC'
 final_data['Name'] = 'S&P 500'
 final_data = final_data[['Date', 'Symbol', 'Name', 'Daily Return', 'Log Return', 'Close', 'Adj Close', 'High', 'Low', 'Open', 'Volume']]
 
-final_data['Daily Return'] = joined_data['Daily Return'].fillna(0)
-final_data['Log Return'] = joined_data['Log Return'].fillna(0)
+final_data['Daily Return'] = final_data['Daily Return'].fillna(0)
+final_data['Log Return'] = final_data['Log Return'].fillna(0)
 
 final_data.to_csv('S&P_500_aggregate_stock_data.csv', index=False, header=True)
 
