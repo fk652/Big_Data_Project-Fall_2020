@@ -29,7 +29,13 @@ C. Data Cleaning & Preprocessing (OpenRefine, Jupyter Notebook, Notes, Spark)
 	2. Formatting stock data and calculating daily returns and daily log returns {Fahim, 11/20/2020}
 	3. Cleaned and formatted Oxford Covid Data {Fahim 11/24/2020}
 		- Fixed date format and decimal precisions
-D. Data Exploration & Transformation (Spark MapReduce)
+	4. Cleaned and joined John Hopkins datasets {Nathalie, 11/26/2020}
+		- Combined two files: time_series_covid19_confirmed_global.csv and time_series_covid19_deaths_global.csv
+		- Dropped unnecessary variables like latitude and longitude
+		- Transposed data (i.e. from dates in columns to dates in rows)
+		- Formatted dates (from 1/1/20 to 2020-01-01)
+		- Filtered US data to extract US aggregate output
+D. Data Exploration & Transformation (Spark MapReduce Python)
 	1. Calculated Oxford data information {Fahim 11/26/2020}
 		- Indexes percent change
 		- Indexes log change
@@ -39,7 +45,10 @@ D. Data Exploration & Transformation (Spark MapReduce)
 		- top and bottom companies/sectors by total sum
 		- top 5 gains per company/sector/aggregate
 		- top 5 drops per company/sector/aggregate
-	3. Joined Datasets {Fahim 12/5/2020}
+	3. Augmented John Hopkins data {Nathalie, 11/26/2020}
+		- Percent change for confirmed cases and deaths (US and Worldwide)
+		- Aggregated all countries data to create Worldwide output file
+	4. Joined Datasets {Fahim 12/5/2020}
 		- S&P_500 joined with news, oxford, and john-hopkins Datasets
 		- S&P_500 aggregate joined with news, oxford, and john-hopkins Datasets
 		- Sectoral joined with news, oxford, and john-hopkins Datasets
@@ -47,10 +56,16 @@ D. Data Exploration & Transformation (Spark MapReduce)
 E. Data Exploration (Jupyter Notebook, Notes)
 	1. Exploration of S&P Index and sectors on Jupyter Notebook to inform future analyses (e,g, top S&P gains and losses, sectors volatility, etc.) {Nathalie, 11/19/2020}
 F. Data Analysis
-	1. S&P Index Analysis
+	1. S&P Index Analysis {Nathalie, 11/26/2020}
+		- Analyzed S&P 500 trend (cumulative sum of log returns) with major news
+		- Identified periods of volatility (monthly statistics)
+		- Identified covid-related events for 5 largest gains and 5 largest losses
+		- Correlation between stock volatility and US cases
 	2. Sectoral Analysis
 	3. Stock Analysis
 G. Data Visualization & Knowledge Discovery
 	1. React, D3, Recharts Interface {Parth,11/21/2020}
 	2. Visualization Techniques
 	3. Correlation between COVID-19 Data and Economic Data
+H. Report
+	1. Drafted report outline {Nathalie, 11/29/2020}
