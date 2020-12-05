@@ -39,6 +39,11 @@ D. Data Exploration & Transformation (Spark MapReduce)
 		- top and bottom companies/sectors by total sum
 		- top 5 gains per company/sector/aggregate
 		- top 5 drops per company/sector/aggregate
+	3. Joined Datasets {Fahim 12/5/2020}
+		- S&P_500 joined with news, oxford, and john-hopkins Datasets
+		- S&P_500 aggregate joined with news, oxford, and john-hopkins Datasets
+		- Sectoral joined with news, oxford, and john-hopkins Datasets
+		- All stock calculation jobs joined with news
 E. Data Exploration (Jupyter Notebook, Notes)
 	1. Exploration of S&P Index and sectors on Jupyter Notebook to inform future analyses (e,g, top S&P gains and losses, sectors volatility, etc.) {Nathalie, 11/19/2020}
 F. Data Analysis
