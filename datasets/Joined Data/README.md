@@ -10,9 +10,6 @@ Joins are done using spark in NYU's Hadoop cluster
 We use joined datasets to compare and visualize relations between stock data and various covid information (U.S government policy, case and death count, and news)
 ___
 ### Join Data Directory
-- run_all_jobs.sh
-  - used in the NYU Hadoop cluster to run all the calculation jobs
-  - note each sub-folder have their own scripts to run specific jobs
 - S&P_500_aggregate
   - S&P_500_Aggregate_Join_Oxford_JohnHopkins_News.csv
 
