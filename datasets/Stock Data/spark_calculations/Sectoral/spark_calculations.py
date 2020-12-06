@@ -7,7 +7,7 @@ from pyspark.sql.window import Window
 
 if __name__ == "__main__":
 
-    spark = SparkSession.builder.appName('oxford_daily_changes').getOrCreate()
+    spark = SparkSession.builder.appName('sector_calculations').getOrCreate()
 
     # reading in the data
     data = spark.read.format('csv') \

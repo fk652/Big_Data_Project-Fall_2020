@@ -1,24 +1,3 @@
-# S&P_500_Top_5_Gains.csv
-# Symbol,Name,Date,Log Return
-
-# S&P_500_Top_5_Drops.csv
-# Symbol,Name,Date,Log Return
-
-# S&P_500_Specific_Day_Gains.csv
-# Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
-
-# S&P_500_Specific_Day_Gains_Top_10.csv
-# Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
-
-# S&P_500_Specific_Day_Drops.csv
-# Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
-
-# S&P_500_Specific_Day_Drops_Top_10.csv
-# Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
-
-# all_news_by_date.csv
-# date,title--source
-
 from __future__ import print_function
 
 import sys
@@ -29,7 +8,7 @@ from pyspark.sql.types import IntegerType
 
 if __name__ == "__main__":
 
-    spark = SparkSession.builder.appName('calculations join').getOrCreate()
+    spark = SparkSession.builder.appName('sp500_calculations_join').getOrCreate()
 
     # reading in the data
     top_5_gains_data = spark.read.format('csv') \

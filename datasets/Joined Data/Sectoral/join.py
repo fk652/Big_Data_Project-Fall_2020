@@ -7,7 +7,7 @@ from pyspark.sql.window import Window
 
 if __name__ == "__main__":
 
-    spark = SparkSession.builder.appName('join').getOrCreate()
+    spark = SparkSession.builder.appName('sector_join').getOrCreate()
 
     # reading in the data
     stock_data = spark.read.format('csv') \

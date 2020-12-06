@@ -9,6 +9,7 @@ if __name__ == "__main__":
 
     spark = SparkSession.builder.appName('oxford_daily_changes').getOrCreate()
 
+    # reading in the data
     data = spark.read.format('csv') \
                     .options(header='true', inferschema='false') \
                     .load(sys.argv[1]) 

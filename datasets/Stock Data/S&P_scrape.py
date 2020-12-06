@@ -5,9 +5,8 @@ import datetime
 import pandas as pd
 import numpy as np
 
-'''
-Scraping the S&P 500 data from Wikipedia
-'''
+
+# Scraping the S&P 500 data from Wikipedia
 resp = requests.get('http://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
 soup = bs.BeautifulSoup(resp.text, 'lxml')
 table = soup.find('table', {'class': 'wikitable sortable'})
@@ -49,17 +48,13 @@ ci_keys = [s.replace('\n', '').replace('.', '-') for s in ci_keys]
 dates_founded = [s.replace('\n', '').replace('.', '-') for s in dates_founded]
 
 
-'''
-Creating S&P 500 company info csv from Wikipedia table
-'''
+# Creating S&P 500 company info csv from Wikipedia table
 sp500_info = pd.DataFrame(list(zip(tickers, names, sectors, sub_industries, hq_locations, dates_joined, ci_keys, dates_founded)), 
                columns = ['Symbol', 'Name', 'GICS Sector', 'GICS Sub-Industry', 'Headquarters Location', 'Date first added', 'CIK', 'Founded']) 
 sp500_info.to_csv('S&P_500_Information.csv', index=False, header=True)
 
 
-'''
-Creating S&P 500 stock market data csv from Yahoo Finance
-'''
+# Creating S&P 500 stock market data csv from Yahoo Finance
 start = datetime.datetime(2019,11,15)
 end = datetime.datetime(2020,11,15)
 data = yf.download(tickers, start=start, end=end)
@@ -110,9 +105,7 @@ joined_data['Log Return'] = joined_data['Log Return'].fillna(0)
 joined_data.to_csv('S&P_500_stock_data.csv', index=False, header=True)
 
 
-'''
-Creating sectoral historical info csv
-'''
+# Creating sectoral historical info csv
 tickers = ['XLB', 'XLC', 'XLE', 'XLF', 'XLI', 'XLK', 'XLP', 'XLRE', 'XLU', 'XLV', 'XLY']
 data = yf.download(tickers, start=start, end=end)
 
@@ -165,9 +158,7 @@ joined_data['Log Return'] = joined_data['Log Return'].fillna(0)
 joined_data.to_csv('Sectoral_stock_data.csv', index=False, header=True)
 
 
-'''
-Creating S&P 500 aggregate info csv
-'''
+# Creating S&P 500 aggregate info csv
 tickers = ['^GSPC']
 data = yf.download(tickers, start=start, end=end)
 

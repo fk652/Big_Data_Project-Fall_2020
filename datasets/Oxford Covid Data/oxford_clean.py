@@ -9,16 +9,18 @@ if __name__ == "__main__":
 
     spark = SparkSession.builder.appName('oxford_clean').getOrCreate()
 
+    # reading in the data
     data = spark.read.format('csv') \
                     .options(header='true', inferschema='false') \
                     .load(sys.argv[1]) 
 
+    # filter data for US
     data = data.filter((data.CountryName == 'United States') & (data.Jurisdiction == 'NAT_TOTAL'))
-
     data = data.drop("RegionName", "RegionCode")
 
     data = data.withColumn('Date', to_date(unix_timestamp(col('Date'), 'yyyyMMdd').cast('timestamp')))
 
+    # fix inconsistent decimal places for float values
     float_columns = ['C1_School closing',
                     'C2_Workplace closing',
                     'C3_Cancel public events',
@@ -50,6 +52,7 @@ if __name__ == "__main__":
     for c in float_columns:
         data = data.withColumn(c, col(c).cast(DecimalType(38,2)).alias(c))
 
+    # fixing integer values
     int_columns = ['C1_Flag',
                     'C2_Flag',
                     'C3_Flag',
@@ -67,6 +70,7 @@ if __name__ == "__main__":
 
     data = data.sort('Date')
 
+    # writing out the data
     header = [tuple(data.columns)]
     header = spark.createDataFrame(header)
     data = header.union(data)

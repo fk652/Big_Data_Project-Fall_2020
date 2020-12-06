@@ -8,7 +8,7 @@ from pyspark.sql.types import IntegerType
 
 if __name__ == "__main__":
 
-    spark = SparkSession.builder.appName('calculations join').getOrCreate()
+    spark = SparkSession.builder.appName('sector_calculations_join').getOrCreate()
 
     # reading in the data
     top_5_gains_data = spark.read.format('csv') \

@@ -1,26 +1,3 @@
-# also join to spark_calculations datasets
-
-# S&P_500_stock_data.csv
-# Date,Symbol,Name,Daily Return,Log Return,Close,Adj Close,High,Low,Open,Volume
-
-# S&P_500_Cum_Sums.csv
-# Symbol,Name,Date,Log Return,CumulativeSum
-
-# S&P_500_Information.csv
-# Symbol,Name,GICS Sector,GICS Sub-Industry,Headquarters Location,Date first added,CIK,Founded
-
-# oxford_index_cumulative_sums.csv
-# Date,USA_StringencyIndex,USA_StringencyIndex_LogChange,USA_StringencyIndex_Cumulative,USA_StringencyLegacyIndex,USA_StringencyLegacyIndex_LogChange,USA_StringencyLegacyIndex_Cumulative,USA_GovernmentResponseIndex,USA_GovernmentResponseIndex_LogChange,USA_GovernmentResponseIndex_Cumulative,USA_ContainmentHealthIndex,USA_ContainmentHealthIndex_LogChange,USA_ContainmentHealthIndex_Cumulative,USA_EconomicSupportIndex,USA_EconomicSupportIndex_LogChange,USA_EconomicSupportIndex_Cumulative
-
-# us-covid19-aggregate.csv
-# Date,Country,Confirmed Cases,Deaths,Cases Increase,Deaths Increase
-
-# worldwide-covid19-aggregate.csv
-# Date,Confirmed Cases,Deaths,Cases Increase,Deaths Increase
-
-# all_news_by_date.csv
-# date,title--source
-
 from __future__ import print_function
 
 import sys
@@ -30,7 +7,7 @@ from pyspark.sql.window import Window
 
 if __name__ == "__main__":
 
-    spark = SparkSession.builder.appName('join').getOrCreate()
+    spark = SparkSession.builder.appName('sp500_join').getOrCreate()
 
     # reading in the data
     stock_data = spark.read.format('csv') \
