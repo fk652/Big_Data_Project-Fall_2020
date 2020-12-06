@@ -5,5 +5,6 @@ source /home/fk652/.bashrc
 
 ./oxford_clean.sh 
 
-cd oxford_spark_jobs
+cd 'calculation jobs'
 ./oxford_daily_changes.sh
+./oxford_calculations.sh

@@ -8,6 +8,8 @@ echo "loading modules"
 module load python/gnu/3.6.5
 module load spark/2.4.0
 
+cd ../../../datasets/'Stock Data'/spark_calculations/'S&P_500'
+
 # remove existing output files
 echo "removing existing output files"
 hfs -rm -r 'S&P_500_Log_Sums_Rank.out'
@@ -41,7 +43,7 @@ hfs -put ../../'S&P_500_Information.csv'
 
 # run spark job
 echo "running spark job"
-spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python spark_calculations.py 'S&P_500_stock_data.csv' 'S&P_500_Information.csv'
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python ../../../../spark/'Stock Data'/'S&P_500'/spark_calculations.py 'S&P_500_stock_data.csv' 'S&P_500_Information.csv'
 
 # retrieve output from Hadoop
 echo "retrieving hadoop output"
@@ -54,4 +56,3 @@ hfs -getmerge 'S&P_500_Top_5_Drops.out' 'S&P_500_Top_5_Drops.csv'
 hfs -getmerge 'S&P_500_Top_5_Gains.out' 'S&P_500_Top_5_Gains.csv'
 
 echo "done"
-

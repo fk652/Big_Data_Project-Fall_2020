@@ -3,6 +3,8 @@
 shopt -s expand_aliases
 source /home/fk652/.bashrc
 
+cd ../../../datasets/'Stock Data'/spark_calculations/'Sectoral'
+
 # load up necessary modules
 echo "loading modules"
 module load python/gnu/3.6.5
@@ -35,7 +37,7 @@ hfs -put ../../'Sectoral_stock_data.csv'
 
 # run spark job
 echo "running spark job"
-spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python spark_calculations.py 'Sectoral_stock_data.csv'
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python ../../../../spark/'Stock Data'/'Sectoral'/spark_calculations.py 'Sectoral_stock_data.csv'
 
 # retrieve output from Hadoop
 echo "retrieving hadoop output"
@@ -47,4 +49,3 @@ hfs -getmerge 'Sector_Top_5_Drops.out' 'Sector_Top_5_Drops.csv'
 hfs -getmerge 'Sector_Top_5_Gains.out' 'Sector_Top_5_Gains.csv'
 
 echo "done"
-

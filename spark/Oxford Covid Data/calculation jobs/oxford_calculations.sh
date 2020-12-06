@@ -3,6 +3,8 @@
 shopt -s expand_aliases
 source /home/fk652/.bashrc
 
+cd ../../../datasets/'Oxford Covid Data'/oxford_spark_calculations
+
 # load up necessary modules
 echo "loading modules"
 module load python/gnu/3.6.5
@@ -24,7 +26,7 @@ hfs -put 'oxford_daily_changes.csv'
 
 # run spark job
 echo "running spark job"
-spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python oxford_calculations.py 'oxford_daily_changes.csv'
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python ../../../spark/'Oxford Covid Data'/'calculation jobs'/oxford_calculations.py 'oxford_daily_changes.csv'
 
 # retrieve output from Hadoop
 echo "retrieving hadoop output"

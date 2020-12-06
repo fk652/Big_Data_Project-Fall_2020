@@ -3,6 +3,8 @@
 shopt -s expand_aliases
 source /home/fk652/.bashrc
 
+cd ../../../datasets/'Stock Data'/spark_calculations/'S&P_500'
+
 # load up necessary modules
 echo "loading modules"
 module load python/gnu/3.6.5
@@ -32,7 +34,7 @@ hfs -put ../../'S&P_500_Information.csv'
 
 # run spark job
 echo "running spark job"
-spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python spark_day_drops_gains.py 'S&P_500_stock_data.csv' 'S&P_500_Information.csv'
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python ../../../../spark/'Stock Data'/'S&P_500'/spark_day_drops_gains.py 'S&P_500_stock_data.csv' 'S&P_500_Information.csv'
 
 # retrieve output from Hadoop
 echo "retrieving hadoop output"
@@ -42,4 +44,3 @@ hfs -getmerge 'S&P_500_Specific_Day_Gains.out' 'S&P_500_Specific_Day_Gains.csv'
 hfs -getmerge 'S&P_500_Specific_Day_Gains_Top_10.out' 'S&P_500_Specific_Day_Gains_Top_10.csv'
 
 echo "done"
-
