@@ -3,6 +3,10 @@
 shopt -s expand_aliases
 source /home/fk652/.bashrc
 
+# load up necessary modules
+echo "loading modules"
+module load python/gnu/3.6.5
+
 # installing dependencies, assumes pandas and numpy aready installed
 echo "installing necessary modules"
 pip install --user yfinance
