@@ -1,5 +1,3 @@
-#shopt -s expand_aliases
-#source /home/fk652/.bashrc
 
 . /etc/profile.d/modules.sh
 # load up necessary modules
