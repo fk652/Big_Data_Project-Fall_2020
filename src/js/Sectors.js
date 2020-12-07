@@ -1,18 +1,18 @@
 import '../css/main.css';
 import { LineChart, Line, XAxis, YAxis, Tooltip, Legend } from 'recharts';
-import {React, Component} from 'react';
-import sector_data from '../datasets/s&p500_sectors.json';
+import {React, Component } from 'react';
+import data from '../datasets/s&p500_sectors.json';
 
 export default class Sectors extends Component { 
 
   render() {
-  return (
+    return (
     <div className="viz-container">
       <br></br>
       <LineChart
-        width={1000}
-        height={600}
-        data={sector_data}
+        width={750}
+        height={500}
+        data={data}
         margin={{
           top: 5, right: 30, left: 20, bottom: 5,
         }}

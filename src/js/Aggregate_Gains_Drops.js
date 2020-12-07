@@ -1,7 +1,7 @@
-import {React, Component } from 'react';
-import {BarChart, Bar, Cell, XAxis, YAxis, Tooltip, Legend, ReferenceLine } from 'recharts';
 import '../css/main.css';
-import aggregate_data from '../datasets/S&P_500_Aggregate_Join_Oxford_JohnHopkins_News.json';
+import {BarChart, Bar, Cell, XAxis, YAxis, Tooltip, Legend, ReferenceLine } from 'recharts';
+import {React, Component, PropTypes} from 'react';
+import aggregate_data from '../datasets/GainsDrops.json';
 
 const formatNews = (arr) => {
   const headlines = arr.map((line) =>
@@ -17,11 +17,9 @@ const getNews = (label) => {
   for (i=0; i<aggregate_data.length; i++){
     if (aggregate_data[i]["Date"] === label ){
         let news_variable = aggregate_data[i]["News title--source"];
-        let log_change = aggregate_data[i]["Close_LogChange"];
         let temp = news_variable.split("\t");
         let j = 0;
         let arr = []
-        arr.push(log_change)
         for (j=0; j<4; j++){
             arr.push(temp[j])
         }
@@ -35,9 +33,7 @@ const CustomToolTip = ({ active, payload, label }) => {
   if (active) {
     return (
       <div className="custom-tooltip">
-        <p className="label">{`${label}`}</p>
-        Log Change: 
-        <hr></hr>
+        <p className="label">{`${label}\nLog Return: ${payload[0].value}`}</p>
         <p className="intro">{getNews(label)}</p>
       </div>
     );
@@ -46,14 +42,15 @@ const CustomToolTip = ({ active, payload, label }) => {
   return null;
 };
 
-export default class Example extends Component {
-  
-    render() {
-      return (
-        <div className="viz-container">
-        <BarChart
-          width={1000}
-          height={600}
+export default class Aggregate_Gains_Drops extends Component { 
+
+  render() {
+  return (
+    <div className="viz-container">
+      <br></br>
+      <BarChart
+          width={700}
+          height={500}
           data={aggregate_data}
           margin={{
             top: 5, right: 30, left: 20, bottom: 5,
@@ -64,10 +61,9 @@ export default class Example extends Component {
           <Tooltip content={<CustomToolTip/>}/>
           <Legend />
           <ReferenceLine y={0} stroke="#000" />
-          <Bar dataKey="Close_LogChange" fill="#E1B505" />
+          <Bar dataKey="Log Return" fill="#E1B505" />
         </BarChart>
-        </div>
-      );
-    }
+    </div>
+  );
   }
-  
+}

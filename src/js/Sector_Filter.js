@@ -34,7 +34,7 @@ export default class Sector_Filter extends Component {
             <option value="XLY Consumer Discretionary">XLY Consumer Discretionary</option>
           </select>
         <br></br>
-        <AreaChart width={1000} height={600} data={sector_data}
+        <AreaChart width={700} height={500} data={sector_data}
             margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
           <defs>
           <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
