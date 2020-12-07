@@ -33,10 +33,6 @@ ___
 
   copy of the original wikipedia html page that we scraped from on Nov. 15 2020
 
-- S&P_scrape.py
-  
-  python script used to collect all the stock data
-
 - S&P_500_Information.csv
 
   S&P 500 list info scraped from Wikipedia table
