@@ -29,21 +29,30 @@ ___
 
 ## Stock Data Directory
 
+- List of S&P 500 companies - Wikipedia.html
+
+  copy of the original wikipedia html page that we scraped from on Nov. 15 2020
+
 - S&P_scrape.py
   
   python script used to collect all the stock data
+
 - S&P_500_Information.csv
 
   S&P 500 list info scraped from Wikipedia table
+
 - S&P_500_aggregate_stock_data.csv
 
-  S&P 500 aggregate stock data)
+  S&P 500 aggregate stock data
+
 - S&P_500_stock_data.csv
 
   S&P 500 companies stock data
+
 - Sectoral_stock_data.csv
 
   11 major sector stock data
+
 - spark_calculations folder
   - S&P_500_aggregate folder
     - S&P_500_aggregate_Cum_Sums.csv
