@@ -48,6 +48,14 @@ D. Data Exploration & Transformation (Spark MapReduce Python)
 	3. Augmented John Hopkins data {Nathalie, 11/26/2020}
 		- Percent change for confirmed cases and deaths (US and Worldwide)
 		- Aggregated all countries data to create Worldwide output file
+	4. Joined Datasets {Fahim 12/5/2020}
+		- S&P_500 joined with news, oxford, and john-hopkins Datasets
+		- S&P_500 aggregate joined with news, oxford, and john-hopkins Datasets
+		- Sectoral joined with news, oxford, and john-hopkins Datasets
+		- All stock calculation jobs joined with news
+	5. Joined Datasets {Nathalie 12/03/2020}
+		- S&P 500 Companies joined with S&P Information (industries, sub_industries)
+		- Filtering by sector in preparation for sectoral Cluster analysis 
 E. Data Exploration (Jupyter Notebook, Notes)
 	1. Exploration of S&P Index and sectors on Jupyter Notebook to inform future analyses (e,g, top S&P gains and losses, sectors volatility, etc.) {Nathalie, 11/19/2020}
 F. Data Analysis
@@ -55,8 +63,12 @@ F. Data Analysis
 		- Analyzed S&P 500 trend (cumulative sum of log returns) with major news
 		- Identified periods of volatility (monthly statistics)
 		- Identified covid-related events for 5 largest gains and 5 largest losses
-		- Correlation between stock volatility and US cases
-	2. Sectoral Analysis
+		- Correlation between stock volatility and US Covid cases
+		- Updated top S&P 500 gains and drops with news relevant events {Nathalie, 12/03/2020}
+	2. Sectoral Analysis {Nathalie, 12/05/2020}
+		- Top and bottom sectors versus S&P 500
+		- Event Study - regression analysis to calculate abnormal returns on each of the 10 days (S&P 500 top gains and losses) + cumulative abnormal returns
+		- Cluster analysis (kmeans) for Consumer Discretionary sector - showing heterogeneity
 	3. Stock Analysis
 G. Data Visualization & Knowledge Discovery
 	1. React, D3, Recharts Interface {Parth,11/21/2020}
@@ -64,3 +76,4 @@ G. Data Visualization & Knowledge Discovery
 	3. Correlation between COVID-19 Data and Economic Data
 H. Report
 	1. Drafted report outline {Nathalie, 11/29/2020}
+	2. Transition report to ACM paper format {Nathalie, 12/04/2020}
