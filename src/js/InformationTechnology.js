@@ -1,7 +1,7 @@
 import '../css/main.css';
 import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, LabelList, Legend } from 'recharts';
-import {React, Component} from 'react';
-import data from '../datasets/consumer_discretionary_groups.json';
+import {React, Component, PropTypes} from 'react';
+import data from '../datasets/information_technology_groups.json';
 
 let group0 = [];
 let group1 = [];
@@ -59,30 +59,12 @@ const CustomToolTip = ({ active, payload, label }) => {
   return null;
 };
 
-export default class ConsumerDiscretionary extends Component { 
-
-  constructor(props) {
-    super(props);
-    this.state = data;
-
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(event) {
-    this.setState({value: event.target.value});
-  }
+export default class InformationTechnology extends Component {
 
   render() {
   clusterData(data);
   return (
     <div className="viz-container">
-      <select value={this.state.value} onChange={this.handleChange}>
-        <option value="XLB Materials">Consumer Discretionary Groups</option>
-        <option value="XLC Communication Services">Communication Services Groups</option>
-        <option value="XLE Energy">Health Care Groups</option>
-        <option value="XLF Financials">Financial Services Groups</option>
-        <option value="XLI Industrials">Information Technology Groups</option>
-      </select>
       <br></br>
       <ScatterChart
         width={700}

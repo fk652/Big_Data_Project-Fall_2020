@@ -1,0 +1,457 @@
+[
+  {
+    "Name": "AFLAC Inc",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "returns": -0.27018893202837146,
+    "variances": 0.5745497875821786,
+    "Group": 2
+  },
+  {
+    "Name": "Allstate Corp",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "returns": -0.1387138826491574,
+    "variances": 0.43188259512686106,
+    "Group": 4
+  },
+  {
+    "Name": "American Express Co",
+    "GICS Sub-Industry": "Consumer Finance",
+    "returns": -0.048959973045481525,
+    "variances": 0.6265036279931604,
+    "Group": 4
+  },
+  {
+    "Name": "American International Group",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "returns": -0.36815754720600324,
+    "variances": 0.7151188953315485,
+    "Group": 2
+  },
+  {
+    "Name": "Ameriprise Financial",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "returns": 0.1434712526285784,
+    "variances": 0.6891495201737949,
+    "Group": 1
+  },
+  {
+    "Name": "Aon plc",
+    "GICS Sub-Industry": "Insurance Brokers",
+    "returns": 0.028428036637011544,
+    "variances": 0.3948993186843311,
+    "Group": 4
+  },
+  {
+    "Name": "Arthur J- Gallagher & Co-",
+    "GICS Sub-Industry": "Insurance Brokers",
+    "returns": 0.2299508360435638,
+    "variances": 0.40704106691931885,
+    "Group": 1
+  },
+  {
+    "Name": "Assurant",
+    "GICS Sub-Industry": "Multi-line Insurance",
+    "returns": 0.010692859546366229,
+    "variances": 0.4933264892860206,
+    "Group": 4
+  },
+  {
+    "Name": "Bank of America Corp",
+    "GICS Sub-Industry": "Diversified Banks",
+    "returns": -0.198547239651353,
+    "variances": 0.57945287411645,
+    "Group": 2
+  },
+  {
+    "Name": "Berkshire Hathaway",
+    "GICS Sub-Industry": "Multi-Sector Holdings",
+    "returns": 0.034353465873947726,
+    "variances": 0.34759368948410785,
+    "Group": 4
+  },
+  {
+    "Name": "BlackRock",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "returns": 0.310571758352431,
+    "variances": 0.4765812931256014,
+    "Group": 1
+  },
+  {
+    "Name": "CME Group Inc-",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "returns": -0.20735305486622224,
+    "variances": 0.48243989006370697,
+    "Group": 2
+  },
+  {
+    "Name": "Capital One Financial",
+    "GICS Sub-Industry": "Consumer Finance",
+    "returns": -0.11616697396232478,
+    "variances": 0.7235159084777705,
+    "Group": 0
+  },
+  {
+    "Name": "Cboe Global Markets",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "returns": -0.30988103920774446,
+    "variances": 0.4345993086859786,
+    "Group": 2
+  },
+  {
+    "Name": "Charles Schwab Corporation",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "returns": 0.03652872213889413,
+    "variances": 0.530333265011537,
+    "Group": 4
+  },
+  {
+    "Name": "Chubb Limited",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "returns": -0.013508765478687401,
+    "variances": 0.48524059652818224,
+    "Group": 4
+  },
+  {
+    "Name": "Cincinnati Financial",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "returns": -0.3071038211587967,
+    "variances": 0.5851605367414305,
+    "Group": 2
+  },
+  {
+    "Name": "Citigroup Inc-",
+    "GICS Sub-Industry": "Diversified Banks",
+    "returns": -0.4245986281285914,
+    "variances": 0.6706022796606476,
+    "Group": 2
+  },
+  {
+    "Name": "Citizens Financial Group",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": -0.17969343438768481,
+    "variances": 0.7657744136574891,
+    "Group": 0
+  },
+  {
+    "Name": "Comerica Inc-",
+    "GICS Sub-Industry": "Diversified Banks",
+    "returns": -0.32634642789922186,
+    "variances": 0.7605457148761187,
+    "Group": 0
+  },
+  {
+    "Name": "Discover Financial Services",
+    "GICS Sub-Industry": "Consumer Finance",
+    "returns": -0.09826052853450484,
+    "variances": 0.8527145547613828,
+    "Group": 0
+  },
+  {
+    "Name": "Everest Re Group Ltd-",
+    "GICS Sub-Industry": "Reinsurance",
+    "returns": -0.1398125340455545,
+    "variances": 0.4926824968499442,
+    "Group": 4
+  },
+  {
+    "Name": "Fifth Third Bancorp",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": -0.1691726151740589,
+    "variances": 0.7372124768045415,
+    "Group": 0
+  },
+  {
+    "Name": "First Republic Bank",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": 0.20819647655212134,
+    "variances": 0.47539725651006676,
+    "Group": 1
+  },
+  {
+    "Name": "Franklin Resources",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "returns": -0.3016022598759873,
+    "variances": 0.5422717358797918,
+    "Group": 2
+  },
+  {
+    "Name": "Globe Life Inc-",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "returns": -0.07521714664175072,
+    "variances": 0.5280055725265104,
+    "Group": 4
+  },
+  {
+    "Name": "Goldman Sachs Group",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "returns": -0.005326296542841082,
+    "variances": 0.5173386777331302,
+    "Group": 4
+  },
+  {
+    "Name": "Hartford Financial Svc-Gp-",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "returns": -0.3158161039891274,
+    "variances": 0.6495758534254793,
+    "Group": 2
+  },
+  {
+    "Name": "Huntington Bancshares",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": -0.2438086036263294,
+    "variances": 0.6451377600186061,
+    "Group": 2
+  },
+  {
+    "Name": "Intercontinental Exchange",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "returns": 0.06647967038422031,
+    "variances": 0.3847634123745787,
+    "Group": 4
+  },
+  {
+    "Name": "Invesco Ltd-",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "returns": -0.11656607240368366,
+    "variances": 0.7500407361260635,
+    "Group": 0
+  },
+  {
+    "Name": "JPMorgan Chase & Co-",
+    "GICS Sub-Industry": "Diversified Banks",
+    "returns": -0.12701253240146393,
+    "variances": 0.5376350854462417,
+    "Group": 4
+  },
+  {
+    "Name": "KeyCorp",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": -0.24351299497456314,
+    "variances": 0.7584058980581826,
+    "Group": 0
+  },
+  {
+    "Name": "Lincoln National",
+    "GICS Sub-Industry": "Multi-line Insurance",
+    "returns": -0.3434399179739036,
+    "variances": 0.9488877847756939,
+    "Group": 0
+  },
+  {
+    "Name": "Loews Corp-",
+    "GICS Sub-Industry": "Multi-line Insurance",
+    "returns": -0.17043082526680342,
+    "variances": 0.5882604966142545,
+    "Group": 2
+  },
+  {
+    "Name": "M&T Bank Corp-",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": -0.32198957599548805,
+    "variances": 0.6266183114264907,
+    "Group": 2
+  },
+  {
+    "Name": "MSCI Inc",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "returns": 0.4406263451052004,
+    "variances": 0.5191504061502471,
+    "Group": 1
+  },
+  {
+    "Name": "MarketAxess",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "returns": 0.3164907612527097,
+    "variances": 0.4575222501888157,
+    "Group": 1
+  },
+  {
+    "Name": "Marsh & McLennan",
+    "GICS Sub-Industry": "Insurance Brokers",
+    "returns": 0.07141645093009785,
+    "variances": 0.3607022246876551,
+    "Group": 4
+  },
+  {
+    "Name": "MetLife Inc-",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "returns": -0.09644739226878851,
+    "variances": 0.6018095863564841,
+    "Group": 4
+  },
+  {
+    "Name": "Moody's Corp",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "returns": 0.22395180527548142,
+    "variances": 0.5015403572949931,
+    "Group": 1
+  },
+  {
+    "Name": "Morgan Stanley",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "returns": 0.144569428918361,
+    "variances": 0.561746245201092,
+    "Group": 1
+  },
+  {
+    "Name": "Nasdaq, Inc-",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "returns": 0.19441154699833696,
+    "variances": 0.4203842379938693,
+    "Group": 1
+  },
+  {
+    "Name": "Northern Trust Corp-",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "returns": -0.15995506796926673,
+    "variances": 0.5229695948339734,
+    "Group": 2
+  },
+  {
+    "Name": "PNC Financial Services",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": -0.20595813241414707,
+    "variances": 0.5744548952464491,
+    "Group": 2
+  },
+  {
+    "Name": "People's United Financial",
+    "GICS Sub-Industry": "Thrifts & Mortgage Finance",
+    "returns": -0.26151452942229714,
+    "variances": 0.6248201006764704,
+    "Group": 2
+  },
+  {
+    "Name": "Principal Financial Group",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "returns": -0.165258151876158,
+    "variances": 0.6530514066108061,
+    "Group": 0
+  },
+  {
+    "Name": "Progressive Corp-",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "returns": 0.2717116165889708,
+    "variances": 0.3687658985132306,
+    "Group": 1
+  },
+  {
+    "Name": "Prudential Financial",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "returns": -0.247325803458188,
+    "variances": 0.677039493186592,
+    "Group": 2
+  },
+  {
+    "Name": "Raymond James Financial Inc-",
+    "GICS Sub-Industry": "Investment Banking & Brokerage",
+    "returns": -0.04753258308383847,
+    "variances": 0.5680052283247101,
+    "Group": 4
+  },
+  {
+    "Name": "Regions Financial Corp-",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": -0.10321060845307886,
+    "variances": 0.7056121355203506,
+    "Group": 0
+  },
+  {
+    "Name": "S&P Global, Inc-",
+    "GICS Sub-Industry": "Financial Exchanges & Data",
+    "returns": 0.2628410813857505,
+    "variances": 0.46342515185305466,
+    "Group": 1
+  },
+  {
+    "Name": "SVB Financial",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": 0.39060115388580563,
+    "variances": 0.6422668283630466,
+    "Group": 1
+  },
+  {
+    "Name": "State Street Corp-",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "returns": -0.05701252201186423,
+    "variances": 0.5800256682596577,
+    "Group": 4
+  },
+  {
+    "Name": "Synchrony Financial",
+    "GICS Sub-Industry": "Consumer Finance",
+    "returns": -0.21040448969599845,
+    "variances": 0.7566512869030226,
+    "Group": 0
+  },
+  {
+    "Name": "T- Rowe Price Group",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "returns": 0.14512410889268867,
+    "variances": 0.47374806701732525,
+    "Group": 1
+  },
+  {
+    "Name": "The Bank of New York Mellon",
+    "GICS Sub-Industry": "Asset Management & Custody Banks",
+    "returns": -0.2269081091358074,
+    "variances": 0.4830198166363643,
+    "Group": 2
+  },
+  {
+    "Name": "The Travelers Companies Inc-",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "returns": 0.007904571436204093,
+    "variances": 0.4952516935886746,
+    "Group": 4
+  },
+  {
+    "Name": "Truist Financial",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": -0.14603505070363368,
+    "variances": 0.6649741875361461,
+    "Group": 0
+  },
+  {
+    "Name": "U-S- Bancorp",
+    "GICS Sub-Industry": "Diversified Banks",
+    "returns": -0.31067812100493963,
+    "variances": 0.5793365947227417,
+    "Group": 2
+  },
+  {
+    "Name": "Unum Group",
+    "GICS Sub-Industry": "Life & Health Insurance",
+    "returns": -0.35235534867558416,
+    "variances": 0.7997436950213277,
+    "Group": 0
+  },
+  {
+    "Name": "W- R- Berkley Corporation",
+    "GICS Sub-Industry": "Property & Casualty Insurance",
+    "returns": 0.014921345645405813,
+    "variances": 0.48588207047737614,
+    "Group": 4
+  },
+  {
+    "Name": "Wells Fargo",
+    "GICS Sub-Industry": "Diversified Banks",
+    "returns": -0.8043072138704055,
+    "variances": 0.5990342835646365,
+    "Group": 3
+  },
+  {
+    "Name": "Willis Towers Watson",
+    "GICS Sub-Industry": "Insurance Brokers",
+    "returns": 0.09031807191515814,
+    "variances": 0.3992283851067886,
+    "Group": 4
+  },
+  {
+    "Name": "Zions Bancorp",
+    "GICS Sub-Industry": "Regional Banks",
+    "returns": -0.2791748002219552,
+    "variances": 0.5766281393246903,
+    "Group": 2
+  }
+]

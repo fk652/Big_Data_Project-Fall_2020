@@ -1,7 +1,5 @@
 import '../css/main.css';
-import * as d3 from "d3";
 import {React, Component} from 'react';
-import Sectors from './Sectors';
 import Index from './Index';
 import Sector_Filter from './Sector_Filter';
 import Aggregate from './Aggregate';
@@ -10,6 +8,10 @@ import ConsumerDiscretionary from './ConsumerDiscretionary';
 import DualAxis from './DualAxis';
 import SP500_Strig from './SP500_Strig';
 import Strig_Covid from './Strig_Covid';
+import CommunicationServices from './CommunicationServices';
+import FinancialServices from './FinancialServices';
+import HealthCare from './HealthCare';
+import InformationTechnology from './InformationTechnology';
 
 export default class Container extends Component { 
 
@@ -28,8 +30,20 @@ export default class Container extends Component {
       <h3>S&P Aggregate Top 5 Gains and Drops (Interactive Positive Negative Bar Chart)</h3>
       <Aggregate_Gains_Drops />
       <hr className="hr-div"></hr>
-      <h3>Consumer Discretionary Sector Clusters (Interactive Scatterplot)</h3>
+      <h3>Consumer Discretionary Clusters (Interactive Scatterplot)</h3>
       <ConsumerDiscretionary />
+      <hr className="hr-div"></hr>
+      <h3>Communication Services Clsuters(Interactive Scatterplot)</h3>
+      <CommunicationServices />
+      <hr className="hr-div"></hr>
+      <h3>Financial Services Clusters (Interactive Scatterplot)</h3>
+      <FinancialServices />
+      <hr className="hr-div"></hr>
+      <h3>Information Technology Clusters (Interactive Scatterplot)</h3>
+      <InformationTechnology />
+      <hr className="hr-div"></hr>
+      <h3>Health Care Clusters (Interactive Scatterplot)</h3>
+      <HealthCare />
       <hr className="hr-div"></hr>
       <h3>S&P 500 Index Close and COVID Daily Cases</h3>
       <DualAxis />

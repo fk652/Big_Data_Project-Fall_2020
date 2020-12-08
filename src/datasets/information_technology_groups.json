@@ -1,0 +1,506 @@
+[
+  {
+    "Name": "ANSYS",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.3334300389477542,
+    "variances": 0.4554955904249802,
+    "Group": 1
+  },
+  {
+    "Name": "Accenture plc",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "returns": 0.20578943279457107,
+    "variances": 0.40869573873569953,
+    "Group": 0
+  },
+  {
+    "Name": "Adobe Inc-",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.4559132197060851,
+    "variances": 0.4779160676595906,
+    "Group": 1
+  },
+  {
+    "Name": "Advanced Micro Devices Inc",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.7475282538700094,
+    "variances": 0.6124976393742153,
+    "Group": 3
+  },
+  {
+    "Name": "Akamai Technologies Inc",
+    "GICS Sub-Industry": "Internet Services & Infrastructure",
+    "returns": 0.1463184017648809,
+    "variances": 0.3841874056235114,
+    "Group": 0
+  },
+  {
+    "Name": "Amphenol Corp",
+    "GICS Sub-Industry": "Electronic Components",
+    "returns": 0.1880103289136832,
+    "variances": 0.4130248232461361,
+    "Group": 0
+  },
+  {
+    "Name": "Analog Devices, Inc-",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.18371683836526387,
+    "variances": 0.5057206745646279,
+    "Group": 0
+  },
+  {
+    "Name": "Apple Inc-",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "returns": 0.5850066801162165,
+    "variances": 0.4616860678082186,
+    "Group": 3
+  },
+  {
+    "Name": "Applied Materials Inc-",
+    "GICS Sub-Industry": "Semiconductor Equipment",
+    "returns": 0.1597515937267504,
+    "variances": 0.6006166164210873,
+    "Group": 0
+  },
+  {
+    "Name": "Arista Networks",
+    "GICS Sub-Industry": "Communications Equipment",
+    "returns": 0.35189766263204536,
+    "variances": 0.48521819240128405,
+    "Group": 1
+  },
+  {
+    "Name": "Autodesk Inc-",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.43940100575077334,
+    "variances": 0.504984722331212,
+    "Group": 1
+  },
+  {
+    "Name": "Automatic Data Processing",
+    "GICS Sub-Industry": "Internet Services & Infrastructure",
+    "returns": 0.0026838213879054624,
+    "variances": 0.4497456140171612,
+    "Group": 0
+  },
+  {
+    "Name": "Broadcom Inc-",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.17700238361295995,
+    "variances": 0.5248834518802449,
+    "Group": 0
+  },
+  {
+    "Name": "Broadridge Financial Solutions",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": 0.20249782198785482,
+    "variances": 0.3581660372550907,
+    "Group": 0
+  },
+  {
+    "Name": "CDW",
+    "GICS Sub-Industry": "Technology Distributors",
+    "returns": 0.007587351554896328,
+    "variances": 0.49860928802598325,
+    "Group": 0
+  },
+  {
+    "Name": "Cadence Design Systems",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.5402059517378737,
+    "variances": 0.46251194023265085,
+    "Group": 3
+  },
+  {
+    "Name": "Cisco Systems",
+    "GICS Sub-Industry": "Communications Equipment",
+    "returns": -0.08537957812882001,
+    "variances": 0.4198750357084367,
+    "Group": 0
+  },
+  {
+    "Name": "Citrix Systems",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.04913273916755401,
+    "variances": 0.40749652098746025,
+    "Group": 0
+  },
+  {
+    "Name": "Cognizant Technology Solutions",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "returns": 0.19712157547495757,
+    "variances": 0.47964710461454424,
+    "Group": 0
+  },
+  {
+    "Name": "Corning Inc-",
+    "GICS Sub-Industry": "Electronic Components",
+    "returns": 0.19949302314944495,
+    "variances": 0.5121547338855306,
+    "Group": 0
+  },
+  {
+    "Name": "DXC Technology",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "returns": -0.5966899894447035,
+    "variances": 0.9236643216323187,
+    "Group": 2
+  },
+  {
+    "Name": "F5 Networks",
+    "GICS Sub-Industry": "Communications Equipment",
+    "returns": 0.09189196829561827,
+    "variances": 0.41507820409807844,
+    "Group": 0
+  },
+  {
+    "Name": "FLIR Systems",
+    "GICS Sub-Industry": "Electronic Equipment & Instruments",
+    "returns": -0.36648732036870024,
+    "variances": 0.5648342884153023,
+    "Group": 2
+  },
+  {
+    "Name": "Fidelity National Information Services",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": 0.06347031591040421,
+    "variances": 0.4460935478827446,
+    "Group": 0
+  },
+  {
+    "Name": "Fiserv Inc",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": -0.045437921398590916,
+    "variances": 0.46722454060278834,
+    "Group": 0
+  },
+  {
+    "Name": "FleetCor Technologies Inc",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": -0.13304148776446034,
+    "variances": 0.5358926898679628,
+    "Group": 2
+  },
+  {
+    "Name": "Fortinet",
+    "GICS Sub-Industry": "Systems Software",
+    "returns": 0.13244746368091054,
+    "variances": 0.5360777107148068,
+    "Group": 0
+  },
+  {
+    "Name": "Gartner Inc",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "returns": -0.012330344476299437,
+    "variances": 0.48842387754558897,
+    "Group": 0
+  },
+  {
+    "Name": "Global Payments Inc-",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": 0.04995058532118696,
+    "variances": 0.544913455886103,
+    "Group": 0
+  },
+  {
+    "Name": "HP Inc-",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "returns": -0.028652358715387294,
+    "variances": 0.5496252384574487,
+    "Group": 0
+  },
+  {
+    "Name": "Hewlett Packard Enterprise",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "returns": -0.530163991950714,
+    "variances": 0.549827666106983,
+    "Group": 2
+  },
+  {
+    "Name": "IPG Photonics Corp-",
+    "GICS Sub-Industry": "Electronic Manufacturing Services",
+    "returns": 0.3556093704032506,
+    "variances": 0.524171186207623,
+    "Group": 1
+  },
+  {
+    "Name": "Intel Corp-",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": -0.242920303371422,
+    "variances": 0.5305171153865944,
+    "Group": 2
+  },
+  {
+    "Name": "International Business Machines",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "returns": -0.13992933474956,
+    "variances": 0.4071120829270327,
+    "Group": 0
+  },
+  {
+    "Name": "Intuit Inc-",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.29391153498671674,
+    "variances": 0.4704827556633777,
+    "Group": 1
+  },
+  {
+    "Name": "Jack Henry & Associates",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": 0.0756811352190363,
+    "variances": 0.3956969522820271,
+    "Group": 0
+  },
+  {
+    "Name": "Juniper Networks",
+    "GICS Sub-Industry": "Communications Equipment",
+    "returns": -0.15486960212579204,
+    "variances": 0.3670974092721039,
+    "Group": 0
+  },
+  {
+    "Name": "KLA Corporation",
+    "GICS Sub-Industry": "Semiconductor Equipment",
+    "returns": 0.2832587425397328,
+    "variances": 0.603733514200759,
+    "Group": 1
+  },
+  {
+    "Name": "Keysight Technologies",
+    "GICS Sub-Industry": "Electronic Equipment & Instruments",
+    "returns": 0.06237030079731288,
+    "variances": 0.4435809420887879,
+    "Group": 0
+  },
+  {
+    "Name": "Lam Research",
+    "GICS Sub-Industry": "Semiconductor Equipment",
+    "returns": 0.4073199589208274,
+    "variances": 0.634694920823453,
+    "Group": 1
+  },
+  {
+    "Name": "Leidos Holdings",
+    "GICS Sub-Industry": "IT Consulting & Other Services",
+    "returns": 0.07856283654911334,
+    "variances": 0.44082841170023407,
+    "Group": 0
+  },
+  {
+    "Name": "Mastercard Inc-",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": 0.1766486362144848,
+    "variances": 0.48161010139093957,
+    "Group": 0
+  },
+  {
+    "Name": "Maxim Integrated Products Inc",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.33950712032036545,
+    "variances": 0.43638355060151623,
+    "Group": 1
+  },
+  {
+    "Name": "Microchip Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.287814227254783,
+    "variances": 0.6182062461293004,
+    "Group": 1
+  },
+  {
+    "Name": "Micron Technology",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.19409439003794882,
+    "variances": 0.5785737008092836,
+    "Group": 0
+  },
+  {
+    "Name": "Microsoft Corp-",
+    "GICS Sub-Industry": "Systems Software",
+    "returns": 0.3672014281476441,
+    "variances": 0.4384493384372699,
+    "Group": 1
+  },
+  {
+    "Name": "Motorola Solutions Inc-",
+    "GICS Sub-Industry": "Communications Equipment",
+    "returns": 0.050645244925970376,
+    "variances": 0.440009734337463,
+    "Group": 0
+  },
+  {
+    "Name": "NetApp",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "returns": -0.23245183636635902,
+    "variances": 0.5130503466176191,
+    "Group": 2
+  },
+  {
+    "Name": "NortonLifeLock",
+    "GICS Sub-Industry": "Application Software",
+    "returns": -0.2263706972792301,
+    "variances": 0.6257879314893239,
+    "Group": 2
+  },
+  {
+    "Name": "Nvidia Corporation",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.9573669642773099,
+    "variances": 0.5853175282021875,
+    "Group": 3
+  },
+  {
+    "Name": "Oracle Corp-",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.008647396813969086,
+    "variances": 0.3987817828451049,
+    "Group": 0
+  },
+  {
+    "Name": "PayPal",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": 0.59342228319694,
+    "variances": 0.5156648575532821,
+    "Group": 3
+  },
+  {
+    "Name": "Paychex Inc-",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": 0.08125899855196206,
+    "variances": 0.485487937806029,
+    "Group": 0
+  },
+  {
+    "Name": "Paycom",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.4947224425897786,
+    "variances": 0.6520218176863346,
+    "Group": 1
+  },
+  {
+    "Name": "QUALCOMM Inc-",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.4628478041803419,
+    "variances": 0.5188837391104892,
+    "Group": 1
+  },
+  {
+    "Name": "Qorvo",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.35272501750985086,
+    "variances": 0.5641295065051409,
+    "Group": 1
+  },
+  {
+    "Name": "Salesforce-com",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.4244612162339232,
+    "variances": 0.5077784616126083,
+    "Group": 1
+  },
+  {
+    "Name": "Seagate Technology",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "returns": -0.07684599731443154,
+    "variances": 0.4307660170494426,
+    "Group": 0
+  },
+  {
+    "Name": "ServiceNow",
+    "GICS Sub-Industry": "Systems Software",
+    "returns": 0.6699734114913909,
+    "variances": 0.4972518579690541,
+    "Group": 3
+  },
+  {
+    "Name": "Skyworks Solutions",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.35294643483413335,
+    "variances": 0.5561622288328696,
+    "Group": 1
+  },
+  {
+    "Name": "Synopsys Inc-",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.48198326827905813,
+    "variances": 0.4271069400633456,
+    "Group": 1
+  },
+  {
+    "Name": "TE Connectivity Ltd-",
+    "GICS Sub-Industry": "Electronic Manufacturing Services",
+    "returns": 0.16261561982015849,
+    "variances": 0.48104689396929534,
+    "Group": 0
+  },
+  {
+    "Name": "Teradyne",
+    "GICS Sub-Industry": "Semiconductor Equipment",
+    "returns": 0.42655809782552634,
+    "variances": 0.5275523775734577,
+    "Group": 1
+  },
+  {
+    "Name": "Texas Instruments",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.2833293539697799,
+    "variances": 0.4310057480480151,
+    "Group": 1
+  },
+  {
+    "Name": "Tyler Technologies",
+    "GICS Sub-Industry": "Application Software",
+    "returns": 0.37915329359954697,
+    "variances": 0.3443694707282472,
+    "Group": 1
+  },
+  {
+    "Name": "Verisign Inc-",
+    "GICS Sub-Industry": "Internet Services & Infrastructure",
+    "returns": 0.060747404536558136,
+    "variances": 0.3991190592862396,
+    "Group": 0
+  },
+  {
+    "Name": "Visa Inc-",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": 0.15771233660879602,
+    "variances": 0.42477208610405126,
+    "Group": 0
+  },
+  {
+    "Name": "Western Digital",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "returns": -0.19382968904421416,
+    "variances": 0.6879824103190731,
+    "Group": 2
+  },
+  {
+    "Name": "Western Union Co",
+    "GICS Sub-Industry": "Data Processing & Outsourced Services",
+    "returns": -0.23251567345116309,
+    "variances": 0.4282683469018681,
+    "Group": 2
+  },
+  {
+    "Name": "Xerox",
+    "GICS Sub-Industry": "Technology Hardware, Storage & Peripherals",
+    "returns": -0.5874785389037118,
+    "variances": 0.6558713468462293,
+    "Group": 2
+  },
+  {
+    "Name": "Xilinx",
+    "GICS Sub-Industry": "Semiconductors",
+    "returns": 0.30962091278567616,
+    "variances": 0.4823413048552067,
+    "Group": 1
+  },
+  {
+    "Name": "Zebra Technologies",
+    "GICS Sub-Industry": "Electronic Equipment & Instruments",
+    "returns": 0.3748984686058367,
+    "variances": 0.49538767795095723,
+    "Group": 1
+  }
+]
