@@ -70,6 +70,7 @@ F. Data Analysis
 		- Event Study - regression analysis to calculate abnormal returns on each of the 10 days (S&P 500 top gains and losses) + cumulative abnormal returns
 		- Cluster analysis (kmeans) for Consumer Discretionary sector - showing heterogeneity
 	3. Stock Analysis
+		- OLS regression to predict S&P 500 companies log returns during covid, and compare with actual returns {Fahim, 12/9/2020}
 G. Data Visualization & Knowledge Discovery
 	1. React, D3, Recharts Interface {Parth,11/21/2020}
 	2. Visualization Techniques

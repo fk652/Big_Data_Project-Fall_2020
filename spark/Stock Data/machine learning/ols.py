@@ -61,6 +61,29 @@ sp500_predicted = sp500_joined_test.join(ols_results.set_index('Symbol'), on='Sy
 sp500_predicted['Predicted S&P 500 Log Return'] = sp500_predicted.apply(lambda row: row['S&P 500 Index Log Return']*row['Return Beta'] + row['Constant'], axis=1)
 sp500_predicted['Actual - Predicted'] = sp500_predicted.apply(lambda row: row['S&P 500 Log Return'] - row['Predicted S&P 500 Log Return'], axis=1)
 
+# calculating cumulative sums
+sp500_predicted['S&P 500 Log Return Cumulative'] = sp500_predicted.groupby(by=['Symbol'])['S&P 500 Log Return'].cumsum()
+sp500_predicted['S&P 500 Index Log Return Cumulative'] = sp500_predicted.groupby(by=['Symbol'])['S&P 500 Index Log Return'].cumsum()
+sp500_predicted['Predicted S&P 500 Log Return Cumulative'] = sp500_predicted.groupby(by=['Symbol'])['Predicted S&P 500 Log Return'].cumsum()
+sp500_predicted['Actual - Predicted Cumulative'] = sp500_predicted.groupby(by=['Symbol'])['Actual - Predicted'].cumsum()
+sp500_predicted = sp500_predicted[['Date', 
+                                    'Symbol',
+                                    'Name', 
+                                    'GICS Sector', 
+                                    'S&P 500 Log Return',
+                                    'S&P 500 Log Return Cumulative',
+                                    'S&P 500 Index Log Return',
+                                    'S&P 500 Index Log Return Cumulative',
+                                    'Predicted S&P 500 Log Return',
+                                    'Predicted S&P 500 Log Return Cumulative',
+                                    'Actual - Predicted',
+                                    'Actual - Predicted Cumulative',
+                                    'Return Beta', 
+                                    'Constant', 
+                                    'R2', 
+                                    'Return p value'
+                                    ]]
+
 # summing up the predictions
 sp500_predicted_sum = sp500_predicted[['Symbol', 'S&P 500 Log Return', 'Predicted S&P 500 Log Return', 'Actual - Predicted']]
 sp500_predicted_sum = sp500_predicted_sum.groupby(['Symbol']).sum()
