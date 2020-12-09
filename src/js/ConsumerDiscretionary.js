@@ -61,28 +61,10 @@ const CustomToolTip = ({ active, payload, label }) => {
 
 export default class ConsumerDiscretionary extends Component { 
 
-  constructor(props) {
-    super(props);
-    this.state = data;
-
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange(event) {
-    this.setState({value: event.target.value});
-  }
-
   render() {
   clusterData(data);
   return (
     <div className="viz-container">
-      <select value={this.state.value} onChange={this.handleChange}>
-        <option value="XLB Materials">Consumer Discretionary Groups</option>
-        <option value="XLC Communication Services">Communication Services Groups</option>
-        <option value="XLE Energy">Health Care Groups</option>
-        <option value="XLF Financials">Financial Services Groups</option>
-        <option value="XLI Industrials">Information Technology Groups</option>
-      </select>
       <br></br>
       <ScatterChart
         width={700}
