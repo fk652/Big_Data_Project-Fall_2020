@@ -32,7 +32,7 @@ const getNews = (label) => {
         let j = 0;
         let arr = []
         arr.push("Close: "+close);
-        arr.push("Daily Covid Cases: "+covid);
+        arr.push("Total Covid Cases: "+covid);
         for (j=0; j<4; j++){
             arr.push(temp[j])
         }
@@ -47,7 +47,6 @@ const CustomToolTip = ({ active, payload, label }) => {
     return (
       <div className="custom-tooltip">
         <p className="label">{`${label}`}</p>
-        <hr></hr>
         <p className="intro">{getNews(label)}</p>
       </div>
     );

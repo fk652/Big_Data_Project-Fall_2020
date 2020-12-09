@@ -26,8 +26,8 @@ export default class Sector_Filter extends Component {
             <option value="XLE Energy">XLE Energy</option>
             <option value="XLF Financials">XLF Financials</option>
             <option value="XLI Industrials">XLI Industrials</option>
-            <option value="XLK Technology">XLB Materials</option>
-            <option value="XLP Consumer Staples">XLC Communication Services</option>
+            <option value="XLK Technology">XLK Technology</option>
+            <option value="XLP Consumer Staples">XLP Consumer Staples</option>
             <option value="XLRE Real Estate">XLRE Real Estate</option>
             <option value="XLU Utilities">XLU Utilities</option>
             <option value="XLV Health Care">XLV Health Care</option>

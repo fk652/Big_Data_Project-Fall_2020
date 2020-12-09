@@ -21,7 +21,7 @@ const getNews = (label) => {
         let temp = news_variable.split("\t");
         let j = 0;
         let arr = []
-        arr.push(log_change)
+        arr.push("Close Log Change: "+log_change)
         for (j=0; j<4; j++){
             arr.push(temp[j])
         }
@@ -36,8 +36,6 @@ const CustomToolTip = ({ active, payload, label }) => {
     return (
       <div className="custom-tooltip">
         <p className="label">{`${label}`}</p>
-        Log Change: 
-        <hr></hr>
         <p className="intro">{getNews(label)}</p>
       </div>
     );
