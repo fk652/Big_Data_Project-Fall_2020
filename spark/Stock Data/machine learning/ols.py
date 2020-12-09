@@ -12,7 +12,7 @@ sp500_info = pd.read_csv('../S&P_500_Information.csv')
 
 # selecting and renaming necessary columns from original data
 sp500_df = sp500_df[['Date', 'Symbol', 'Name', 'Log Return']]
-sp500_info = sp500_info[['Symbol', 'GICS Sector']]
+sp500_info = sp500_info[['Symbol', 'GICS Sector', 'GICS Sub-Industry']]
 sp500_agg_df = sp500_agg_df[['Date', 'Log Return']]
 
 sp500_df = sp500_df.rename(columns={'Log Return':'S&P 500 Log Return'})
@@ -21,7 +21,7 @@ sp500_agg_df = sp500_agg_df.rename(columns={'Log Return':'S&P 500 Index Log Retu
 # joining the datasets
 sp500_joined_train = sp500_df.join(sp500_agg_df.set_index('Date'), on='Date')
 sp500_joined_train = sp500_joined_train.join(sp500_info.set_index('Symbol'), on='Symbol')
-sp500_joined_train = sp500_joined_train[['Date', 'Symbol', 'Name', 'GICS Sector', 'S&P 500 Log Return', 'S&P 500 Index Log Return']]
+sp500_joined_train = sp500_joined_train[['Date', 'Symbol', 'Name', 'GICS Sector', 'GICS Sub-Industry', 'S&P 500 Log Return', 'S&P 500 Index Log Return']]
 
 # filtering the data and creating training and testing sets
 # train set is stock data pre-covid
@@ -70,14 +70,15 @@ sp500_predicted = sp500_predicted[['Date',
                                     'Symbol',
                                     'Name', 
                                     'GICS Sector', 
+                                    'GICS Sub-Industry',
                                     'S&P 500 Log Return',
                                     'S&P 500 Log Return Cumulative',
-                                    'S&P 500 Index Log Return',
-                                    'S&P 500 Index Log Return Cumulative',
                                     'Predicted S&P 500 Log Return',
                                     'Predicted S&P 500 Log Return Cumulative',
                                     'Actual - Predicted',
                                     'Actual - Predicted Cumulative',
+                                    'S&P 500 Index Log Return',
+                                    'S&P 500 Index Log Return Cumulative',
                                     'Return Beta', 
                                     'Constant', 
                                     'R2', 
@@ -85,18 +86,24 @@ sp500_predicted = sp500_predicted[['Date',
                                     ]]
 
 # summing up the predictions
-sp500_predicted_sum = sp500_predicted[['Symbol', 'S&P 500 Log Return', 'Predicted S&P 500 Log Return', 'Actual - Predicted']]
-sp500_predicted_sum = sp500_predicted_sum.groupby(['Symbol']).sum()
-sp500_predicted_sum = pd.merge(sp500_predicted_sum, ols_results, on=['Symbol'])
+sp500_predicted_sum = sp500_predicted[sp500_predicted['Date'] == sp500_predicted['Date'].max()]
+sp500_predicted_sum = sp500_predicted_sum.drop(columns=['Date', 
+                                                        'S&P 500 Log Return', 
+                                                        'S&P 500 Index Log Return', 
+                                                        'Predicted S&P 500 Log Return',
+                                                        'Actual - Predicted'
+                                                       ])
+sp500_predicted_sum = sp500_predicted_sum.rename(columns={'S&P 500 Log Return Cumulative':'S&P 500 Log Return Total',
+                                                          'S&P 500 Index Log Return Cumulative': 'S&P 500 Index Log Return Total',
+                                                          'Predicted S&P 500 Log Return Cumulative': 'Predicted S&P 500 Log Return Total',
+                                                          'Actual - Predicted Cumulative': 'Actual - Predicted Total'
+                                                         })
 
 # filtering predictions for top volatile market covid days
-gain_days = ['2020-03-24', '2020-03-13', '2020-04-06', '2020-03-26', '2020-03-17']
-drop_days = ['2020-03-16', '2020-03-12', '2020-03-09', '2020-06-11', '2020-03-18']
-sp500_predicted_gains = sp500_predicted[sp500_predicted['Date'].isin(gain_days)]
-sp500_predicted_drops = sp500_predicted[sp500_predicted['Date'].isin(drop_days)]
+volatile_days = ['2020-03-24', '2020-03-13', '2020-04-06', '2020-03-26', '2020-03-17'] + ['2020-03-16', '2020-03-12', '2020-03-09', '2020-06-11', '2020-03-18']
+sp500_predicted_volatile = sp500_predicted[sp500_predicted['Date'].isin(volatile_days)]
 
 # writing the out the data
 sp500_predicted.to_csv('S&P_500_predicted_log_returns_index.csv', index=False, header=True)
 sp500_predicted_sum.to_csv('S&P_500_predicted_sums_index.csv', index=False, header=True)
-sp500_predicted_gains.to_csv('S&P_500_top_gain_predictions_index.csv', index=False, header=True)
-sp500_predicted_drops.to_csv('S&P_500_top_drop_predictions_index.csv', index=False, header=True)
+sp500_predicted_volatile.to_csv('S&P_500_volatile_predictions_index.csv', index=False, header=True)
