@@ -15,3 +15,6 @@ cd ../'Sectoral'
 
 cd ../'S&P_500_aggregate'
 ./spark_calculations.sh
+
+cd ../'machine learning'
+./ols.sh
