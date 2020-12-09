@@ -49,6 +49,24 @@ ___
 
   11 major sector stock data
 
+- machine learning folder
+  - S&P_500_predicted_log_returns_index.csv
+
+    S&P 500 company log return predictions during covid times
+    Prediction are based on OLS linear regression model
+
+  - S&P_500_predicted_sums_index.csv
+
+    Sum of the OLS log predictions per company
+
+  - S&P_500_top_drop_predictions_index.csv
+
+    OLS log predictions per company on top S&P 500 index drop days
+
+  - S&P_500_top_gain_predictions_index.csv
+
+    OLS log predictions per company on top S&P 500 index gain days
+
 - spark_calculations folder
   - S&P_500_aggregate folder
     - S&P_500_aggregate_Cum_Sums.csv
