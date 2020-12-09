@@ -59,13 +59,9 @@ ___
 
     Sum of the OLS log predictions per company
 
-  - S&P_500_top_drop_predictions_index.csv
+  - S&P_500_volatile_predictions_index.csv
 
-    OLS log predictions per company on top S&P 500 index drop days
-
-  - S&P_500_top_gain_predictions_index.csv
-
-    OLS log predictions per company on top S&P 500 index gain days
+    OLS log predictions per company on top 10 S&P 500 Index swing days (top 5 drops + top 5 gains)
 
 - spark_calculations folder
   - S&P_500_aggregate folder

@@ -103,6 +103,11 @@ sp500_predicted_sum = sp500_predicted_sum.rename(columns={'S&P 500 Log Return Cu
 volatile_days = ['2020-03-24', '2020-03-13', '2020-04-06', '2020-03-26', '2020-03-17'] + ['2020-03-16', '2020-03-12', '2020-03-09', '2020-06-11', '2020-03-18']
 sp500_predicted_volatile = sp500_predicted[sp500_predicted['Date'].isin(volatile_days)]
 
+sp500_predicted_volatile['S&P 500 Log Return Cumulative'] = sp500_predicted_volatile.groupby(by=['Symbol'])['S&P 500 Log Return'].cumsum()
+sp500_predicted_volatile['S&P 500 Index Log Return Cumulative'] = sp500_predicted_volatile.groupby(by=['Symbol'])['S&P 500 Index Log Return'].cumsum()
+sp500_predicted_volatile['Predicted S&P 500 Log Return Cumulative'] = sp500_predicted_volatile.groupby(by=['Symbol'])['Predicted S&P 500 Log Return'].cumsum()
+sp500_predicted_volatile['Actual - Predicted Cumulative'] = sp500_predicted_volatile.groupby(by=['Symbol'])['Actual - Predicted'].cumsum()
+
 # writing the out the data
 sp500_predicted.to_csv('S&P_500_predicted_log_returns_index.csv', index=False, header=True)
 sp500_predicted_sum.to_csv('S&P_500_predicted_sums_index.csv', index=False, header=True)
