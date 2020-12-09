@@ -1,7 +1,17 @@
 import '../css/main.css';
 import { LineChart, Line, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import {React, Component} from 'react';
-import data from '../datasets/S&P_500_Aggregate_Join_Oxford_JohnHopkins_News.json';
+import data from '../datasets/sp500_close_daily_cases.json';
+import news_data from '../datasets/S&P_500_Aggregate_Join_Oxford_JohnHopkins_News.json';
+
+const getDaily = (label) => {
+  let i = 0;
+  for (i=0; i<data.length; i++){
+    if (data[i]["Date"] === label){
+      return data[i]["Daily Cases"];
+    }
+  }
+};
 
 const formatNews = (arr) => {
   const headlines = arr.map((line) =>
@@ -23,16 +33,16 @@ const fixData = (data) => {
 
 const getNews = (label) => {
   let i = 0;
-  for (i=0; i<data.length; i++){
-    if (data[i]["Date"] === label ){
-        let news_variable = data[i]["News title--source"];
-        let close = data[i]["Close"];
-        let covid = data[i]["USA Covid Confirmed Cases"];
+  for (i=0; i<news_data.length; i++){
+    if (news_data[i]["Date"] === label ){
+        let news_variable = news_data[i]["News title--source"];
+        let close = news_data[i]["Close"];
         let temp = news_variable.split("\t");
         let j = 0;
         let arr = []
         arr.push("Close: "+close);
-        arr.push("Total Covid Cases: "+covid);
+        let daily = getDaily(label);
+        arr.push("Daily Covid Cases: "+daily);
         for (j=0; j<4; j++){
             arr.push(temp[j])
         }
@@ -75,7 +85,7 @@ export default class Index extends Component {
         <Tooltip content={<CustomToolTip />}/>
         <Legend />
         <Line yAxisId="left"  type="monotone" dataKey="Close" stroke="#8884d8" dot={false} />
-        <Line yAxisId="right" type="monotone" dataKey="USA Covid Confirmed Cases" stroke="#82ca9d" dot={false}/>
+        <Line yAxisId="right" type="monotone" dataKey="Daily Cases" stroke="#82ca9d" dot={false}/>
       </LineChart>
     </div>
   );
