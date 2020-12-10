@@ -33,7 +33,7 @@ export default class Container extends Component {
       <h3>Consumer Discretionary Clusters (Interactive Scatterplot)</h3>
       <ConsumerDiscretionary />
       <hr className="hr-div"></hr>
-      <h3>Communication Services Clsuters(Interactive Scatterplot)</h3>
+      <h3>Communication Services Clusters (Interactive Scatterplot)</h3>
       <CommunicationServices />
       <hr className="hr-div"></hr>
       <h3>Financial Services Clusters (Interactive Scatterplot)</h3>
@@ -48,10 +48,10 @@ export default class Container extends Component {
       <h3>S&P 500 Index Close and COVID Daily Cases</h3>
       <DualAxis />
       <hr className="hr-div"></hr>
-      <h3>S&P 500 Log Change & Strigency Log Change</h3>
+      <h3>S&P 500 Log Change & Stringency Log Change</h3>
       <SP500_Strig />
       <hr className="hr-div"></hr>
-      <h3>Strigency Log Change Cumulative and USA Covid Cases Log Change Cumulative </h3>
+      <h3>Stringency Log Change Cumulative and USA Covid Cases Log Change Cumulative </h3>
       <Strig_Covid />
     </div>
   );
