@@ -11,6 +11,7 @@ COVID-19-News
 ├── all_news.txt - concatenation of all .txt files in /cnn_website_news (UNCLEANED)
 ├── all_news_by_date.csv - all CNN news + API news grouped by Key (date) -- using news_by_date.py with PySpark on Dumbo HDFS
 ├── covid_api_news.csv - output of COVID-19 News Data Collection and Cleaning for News APIs 
+├── get_new.sh - run shell script in high performance cluster with Spark
 ├── news_cleaner.py - PySpark MapReduce program to clean all_news.txt and output to all_news.csv
 ├── news_by_date.py - PySpark MapReduce program takes one agrument joined_news.csv and returns all_news_by_date.csv
 └── cnn_website_news
@@ -28,7 +29,3 @@ COVID-19-News
     └── README.txt
     └── september_2020.txt
 ```
-
------------------------------------------------------------------------------------------------------------------------------
-
-The argument for all_news_by_date.py is the file 'joined_news.csv', which can be concatenated using `cat all_news.csv covid_api_news.csv >> joined_news.csv` which will generate the file joined_news.csv.
