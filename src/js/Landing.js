@@ -24,6 +24,8 @@ export default class Container extends Component {
             used to gauge the overall health of large American companies, has gained 13.4% on a compound basis since November 15, 2019. <br></br>
             In this data analysis, we aimed to understand how the S&P500 was able to move to all-time highs despite the the consequences <br></br>
             caused by the coronavirus. 
+            <hr></hr>
+            By Parth Merchant, Nathalie Darvas & Fahim Khan
         </p>
       </div>
     );
