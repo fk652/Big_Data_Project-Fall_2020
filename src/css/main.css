@@ -10,11 +10,11 @@
 /* Header Stylesheet */
 
 .header-container {
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     height: 100px;
     color: rgb(31, 31, 31);
     padding: 15px;
-    font-size: 28px;
+    font-size: 40px;
     text-align: left;
 }
 
@@ -57,6 +57,28 @@
     font-weight: bold;
     overflow-y: scroll;
     text-align: left;
+}
+
+.landing-container {
+    height: 550px;
+    padding: 20px;
+}
+
+.image-class {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.abstract-class {
+    font-size: 12px;
+}
+
+.github-button {
+    border-style: solid;
+    border-color: rgb(206, 206, 206);
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+    color:rgb(0, 0, 0);
 }
 
 /* Footer Stylesheet */
