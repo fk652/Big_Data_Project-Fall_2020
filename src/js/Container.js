@@ -1,5 +1,6 @@
 import '../css/main.css';
 import {React, Component} from 'react';
+import Landing from './Landing';
 import Index from './Index';
 import Sector_Filter from './Sector_Filter';
 import Aggregate from './Aggregate';
@@ -18,6 +19,8 @@ export default class Container extends Component {
   render() {
   return (
     <div className="main-container">
+      <Landing />
+      <hr></hr>
       <h3>S&P 500 Index Interactive Line Graph with News</h3>
       <Index />
       <hr className="hr-div"></hr>
