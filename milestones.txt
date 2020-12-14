@@ -78,3 +78,8 @@ G. Data Visualization & Knowledge Discovery
 H. Report
 	1. Drafted report outline {Nathalie, 11/29/2020}
 	2. Transition report to ACM paper format {Nathalie, 12/04/2020}
+	3. Complete and submit report {team, 12/11/2020}
+I. GitHub
+	1. Final review and merge all branches {team, 12/13/2020}
+J. Presentation
+	1. Finish and review slides {team, 12/13/2020}
