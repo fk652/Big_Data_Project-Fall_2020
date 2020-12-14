@@ -69,6 +69,7 @@ F. Data Analysis
 		- Top and bottom sectors versus S&P 500
 		- Event Study - regression analysis to calculate abnormal returns on each of the 10 days (S&P 500 top gains and losses) + cumulative abnormal returns
 		- Cluster analysis (kmeans) for Consumer Discretionary sector - showing heterogeneity
+		- Cluster analysis (kmeans) for 4 sectors Communication Services, Technology, Health Care, Financials {Nathalie, 12/09/2020}
 	3. Stock Analysis
 		- OLS regression to predict S&P 500 companies log returns during covid, and compare with actual returns {Fahim, 12/9/2020}
 G. Data Visualization & Knowledge Discovery
