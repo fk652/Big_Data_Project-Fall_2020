@@ -1,0 +1,51 @@
+Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
+2020-03-09,1,APA,Apache Corporation,Energy,Oil & Gas Exploration & Production,-0.7735926
+2020-03-09,2,OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,-0.76410985
+2020-03-09,3,MRO,Marathon Oil Corp-,Energy,Oil & Gas Exploration & Production,-0.632092
+2020-03-09,4,FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,-0.5914177
+2020-03-09,5,OKE,ONEOK,Energy,Oil & Gas Storage & Transportation,-0.47409633
+2020-03-09,6,HAL,Halliburton Co-,Energy,Oil & Gas Equipment & Services,-0.47230163
+2020-03-09,7,DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,-0.4683595
+2020-03-09,8,PXD,Pioneer Natural Resources,Energy,Oil & Gas Exploration & Production,-0.4607619
+2020-03-09,9,HES,Hess Corporation,Energy,Integrated Oil & Gas,-0.41050598
+2020-03-09,10,EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,-0.3857689
+2020-03-12,1,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.44309032
+2020-03-12,2,RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.3824064
+2020-03-12,3,CCL,Carnival Corp-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.37356555
+2020-03-12,4,VTR,Ventas Inc,Real Estate,Health Care REITs,-0.3270854
+2020-03-12,5,MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,-0.3148331
+2020-03-12,6,LNC,Lincoln National,Financials,Multi-line Insurance,-0.31021196
+2020-03-12,7,UAL,United Airlines Holdings,Industrials,Airlines,-0.28565732
+2020-03-12,8,ALK,Alaska Air Group Inc,Industrials,Airlines,-0.2644671
+2020-03-12,9,UNM,Unum Group,Financials,Life & Health Insurance,-0.25319588
+2020-03-12,10,PVH,PVH Corp-,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",-0.24668352
+2020-03-16,1,MGM,MGM Resorts International,Consumer Discretionary,Casinos & Gaming,-0.40968382
+2020-03-16,2,APA,Apache Corporation,Energy,Oil & Gas Exploration & Production,-0.39070466
+2020-03-16,3,TPR,"Tapestry, Inc-",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",-0.346255
+2020-03-16,4,VTR,Ventas Inc,Real Estate,Health Care REITs,-0.3367724
+2020-03-16,5,DXC,DXC Technology,Information Technology,IT Consulting & Other Services,-0.33317515
+2020-03-16,6,LB,L Brands Inc-,Consumer Discretionary,Apparel Retail,-0.32475466
+2020-03-16,7,DFS,Discover Financial Services,Financials,Consumer Finance,-0.3124584
+2020-03-16,8,SPG,Simon Property Group Inc,Real Estate,Retail REITs,-0.31078294
+2020-03-16,9,SYF,Synchrony Financial,Financials,Consumer Finance,-0.3014523
+2020-03-16,10,LYB,LyondellBasell,Materials,Specialty Chemicals,-0.29425067
+2020-03-18,1,APTV,Aptiv PLC,Consumer Discretionary,Auto Parts & Equipment,-0.36460176
+2020-03-18,2,UAL,United Airlines Holdings,Industrials,Airlines,-0.36082911
+2020-03-18,3,OKE,ONEOK,Energy,Oil & Gas Storage & Transportation,-0.33517015
+2020-03-18,4,MOS,The Mosaic Company,Materials,Fertilizers & Agricultural Chemicals,-0.3216906
+2020-03-18,5,CCL,Carnival Corp-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.31237468
+2020-03-18,6,DFS,Discover Financial Services,Financials,Consumer Finance,-0.31156132
+2020-03-18,7,DAL,Delta Air Lines Inc-,Industrials,Airlines,-0.30100292
+2020-03-18,8,MGM,MGM Resorts International,Consumer Discretionary,Casinos & Gaming,-0.2908284
+2020-03-18,9,AAL,American Airlines Group,Industrials,Airlines,-0.2906819
+2020-03-18,10,HAL,Halliburton Co-,Energy,Oil & Gas Equipment & Services,-0.28659683
+2020-06-11,1,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.17990316
+2020-06-11,2,BA,Boeing Company,Industrials,Aerospace & Defense,-0.17942522
+2020-06-11,3,OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,-0.17598332
+2020-06-11,4,UAL,United Airlines Holdings,Industrials,Airlines,-0.17569706
+2020-06-11,5,OKE,ONEOK,Energy,Oil & Gas Storage & Transportation,-0.1724608
+2020-06-11,6,AAL,American Airlines Group,Industrials,Airlines,-0.16855079
+2020-06-11,7,HAL,Halliburton Co-,Energy,Oil & Gas Equipment & Services,-0.16686618
+2020-06-11,8,CCL,Carnival Corp-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.16603908
+2020-06-11,9,RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",-0.15407209
+2020-06-11,10,ALK,Alaska Air Group Inc,Industrials,Airlines,-0.15314667

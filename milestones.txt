@@ -24,18 +24,57 @@ B. Data Sources, Hypothesis
 		https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker #Government response index by country from Oxford University 
 	2. Identified previous work and references {Nathalie, 11/18/2020}
 	3. Developed preliminary list of questions and analyses {Nathalie, 11/21/2020}
-C. Data Cleaning & Preprocessing (OpenRefine, Jupyter Notebook, Notes)
+C. Data Cleaning & Preprocessing (OpenRefine, Jupyter Notebook, Notes, Spark)
 	1. Scraping S&P 500 Wikipedia information and pulling historical data from Yahoo Finance {Fahim, 11/18/2020}
 	2. Formatting stock data and calculating daily returns and daily log returns {Fahim, 11/20/2020}
-D. Data Exploration & Transformation (Spark MapReduce)
-	1. 
+	3. Cleaned and formatted Oxford Covid Data {Fahim 11/24/2020}
+		- Fixed date format and decimal precisions
+	4. Cleaned and joined John Hopkins datasets {Nathalie, 11/26/2020}
+		- Combined two files: time_series_covid19_confirmed_global.csv and time_series_covid19_deaths_global.csv
+		- Dropped unnecessary variables like latitude and longitude
+		- Transposed data (i.e. from dates in columns to dates in rows)
+		- Formatted dates (from 1/1/20 to 2020-01-01)
+		- Filtered US data to extract US aggregate output
+D. Data Exploration & Transformation (Spark MapReduce Python)
+	1. Calculated Oxford data information {Fahim 11/26/2020}
+		- Indexes percent change
+		- Indexes log change
+	2. Calculated Stock data information {Fahim 11/28/2020}
+		- total log return sums
+		- cumulative log return sums
+		- top and bottom companies/sectors by total sum
+		- top 5 gains per company/sector/aggregate
+		- top 5 drops per company/sector/aggregate
+	3. Augmented John Hopkins data {Nathalie, 11/26/2020}
+		- Percent change for confirmed cases and deaths (US and Worldwide)
+		- Aggregated all countries data to create Worldwide output file
+	4. Joined Datasets {Fahim 12/5/2020}
+		- S&P_500 joined with news, oxford, and john-hopkins Datasets
+		- S&P_500 aggregate joined with news, oxford, and john-hopkins Datasets
+		- Sectoral joined with news, oxford, and john-hopkins Datasets
+		- All stock calculation jobs joined with news
+	5. Joined Datasets {Nathalie 12/03/2020}
+		- S&P 500 Companies joined with S&P Information (industries, sub_industries)
+		- Filtering by sector in preparation for sectoral Cluster analysis 
 E. Data Exploration (Jupyter Notebook, Notes)
 	1. Exploration of S&P Index and sectors on Jupyter Notebook to inform future analyses (e,g, top S&P gains and losses, sectors volatility, etc.) {Nathalie, 11/19/2020}
 F. Data Analysis
-	1. S&P Index Analysis
-	2. Sectoral Analysis
+	1. S&P Index Analysis {Nathalie, 11/26/2020}
+		- Analyzed S&P 500 trend (cumulative sum of log returns) with major news
+		- Identified periods of volatility (monthly statistics)
+		- Identified covid-related events for 5 largest gains and 5 largest losses
+		- Correlation between stock volatility and US Covid cases
+		- Updated top S&P 500 gains and drops with news relevant events {Nathalie, 12/03/2020}
+	2. Sectoral Analysis {Nathalie, 12/05/2020}
+		- Top and bottom sectors versus S&P 500
+		- Event Study - regression analysis to calculate abnormal returns on each of the 10 days (S&P 500 top gains and losses) + cumulative abnormal returns
+		- Cluster analysis (kmeans) for Consumer Discretionary sector - showing heterogeneity
 	3. Stock Analysis
+		- OLS regression to predict S&P 500 companies log returns during covid, and compare with actual returns {Fahim, 12/9/2020}
 G. Data Visualization & Knowledge Discovery
 	1. React, D3, Recharts Interface {Parth,11/21/2020}
 	2. Visualization Techniques
 	3. Correlation between COVID-19 Data and Economic Data
+H. Report
+	1. Drafted report outline {Nathalie, 11/29/2020}
+	2. Transition report to ACM paper format {Nathalie, 12/04/2020}

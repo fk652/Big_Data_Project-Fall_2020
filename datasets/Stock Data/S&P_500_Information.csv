@@ -117,7 +117,7 @@ CMS,CMS Energy,Utilities,Multi-Utilities,"Jackson, Michigan",1999-05-03,00008111
 KO,Coca-Cola Company,Consumer Staples,Soft Drinks,"Atlanta, Georgia",1957-03-04,0000021344,1886
 CTSH,Cognizant Technology Solutions,Information Technology,IT Consulting & Other Services,"Teaneck, New Jersey",2006-11-17,0001058290,1994
 CL,Colgate-Palmolive,Consumer Staples,Household Products,"New York, New York",1957-03-04,0000021665,1806
-CMCSA,Comcast Corp-,Communication Services,Cable & Satellite,"Philadelphia, Pennsylvania",2015-09-18,0001166691,1963
+CMCSA,Comcast Corp-,Communication Services,Cable & Satellite,"Philadelphia, Pennsylvania",2002-11-19,0001166691,1963
 CMA,Comerica Inc-,Financials,Diversified Banks,"Dallas, Texas",1995-12-01,0000028412,1849
 CAG,Conagra Brands,Consumer Staples,Packaged Foods & Meats,"Chicago, Illinois",1983-08-31,0000023217,1919
 CXO,Concho Resources,Energy,Oil & Gas Exploration & Production,"Midland, Texas",2016-02-22,0001358071,2004
@@ -292,7 +292,7 @@ LIN,Linde plc,Materials,Industrial Gases,"Guildford, Surrey, United Kingdom",199
 LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,"Beverly Hills, California",2019-12-23,0001335258,2010
 LKQ,LKQ Corporation,Consumer Discretionary,Distributors,"Chicago, Illinois",2016-05-23,0001065696,1998
 LMT,Lockheed Martin Corp-,Industrials,Aerospace & Defense,"Bethesda, Maryland",1984-07-31,0000936468,1995
-L,Loews Corp-,Financials,Multi-line Insurance,"New York, New York",,0000060086,
+L,Loews Corp-,Financials,Multi-line Insurance,"New York, New York",,0000060086,1959
 LOW,Lowe's Cos-,Consumer Discretionary,Home Improvement Retail,"Mooresville, North Carolina",1984-02-29,0000060667,1904/1946/1959
 LUMN,Lumen Technologies,Communication Services,Alternative Carriers,"Monroe, Louisiana",1999-03-25,0000018926,1983 (1877)
 LYB,LyondellBasell,Materials,Specialty Chemicals,"Rotterdam, Netherlands",2012-09-05,0001489393,2007
@@ -405,7 +405,7 @@ ROST,Ross Stores,Consumer Discretionary,Apparel Retail,"Dublin, California",2009
 RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Miami, Florida",2014-12-05,0000884887,1997
 SPGI,"S&P Global, Inc-",Financials,Financial Exchanges & Data,"New York, New York",,0000064040,1917
 CRM,Salesforce-com,Information Technology,Application Software,"San Francisco, California",2008-09-15,0001108524,1999
-SBAC,SBA Communications,Real Estate,Specialized REITs,"Boca Raton, Florida",2017-09-01,0001034054,
+SBAC,SBA Communications,Real Estate,Specialized REITs,"Boca Raton, Florida",2017-09-01,0001034054,1989
 SLB,Schlumberger Ltd-,Energy,Oil & Gas Equipment & Services,"Curaçao, Kingdom of the Netherlands",1965-03-31,0000087347,1926
 STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals","Dublin, Ireland",2012-07-02,0001137789,1979
 SEE,Sealed Air,Materials,Paper Packaging,"Charlotte, North Carolina",1957-03-04,0001012100,1960

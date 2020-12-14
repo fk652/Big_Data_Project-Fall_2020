@@ -1,0 +1,51 @@
+Date,Rank,Symbol,Name,GICS Sector,GICS Sub-Industry,Log Return
+2020-03-13,1,LNC,Lincoln National,Financials,Multi-line Insurance,0.2110034
+2020-03-13,2,AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,0.20404874
+2020-03-13,3,STT,State Street Corp-,Financials,Asset Management & Custody Banks,0.20146388
+2020-03-13,4,VTR,Ventas Inc,Real Estate,Health Care REITs,0.1970104
+2020-03-13,5,NTRS,Northern Trust Corp-,Financials,Asset Management & Custody Banks,0.1876216
+2020-03-13,6,ORCL,Oracle Corp-,Information Technology,Application Software,0.18587473
+2020-03-13,7,OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,0.1817607
+2020-03-13,8,MS,Morgan Stanley,Financials,Investment Banking & Brokerage,0.18040341
+2020-03-13,9,DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,0.17956671
+2020-03-13,10,INTC,Intel Corp-,Information Technology,Semiconductors,0.1783244
+2020-03-17,1,DOW,Dow Inc-,Materials,Commodity Chemicals,0.18986878
+2020-03-17,2,LYB,LyondellBasell,Materials,Specialty Chemicals,0.17849378
+2020-03-17,3,SO,Southern Company,Utilities,Electric Utilities,0.17204922
+2020-03-17,4,PBCT,People's United Financial,Financials,Thrifts & Mortgage Finance,0.1677041
+2020-03-17,5,ED,Consolidated Edison,Utilities,Electric Utilities,0.16563155
+2020-03-17,6,EXC,Exelon Corp-,Utilities,Multi-Utilities,0.16546443
+2020-03-17,7,IPGP,IPG Photonics Corp-,Information Technology,Electronic Manufacturing Services,0.1649126
+2020-03-17,8,AEE,Ameren Corp,Utilities,Multi-Utilities,0.16382974
+2020-03-17,9,CNP,CenterPoint Energy,Utilities,Multi-Utilities,0.16031298
+2020-03-17,10,NI,NiSource Inc-,Utilities,Multi-Utilities,0.15986495
+2020-03-24,1,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0.35201052
+2020-03-24,2,LB,L Brands Inc-,Consumer Discretionary,Apparel Retail,0.329594
+2020-03-24,3,DXC,DXC Technology,Information Technology,IT Consulting & Other Services,0.32414028
+2020-03-24,4,AAL,American Airlines Group,Industrials,Airlines,0.30604896
+2020-03-24,5,MGM,MGM Resorts International,Consumer Discretionary,Casinos & Gaming,0.28604144
+2020-03-24,6,LNC,Lincoln National,Financials,Multi-line Insurance,0.27535862
+2020-03-24,7,DRI,Darden Restaurants,Consumer Discretionary,Restaurants,0.27264145
+2020-03-24,8,VIAC,ViacomCBS,Communication Services,Movies & Entertainment,0.26821187
+2020-03-24,9,FCX,Freeport-McMoRan Inc-,Materials,Copper,0.25993517
+2020-03-24,10,TPR,"Tapestry, Inc-",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",0.25988922
+2020-03-26,1,SYY,Sysco Corp-,Consumer Staples,Food Distributors,0.15830411
+2020-03-26,2,CFG,Citizens Financial Group,Financials,Regional Banks,0.15696998
+2020-03-26,3,FITB,Fifth Third Bancorp,Financials,Regional Banks,0.15588428
+2020-03-26,4,KEY,KeyCorp,Financials,Regional Banks,0.15444162
+2020-03-26,5,HPQ,HP Inc-,Information Technology,"Technology Hardware, Storage & Peripherals",0.15396492
+2020-03-26,6,IT,Gartner Inc,Information Technology,IT Consulting & Other Services,0.15185441
+2020-03-26,7,VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,0.14032125
+2020-03-26,8,CARR,Carrier Global,Industrials,Building Products,0.1386299
+2020-03-26,9,TDG,TransDigm Group,Industrials,Aerospace & Defense,0.13848568
+2020-03-26,10,LNC,Lincoln National,Financials,Multi-line Insurance,0.13686383
+2020-04-06,1,PVH,PVH Corp-,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",0.24793845
+2020-04-06,2,MGM,MGM Resorts International,Consumer Discretionary,Casinos & Gaming,0.19903678
+2020-04-06,3,ETSY,Etsy,Consumer Discretionary,Internet & Direct Marketing Retail,0.1970659
+2020-04-06,4,RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0.19393897
+2020-04-06,5,ULTA,Ulta Beauty,Consumer Discretionary,Specialty Stores,0.18546401
+2020-04-06,6,CCL,Carnival Corp-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0.18447866
+2020-04-06,7,MAR,Marriott Int'l-,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0.17799595
+2020-04-06,8,BA,Boeing Company,Industrials,Aerospace & Defense,0.1779352
+2020-04-06,9,NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",0.16823544
+2020-04-06,10,MHK,Mohawk Industries,Consumer Discretionary,Home Furnishings,0.16794685
