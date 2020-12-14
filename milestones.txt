@@ -3,15 +3,6 @@ Fahim Khan
 Nathalie Darvas
 Parth Merchant
 
-
----------------------------------------------
-
-Whenever you hit a project milestone:
-
-Milestone You Hit {Parth,11/21/2020}
-
----------------------------------------------
-
 A. Project Definition
 	1. Organization and Collaboration Tools (Slack, Trello, GitHub, Zoom) {Team,11/18/2020}
 	2. GitHub: https://github.com/fk652/Big_Data_Project-Fall_2020 {Team,11/18/2020}
@@ -35,6 +26,13 @@ C. Data Cleaning & Preprocessing (OpenRefine, Jupyter Notebook, Notes, Spark)
 		- Transposed data (i.e. from dates in columns to dates in rows)
 		- Formatted dates (from 1/1/20 to 2020-01-01)
 		- Filtered US data to extract US aggregate output
+	5. Pulling and cleaning news headlines per day {Parth, 11/26/2020}
+		- Used NewsAPI to pull news headlines from sources such as USA Today, Wall Street Journal, FOX and Google News 
+		- Used RapidAPI's COVID-19 API to get all articles related to COVID-19 from a variety of sources based on time frame
+		- Extracted CNN news data from November 2019-2020
+		- Removed unnecessary and redudant variables
+		- Formatted all sources into (date,headline,source)
+		- Combine all news into single file
 D. Data Exploration & Transformation (Spark MapReduce Python)
 	1. Calculated Oxford data information {Fahim 11/26/2020}
 		- Indexes percent change
@@ -48,12 +46,15 @@ D. Data Exploration & Transformation (Spark MapReduce Python)
 	3. Augmented John Hopkins data {Nathalie, 11/26/2020}
 		- Percent change for confirmed cases and deaths (US and Worldwide)
 		- Aggregated all countries data to create Worldwide output file
-	4. Joined Datasets {Fahim 12/5/2020}
+	4. Reformat and Filter News Data {Parth, 11/30/2020}
+		- Use spark.filter to find all instances of headlines with the keywords "COVID", "coronavirus", "stock", "market"
+		- Reduce by key date and have each date with all the news for that day
+	5. Joined Datasets {Fahim 12/5/2020}
 		- S&P_500 joined with news, oxford, and john-hopkins Datasets
 		- S&P_500 aggregate joined with news, oxford, and john-hopkins Datasets
 		- Sectoral joined with news, oxford, and john-hopkins Datasets
 		- All stock calculation jobs joined with news
-	5. Joined Datasets {Nathalie 12/03/2020}
+	6. Joined Datasets {Nathalie 12/03/2020}
 		- S&P 500 Companies joined with S&P Information (industries, sub_industries)
 		- Filtering by sector in preparation for sectoral Cluster analysis 
 E. Data Exploration (Jupyter Notebook, Notes)
@@ -72,10 +73,19 @@ F. Data Analysis
 		- Cluster analysis (kmeans) for 4 sectors Communication Services, Technology, Health Care, Financials {Nathalie, 12/09/2020}
 	3. Stock Analysis
 		- OLS regression to predict S&P 500 companies log returns during covid, and compare with actual returns {Fahim, 12/9/2020}
-G. Data Visualization & Knowledge Discovery
-	1. React, D3, Recharts Interface {Parth,11/21/2020}
+G. Data Visualization & Knowledge Discovery {Parth}
+	1. Initialize and Push React and Recharts Interface to GitHub{Parth,11/21/2020}
 	2. Visualization Techniques
-	3. Correlation between COVID-19 Data and Economic Data
+		- Interactive Line Graph for S&P500 Index Price with News
+		- Created interactive tooltip that allows users to see specified attributes on a particular day
+		- S&P Sectors Interactive Line Graph with Dropdown Filter
+		- S&P Aggregate Daily Log Changes (Interactive Positive Negative Bar Chart) with News
+		- S&P Aggregate Top 5 Gains and Drops (Interactive Positive Negative Bar Chart) with News
+		- Created scatterplots for K-means clustering for S&P Sectors with on-hover tooltip
+		- S&P 500 Index Close and COVID Daily Cases Biaxial Line Graph with Tooltip
+		- S&P 500 Log Change & Stringency Log Change Line Graph with News
+		- Stringency Log Change Cumulative and USA Covid Cases Log Change Cumulative with News
+	3. Correlation between S&P500 Data, COVID-19 Data and Economic Data alongside News {Team}
 H. Report
 	1. Drafted report outline {Nathalie, 11/29/2020}
 	2. Transition report to ACM paper format {Nathalie, 12/04/2020}
