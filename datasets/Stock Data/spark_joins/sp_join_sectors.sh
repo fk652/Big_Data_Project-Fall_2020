@@ -1,8 +1,7 @@
 #!/bin/bash
 
 shopt -s expand_aliases
-source /home/nd1640/.bashrcr
-#. /etc/profile.d/modules.sh
+source /home/nd1640/.bashrc
 
 # load up necessary modules
 echo "loading modules"
