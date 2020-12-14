@@ -1,9 +1,10 @@
-#shopt -s expand_aliases
-#source /home/fk652/.bashrc
+#!/bin/bash
 
-. /etc/profile.d/modules.sh
+shopt -s expand_aliases
+source /home/nd1640/.bashrcr
+#. /etc/profile.d/modules.sh
+
 # load up necessary modules
-
 echo "loading modules"
 module load python/gnu/3.6.5 #load python version
 module load spark/2.4.0 #load spark version
@@ -13,10 +14,11 @@ echo "removing existing output files"
 hfs -rm -r 'spjoin_sectors.out'
 rm -r 'spjoin_sectors.csv'
 
-# uploading data to hadoop
+
+# uploading latest data to hadoop
 echo "uploading data to hadoop"
-hfs -rm -r 'Sectoral_stock_data.csv'
-#hfs -put ../../'Sectoral_stock_data.csv'
+hfs -put "S&P_500_stock_data.csv"
+hfs -put "S&P_500_Information.csv"
 
 # run spark job
 echo "running spark job"
