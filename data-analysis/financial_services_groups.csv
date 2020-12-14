@@ -1,0 +1,66 @@
+Name,GICS Sub-Industry,returns,variances,Group
+AFLAC Inc,Life & Health Insurance,-0.27018893202837146,0.5745497875821786,0
+Allstate Corp,Property & Casualty Insurance,-0.1387138826491574,0.43188259512686106,3
+American Express Co,Consumer Finance,-0.048959973045481525,0.6265036279931604,3
+American International Group,Property & Casualty Insurance,-0.36815754720600324,0.7151188953315485,2
+Ameriprise Financial,Asset Management & Custody Banks,0.1434712526285784,0.6891495201737949,1
+Aon plc,Insurance Brokers,0.028428036637011544,0.3948993186843311,3
+Arthur J- Gallagher & Co-,Insurance Brokers,0.2299508360435638,0.40704106691931885,1
+Assurant,Multi-line Insurance,0.010692859546366229,0.4933264892860206,3
+Bank of America Corp,Diversified Banks,-0.198547239651353,0.57945287411645,0
+Berkshire Hathaway,Multi-Sector Holdings,0.034353465873947726,0.34759368948410785,3
+BlackRock,Asset Management & Custody Banks,0.310571758352431,0.4765812931256014,1
+CME Group Inc-,Financial Exchanges & Data,-0.20735305486622224,0.48243989006370697,0
+Capital One Financial,Consumer Finance,-0.11616697396232478,0.7235159084777705,2
+Cboe Global Markets,Financial Exchanges & Data,-0.30988103920774446,0.4345993086859786,0
+Charles Schwab Corporation,Investment Banking & Brokerage,0.03652872213889413,0.530333265011537,3
+Chubb Limited,Property & Casualty Insurance,-0.013508765478687401,0.48524059652818224,3
+Cincinnati Financial,Property & Casualty Insurance,-0.3071038211587967,0.5851605367414305,0
+Citigroup Inc-,Diversified Banks,-0.4245986281285914,0.6706022796606476,2
+Citizens Financial Group,Regional Banks,-0.17969343438768481,0.7657744136574891,2
+Comerica Inc-,Diversified Banks,-0.32634642789922186,0.7605457148761187,2
+Discover Financial Services,Consumer Finance,-0.09826052853450484,0.8527145547613828,2
+Everest Re Group Ltd-,Reinsurance,-0.1398125340455545,0.4926824968499442,0
+Fifth Third Bancorp,Regional Banks,-0.1691726151740589,0.7372124768045415,2
+First Republic Bank,Regional Banks,0.20819647655212134,0.47539725651006676,1
+Franklin Resources,Asset Management & Custody Banks,-0.3016022598759873,0.5422717358797918,0
+Globe Life Inc-,Life & Health Insurance,-0.07521714664175072,0.5280055725265104,3
+Goldman Sachs Group,Investment Banking & Brokerage,-0.005326296542841082,0.5173386777331302,3
+Hartford Financial Svc-Gp-,Property & Casualty Insurance,-0.3158161039891274,0.6495758534254793,0
+Huntington Bancshares,Regional Banks,-0.2438086036263294,0.6451377600186061,0
+Intercontinental Exchange,Financial Exchanges & Data,0.06647967038422031,0.3847634123745787,3
+Invesco Ltd-,Asset Management & Custody Banks,-0.11656607240368366,0.7500407361260635,2
+JPMorgan Chase & Co-,Diversified Banks,-0.12701253240146393,0.5376350854462417,0
+KeyCorp,Regional Banks,-0.24351299497456314,0.7584058980581826,2
+Lincoln National,Multi-line Insurance,-0.3434399179739036,0.9488877847756939,2
+Loews Corp-,Multi-line Insurance,-0.17043082526680342,0.5882604966142545,0
+M&T Bank Corp-,Regional Banks,-0.32198957599548805,0.6266183114264907,0
+MSCI Inc,Financial Exchanges & Data,0.4406263451052004,0.5191504061502471,1
+MarketAxess,Financial Exchanges & Data,0.3164907612527097,0.4575222501888157,1
+Marsh & McLennan,Insurance Brokers,0.07141645093009785,0.3607022246876551,3
+MetLife Inc-,Life & Health Insurance,-0.09644739226878851,0.6018095863564841,0
+Moody's Corp,Financial Exchanges & Data,0.22395180527548142,0.5015403572949931,1
+Morgan Stanley,Investment Banking & Brokerage,0.144569428918361,0.561746245201092,1
+"Nasdaq, Inc-",Financial Exchanges & Data,0.19441154699833696,0.4203842379938693,1
+Northern Trust Corp-,Asset Management & Custody Banks,-0.15995506796926673,0.5229695948339734,0
+PNC Financial Services,Regional Banks,-0.20595813241414707,0.5744548952464491,0
+People's United Financial,Thrifts & Mortgage Finance,-0.26151452942229714,0.6248201006764704,0
+Principal Financial Group,Life & Health Insurance,-0.165258151876158,0.6530514066108061,0
+Progressive Corp-,Property & Casualty Insurance,0.2717116165889708,0.3687658985132306,1
+Prudential Financial,Life & Health Insurance,-0.247325803458188,0.677039493186592,2
+Raymond James Financial Inc-,Investment Banking & Brokerage,-0.04753258308383847,0.5680052283247101,3
+Regions Financial Corp-,Regional Banks,-0.10321060845307886,0.7056121355203506,2
+"S&P Global, Inc-",Financial Exchanges & Data,0.2628410813857505,0.46342515185305466,1
+SVB Financial,Regional Banks,0.39060115388580563,0.6422668283630466,1
+State Street Corp-,Asset Management & Custody Banks,-0.05701252201186423,0.5800256682596577,3
+Synchrony Financial,Consumer Finance,-0.21040448969599845,0.7566512869030226,2
+T- Rowe Price Group,Asset Management & Custody Banks,0.14512410889268867,0.47374806701732525,1
+The Bank of New York Mellon,Asset Management & Custody Banks,-0.2269081091358074,0.4830198166363643,0
+The Travelers Companies Inc-,Property & Casualty Insurance,0.007904571436204093,0.4952516935886746,3
+Truist Financial,Regional Banks,-0.14603505070363368,0.6649741875361461,0
+U-S- Bancorp,Diversified Banks,-0.31067812100493963,0.5793365947227417,0
+Unum Group,Life & Health Insurance,-0.35235534867558416,0.7997436950213277,2
+W- R- Berkley Corporation,Property & Casualty Insurance,0.014921345645405813,0.48588207047737614,3
+Wells Fargo,Diversified Banks,-0.8043072138704055,0.5990342835646365,4
+Willis Towers Watson,Insurance Brokers,0.09031807191515814,0.3992283851067886,3
+Zions Bancorp,Regional Banks,-0.2791748002219552,0.5766281393246903,0

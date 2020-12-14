@@ -1,0 +1,73 @@
+Name,GICS Sub-Industry,returns,variances,Group
+ANSYS,Application Software,0.3334300389477542,0.4554955904249802,0
+Accenture plc,IT Consulting & Other Services,0.20578943279457107,0.40869573873569953,0
+Adobe Inc-,Application Software,0.4559132197060851,0.4779160676595906,2
+Advanced Micro Devices Inc,Semiconductors,0.7475282538700094,0.6124976393742153,2
+Akamai Technologies Inc,Internet Services & Infrastructure,0.1463184017648809,0.3841874056235114,0
+Amphenol Corp,Electronic Components,0.1880103289136832,0.4130248232461361,0
+"Analog Devices, Inc-",Semiconductors,0.18371683836526387,0.5057206745646279,0
+Apple Inc-,"Technology Hardware, Storage & Peripherals",0.5850066801162165,0.4616860678082186,2
+Applied Materials Inc-,Semiconductor Equipment,0.1597515937267504,0.6006166164210873,0
+Arista Networks,Communications Equipment,0.35189766263204536,0.48521819240128405,0
+Autodesk Inc-,Application Software,0.43940100575077334,0.504984722331212,2
+Automatic Data Processing,Internet Services & Infrastructure,0.0026838213879054624,0.4497456140171612,3
+Broadcom Inc-,Semiconductors,0.17700238361295995,0.5248834518802449,0
+Broadridge Financial Solutions,Data Processing & Outsourced Services,0.20249782198785482,0.3581660372550907,0
+CDW,Technology Distributors,0.007587351554896328,0.49860928802598325,3
+Cadence Design Systems,Application Software,0.5402059517378737,0.46251194023265085,2
+Cisco Systems,Communications Equipment,-0.08537957812882001,0.4198750357084367,3
+Citrix Systems,Application Software,0.04913273916755401,0.40749652098746025,3
+Cognizant Technology Solutions,IT Consulting & Other Services,0.19712157547495757,0.47964710461454424,0
+Corning Inc-,Electronic Components,0.19949302314944495,0.5121547338855306,0
+DXC Technology,IT Consulting & Other Services,-0.5966899894447035,0.9236643216323187,1
+F5 Networks,Communications Equipment,0.09189196829561827,0.41507820409807844,3
+FLIR Systems,Electronic Equipment & Instruments,-0.36648732036870024,0.5648342884153023,1
+Fidelity National Information Services,Data Processing & Outsourced Services,0.06347031591040421,0.4460935478827446,3
+Fiserv Inc,Data Processing & Outsourced Services,-0.045437921398590916,0.46722454060278834,3
+FleetCor Technologies Inc,Data Processing & Outsourced Services,-0.13304148776446034,0.5358926898679628,3
+Fortinet,Systems Software,0.13244746368091054,0.5360777107148068,0
+Gartner Inc,IT Consulting & Other Services,-0.012330344476299437,0.48842387754558897,3
+Global Payments Inc-,Data Processing & Outsourced Services,0.04995058532118696,0.544913455886103,3
+HP Inc-,"Technology Hardware, Storage & Peripherals",-0.028652358715387294,0.5496252384574487,3
+Hewlett Packard Enterprise,"Technology Hardware, Storage & Peripherals",-0.530163991950714,0.549827666106983,1
+IPG Photonics Corp-,Electronic Manufacturing Services,0.3556093704032506,0.524171186207623,0
+Intel Corp-,Semiconductors,-0.242920303371422,0.5305171153865944,1
+International Business Machines,IT Consulting & Other Services,-0.13992933474956,0.4071120829270327,3
+Intuit Inc-,Application Software,0.29391153498671674,0.4704827556633777,0
+Jack Henry & Associates,Data Processing & Outsourced Services,0.0756811352190363,0.3956969522820271,3
+Juniper Networks,Communications Equipment,-0.15486960212579204,0.3670974092721039,3
+KLA Corporation,Semiconductor Equipment,0.2832587425397328,0.603733514200759,0
+Keysight Technologies,Electronic Equipment & Instruments,0.06237030079731288,0.4435809420887879,3
+Lam Research,Semiconductor Equipment,0.4073199589208274,0.634694920823453,2
+Leidos Holdings,IT Consulting & Other Services,0.07856283654911334,0.44082841170023407,3
+Mastercard Inc-,Data Processing & Outsourced Services,0.1766486362144848,0.48161010139093957,0
+Maxim Integrated Products Inc,Semiconductors,0.33950712032036545,0.43638355060151623,0
+Microchip Technology,Semiconductors,0.287814227254783,0.6182062461293004,0
+Micron Technology,Semiconductors,0.19409439003794882,0.5785737008092836,0
+Microsoft Corp-,Systems Software,0.3672014281476441,0.4384493384372699,0
+Motorola Solutions Inc-,Communications Equipment,0.050645244925970376,0.440009734337463,3
+NetApp,"Technology Hardware, Storage & Peripherals",-0.23245183636635902,0.5130503466176191,1
+NortonLifeLock,Application Software,-0.2263706972792301,0.6257879314893239,1
+Nvidia Corporation,Semiconductors,0.9573669642773099,0.5853175282021875,2
+Oracle Corp-,Application Software,0.008647396813969086,0.3987817828451049,3
+PayPal,Data Processing & Outsourced Services,0.59342228319694,0.5156648575532821,2
+Paychex Inc-,Data Processing & Outsourced Services,0.08125899855196206,0.485487937806029,3
+Paycom,Application Software,0.4947224425897786,0.6520218176863346,2
+QUALCOMM Inc-,Semiconductors,0.4628478041803419,0.5188837391104892,2
+Qorvo,Semiconductors,0.35272501750985086,0.5641295065051409,0
+Salesforce-com,Application Software,0.4244612162339232,0.5077784616126083,2
+Seagate Technology,"Technology Hardware, Storage & Peripherals",-0.07684599731443154,0.4307660170494426,3
+ServiceNow,Systems Software,0.6699734114913909,0.4972518579690541,2
+Skyworks Solutions,Semiconductors,0.35294643483413335,0.5561622288328696,0
+Synopsys Inc-,Application Software,0.48198326827905813,0.4271069400633456,2
+TE Connectivity Ltd-,Electronic Manufacturing Services,0.16261561982015849,0.48104689396929534,0
+Teradyne,Semiconductor Equipment,0.42655809782552634,0.5275523775734577,2
+Texas Instruments,Semiconductors,0.2833293539697799,0.4310057480480151,0
+Tyler Technologies,Application Software,0.37915329359954697,0.3443694707282472,0
+Verisign Inc-,Internet Services & Infrastructure,0.060747404536558136,0.3991190592862396,3
+Visa Inc-,Data Processing & Outsourced Services,0.15771233660879602,0.42477208610405126,0
+Western Digital,"Technology Hardware, Storage & Peripherals",-0.19382968904421416,0.6879824103190731,1
+Western Union Co,Data Processing & Outsourced Services,-0.23251567345116309,0.4282683469018681,1
+Xerox,"Technology Hardware, Storage & Peripherals",-0.5874785389037118,0.6558713468462293,1
+Xilinx,Semiconductors,0.30962091278567616,0.4823413048552067,0
+Zebra Technologies,Electronic Equipment & Instruments,0.3748984686058367,0.49538767795095723,0
