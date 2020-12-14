@@ -3,7 +3,9 @@ import '../css/main.css';
 function Header() {
   return (
     <div className="header-container">
-      <h1>COVID-19 IMPACT ON S&P 500 and US Economy</h1>
+      <center>
+      <p>Measuring Impact of COVID-19 on the S&P 500</p>
+      </center>
     </div>
   );
 }

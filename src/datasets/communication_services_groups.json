@@ -1,0 +1,170 @@
+[
+  {
+    "Name": "AT&T Inc-",
+    "GICS Sub-Industry": "Integrated Telecommunication Services",
+    "returns": -0.3121131211568531,
+    "variances": 0.35481870116727315,
+    "Group": 1
+  },
+  {
+    "Name": "Activision Blizzard",
+    "GICS Sub-Industry": "Interactive Home Entertainment",
+    "returns": 0.37236342544409995,
+    "variances": 0.38722111996380626,
+    "Group": 0
+  },
+  {
+    "Name": "Alphabet Inc- (Class A)",
+    "GICS Sub-Industry": "Interactive Media & Services",
+    "returns": 0.28441848405926873,
+    "variances": 0.3835812725382469,
+    "Group": 0
+  },
+  {
+    "Name": "Alphabet Inc- (Class C)",
+    "GICS Sub-Industry": "Interactive Media & Services",
+    "returns": 0.2861039098486273,
+    "variances": 0.38230033069303004,
+    "Group": 0
+  },
+  {
+    "Name": "Charter Communications",
+    "GICS Sub-Industry": "Cable & Satellite",
+    "returns": 0.30806274057301675,
+    "variances": 0.34876181446179383,
+    "Group": 0
+  },
+  {
+    "Name": "Comcast Corp-",
+    "GICS Sub-Industry": "Cable & Satellite",
+    "returns": 0.09498367167267971,
+    "variances": 0.3799447083473716,
+    "Group": 4
+  },
+  {
+    "Name": "Discovery, Inc- (Class A)",
+    "GICS Sub-Industry": "Broadcasting",
+    "returns": -0.2511221166425406,
+    "variances": 0.5087992421435377,
+    "Group": 1
+  },
+  {
+    "Name": "Discovery, Inc- (Class C)",
+    "GICS Sub-Industry": "Broadcasting",
+    "returns": -0.28816041507206913,
+    "variances": 0.5047576796805495,
+    "Group": 1
+  },
+  {
+    "Name": "Dish Network",
+    "GICS Sub-Industry": "Cable & Satellite",
+    "returns": -0.13087249482690172,
+    "variances": 0.617731838766934,
+    "Group": 2
+  },
+  {
+    "Name": "Electronic Arts",
+    "GICS Sub-Industry": "Interactive Home Entertainment",
+    "returns": 0.2138737510955302,
+    "variances": 0.3589803556690244,
+    "Group": 0
+  },
+  {
+    "Name": "Facebook, Inc-",
+    "GICS Sub-Industry": "Interactive Media & Services",
+    "returns": 0.3503247496426712,
+    "variances": 0.4579716950002952,
+    "Group": 0
+  },
+  {
+    "Name": "Fox Corporation (Class A)",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "returns": -0.25204420028184416,
+    "variances": 0.4857451523348237,
+    "Group": 1
+  },
+  {
+    "Name": "Fox Corporation (Class B)",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "returns": -0.24823630030311514,
+    "variances": 0.47832636533081274,
+    "Group": 1
+  },
+  {
+    "Name": "Interpublic Group",
+    "GICS Sub-Industry": "Advertising",
+    "returns": -0.05381846265645908,
+    "variances": 0.5696563731085944,
+    "Group": 2
+  },
+  {
+    "Name": "Live Nation Entertainment",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "returns": 0.010343875127753144,
+    "variances": 0.7360154857821619,
+    "Group": 2
+  },
+  {
+    "Name": "Netflix Inc-",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "returns": 0.49260828630146664,
+    "variances": 0.4616714486456392,
+    "Group": 3
+  },
+  {
+    "Name": "News Corp- Class A",
+    "GICS Sub-Industry": "Publishing",
+    "returns": 0.26785634086155063,
+    "variances": 0.4887014874503282,
+    "Group": 0
+  },
+  {
+    "Name": "News Corp- Class B",
+    "GICS Sub-Industry": "Publishing",
+    "returns": 0.25447929211839426,
+    "variances": 0.5010786704493946,
+    "Group": 0
+  },
+  {
+    "Name": "Omnicom Group",
+    "GICS Sub-Industry": "Advertising",
+    "returns": -0.30015536276446486,
+    "variances": 0.47971952260428935,
+    "Group": 1
+  },
+  {
+    "Name": "T-Mobile US",
+    "GICS Sub-Industry": "Wireless Telecommunication Services",
+    "returns": 0.4962196369290953,
+    "variances": 0.4070338229985175,
+    "Group": 3
+  },
+  {
+    "Name": "Take-Two Interactive",
+    "GICS Sub-Industry": "Interactive Home Entertainment",
+    "returns": 0.26771751721706144,
+    "variances": 0.4227534983074751,
+    "Group": 0
+  },
+  {
+    "Name": "The Walt Disney Company",
+    "GICS Sub-Industry": "Movies & Entertainment",
+    "returns": -0.04459628550443284,
+    "variances": 0.4622317828319873,
+    "Group": 4
+  },
+  {
+    "Name": "Twitter, Inc-",
+    "GICS Sub-Industry": "Interactive Media & Services",
+    "returns": 0.39642147804699995,
+    "variances": 0.6261427367760778,
+    "Group": 3
+  },
+  {
+    "Name": "Verizon Communications",
+    "GICS Sub-Industry": "Integrated Telecommunication Services",
+    "returns": 0.025712672345601813,
+    "variances": 0.2455330826858212,
+    "Group": 4
+  }
+]

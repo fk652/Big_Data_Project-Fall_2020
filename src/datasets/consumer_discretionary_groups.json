@@ -1,0 +1,429 @@
+[
+  {
+    "Name": "Advance Auto Parts",
+    "GICS Sub-Industry": "Automotive Retail",
+    "returns": -0.05470955283888923,
+    "variances": 0.4718411342611477,
+    "Group": 1
+  },
+  {
+    "Name": "Amazon-com Inc-",
+    "GICS Sub-Industry": "Internet & Direct Marketing Retail",
+    "returns": 0.5870607980938773,
+    "variances": 0.38403625140695946,
+    "Group": 3
+  },
+  {
+    "Name": "Aptiv PLC",
+    "GICS Sub-Industry": "Auto Parts & Equipment",
+    "returns": 0.17450943084581994,
+    "variances": 0.7482342236191302,
+    "Group": 1
+  },
+  {
+    "Name": "AutoZone Inc",
+    "GICS Sub-Industry": "Specialty Stores",
+    "returns": -0.013816513853140769,
+    "variances": 0.4201431005687303,
+    "Group": 1
+  },
+  {
+    "Name": "Best Buy Co- Inc-",
+    "GICS Sub-Industry": "Computer & Electronics Retail",
+    "returns": 0.3938530745334763,
+    "variances": 0.5195119856714897,
+    "Group": 3
+  },
+  {
+    "Name": "Booking Holdings Inc",
+    "GICS Sub-Industry": "Internet & Direct Marketing Retail",
+    "returns": 0.10469130245290614,
+    "variances": 0.5130408969704578,
+    "Group": 1
+  },
+  {
+    "Name": "BorgWarner",
+    "GICS Sub-Industry": "Auto Parts & Equipment",
+    "returns": -0.1689111028841226,
+    "variances": 0.49882214299537736,
+    "Group": 1
+  },
+  {
+    "Name": "Carmax Inc",
+    "GICS Sub-Industry": "Specialty Stores",
+    "returns": -0.02605064204144369,
+    "variances": 0.5786356197771644,
+    "Group": 1
+  },
+  {
+    "Name": "Carnival Corp-",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "returns": -1.0301100131781755,
+    "variances": 1.2174133176594713,
+    "Group": 2
+  },
+  {
+    "Name": "Chipotle Mexican Grill",
+    "GICS Sub-Industry": "Restaurants",
+    "returns": 0.5057749382391332,
+    "variances": 0.4915053077591751,
+    "Group": 3
+  },
+  {
+    "Name": "D- R- Horton",
+    "GICS Sub-Industry": "Homebuilding",
+    "returns": 0.314469548453975,
+    "variances": 0.5929679071336408,
+    "Group": 3
+  },
+  {
+    "Name": "Darden Restaurants",
+    "GICS Sub-Industry": "Restaurants",
+    "returns": -0.04551402958608719,
+    "variances": 0.8247666652510568,
+    "Group": 4
+  },
+  {
+    "Name": "Dollar General",
+    "GICS Sub-Industry": "General Merchandise Stores",
+    "returns": 0.2894601587207992,
+    "variances": 0.30808923831254215,
+    "Group": 3
+  },
+  {
+    "Name": "Dollar Tree",
+    "GICS Sub-Industry": "General Merchandise Stores",
+    "returns": -0.13662036854476511,
+    "variances": 0.486784631689345,
+    "Group": 1
+  },
+  {
+    "Name": "Domino's Pizza",
+    "GICS Sub-Industry": "Restaurants",
+    "returns": 0.3253078937694785,
+    "variances": 0.42271082689278006,
+    "Group": 3
+  },
+  {
+    "Name": "Etsy",
+    "GICS Sub-Industry": "Internet & Direct Marketing Retail",
+    "returns": 1.090003899473691,
+    "variances": 0.6942788720977984,
+    "Group": 0
+  },
+  {
+    "Name": "Expedia Group",
+    "GICS Sub-Industry": "Internet & Direct Marketing Retail",
+    "returns": 0.2549314405197922,
+    "variances": 0.7084188117191788,
+    "Group": 3
+  },
+  {
+    "Name": "Ford Motor Company",
+    "GICS Sub-Industry": "Automobile Manufacturers",
+    "returns": -0.04689250764198594,
+    "variances": 0.5503230062957392,
+    "Group": 1
+  },
+  {
+    "Name": "Gap Inc-",
+    "GICS Sub-Industry": "Apparel Retail",
+    "returns": 0.2183972424616023,
+    "variances": 0.8974114274062278,
+    "Group": 4
+  },
+  {
+    "Name": "Garmin Ltd-",
+    "GICS Sub-Industry": "Consumer Electronics",
+    "returns": 0.1896997025486797,
+    "variances": 0.36919202056856204,
+    "Group": 3
+  },
+  {
+    "Name": "General Motors",
+    "GICS Sub-Industry": "Automobile Manufacturers",
+    "returns": 0.11025498004418255,
+    "variances": 0.610253058364313,
+    "Group": 1
+  },
+  {
+    "Name": "Genuine Parts",
+    "GICS Sub-Industry": "Specialty Stores",
+    "returns": -0.056917185724764785,
+    "variances": 0.511491723844238,
+    "Group": 1
+  },
+  {
+    "Name": "Hanesbrands Inc",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "returns": -0.18425019282867794,
+    "variances": 0.6406619854682282,
+    "Group": 4
+  },
+  {
+    "Name": "Hasbro Inc-",
+    "GICS Sub-Industry": "Leisure Products",
+    "returns": -0.08403349568102936,
+    "variances": 0.5462000833780132,
+    "Group": 1
+  },
+  {
+    "Name": "Hilton Worldwide Holdings Inc",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "returns": 0.059485152744196426,
+    "variances": 0.5079777107052137,
+    "Group": 1
+  },
+  {
+    "Name": "Home Depot",
+    "GICS Sub-Industry": "Home Improvement Retail",
+    "returns": 0.15534809128687144,
+    "variances": 0.4503231494014576,
+    "Group": 1
+  },
+  {
+    "Name": "L Brands Inc-",
+    "GICS Sub-Industry": "Apparel Retail",
+    "returns": 0.6420577721971696,
+    "variances": 0.9497173122801932,
+    "Group": 0
+  },
+  {
+    "Name": "LKQ Corporation",
+    "GICS Sub-Industry": "Distributors",
+    "returns": 0.01368932335500175,
+    "variances": 0.6558576382917309,
+    "Group": 1
+  },
+  {
+    "Name": "Las Vegas Sands",
+    "GICS Sub-Industry": "Casinos & Gaming",
+    "returns": -0.07262387463766551,
+    "variances": 0.5883547453819347,
+    "Group": 1
+  },
+  {
+    "Name": "Leggett & Platt",
+    "GICS Sub-Industry": "Home Furnishings",
+    "returns": -0.24267921581167595,
+    "variances": 0.6674030449446362,
+    "Group": 4
+  },
+  {
+    "Name": "Lennar Corp-",
+    "GICS Sub-Industry": "Homebuilding",
+    "returns": 0.24200416765606558,
+    "variances": 0.6733367756588242,
+    "Group": 3
+  },
+  {
+    "Name": "Lowe's Cos-",
+    "GICS Sub-Industry": "Home Improvement Retail",
+    "returns": 0.32090602495113707,
+    "variances": 0.5179828623893848,
+    "Group": 3
+  },
+  {
+    "Name": "MGM Resorts International",
+    "GICS Sub-Industry": "Casinos & Gaming",
+    "returns": -0.18553391944024833,
+    "variances": 0.9598830815292927,
+    "Group": 4
+  },
+  {
+    "Name": "Marriott Int'l-",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "returns": -0.12162751964812199,
+    "variances": 0.656613491454304,
+    "Group": 4
+  },
+  {
+    "Name": "McDonald's Corp-",
+    "GICS Sub-Industry": "Restaurants",
+    "returns": 0.09490233648346447,
+    "variances": 0.3998339506585061,
+    "Group": 1
+  },
+  {
+    "Name": "Mohawk Industries",
+    "GICS Sub-Industry": "Home Furnishings",
+    "returns": -0.13053232847931895,
+    "variances": 0.7466034053116604,
+    "Group": 4
+  },
+  {
+    "Name": "NVR, Inc-",
+    "GICS Sub-Industry": "Homebuilding",
+    "returns": 0.1668428895283629,
+    "variances": 0.6074893190702487,
+    "Group": 1
+  },
+  {
+    "Name": "Newell Brands",
+    "GICS Sub-Industry": "Housewares & Specialties",
+    "returns": -0.0005067255773898507,
+    "variances": 0.5759976778465898,
+    "Group": 1
+  },
+  {
+    "Name": "Nike, Inc-",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "returns": 0.3211858472584703,
+    "variances": 0.41186309562372797,
+    "Group": 3
+  },
+  {
+    "Name": "Norwegian Cruise Line Holdings",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "returns": -0.972695618680667,
+    "variances": 1.3214551832436476,
+    "Group": 2
+  },
+  {
+    "Name": "O'Reilly Automotive",
+    "GICS Sub-Industry": "Specialty Stores",
+    "returns": 0.03621598774608792,
+    "variances": 0.4227776242024524,
+    "Group": 1
+  },
+  {
+    "Name": "PVH Corp-",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "returns": -0.35458976922855445,
+    "variances": 0.879598964773965,
+    "Group": 4
+  },
+  {
+    "Name": "Pool Corporation",
+    "GICS Sub-Industry": "Distributors",
+    "returns": 0.49653332989391774,
+    "variances": 0.4759198793906244,
+    "Group": 3
+  },
+  {
+    "Name": "PulteGroup",
+    "GICS Sub-Industry": "Homebuilding",
+    "returns": 0.09831960627025049,
+    "variances": 0.6606071126149831,
+    "Group": 1
+  },
+  {
+    "Name": "Ralph Lauren Corporation",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "returns": -0.3722342343985927,
+    "variances": 0.6053598051694293,
+    "Group": 4
+  },
+  {
+    "Name": "Ross Stores",
+    "GICS Sub-Industry": "Apparel Retail",
+    "returns": -0.047322648699511305,
+    "variances": 0.5730907272233973,
+    "Group": 1
+  },
+  {
+    "Name": "Royal Caribbean Group",
+    "GICS Sub-Industry": "Hotels, Resorts & Cruise Lines",
+    "returns": -0.5125801949545021,
+    "variances": 1.1414487810857459,
+    "Group": 2
+  },
+  {
+    "Name": "Starbucks Corp-",
+    "GICS Sub-Industry": "Restaurants",
+    "returns": 0.12644062873925144,
+    "variances": 0.4530265231285754,
+    "Group": 1
+  },
+  {
+    "Name": "TJX Companies Inc-",
+    "GICS Sub-Industry": "Apparel Retail",
+    "returns": -0.0031812270528401693,
+    "variances": 0.5178266297338647,
+    "Group": 1
+  },
+  {
+    "Name": "Tapestry, Inc-",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "returns": -0.015819541705015545,
+    "variances": 0.8318750056567162,
+    "Group": 4
+  },
+  {
+    "Name": "Target Corp-",
+    "GICS Sub-Industry": "General Merchandise Stores",
+    "returns": 0.3637692703370971,
+    "variances": 0.39487172282130173,
+    "Group": 3
+  },
+  {
+    "Name": "Tiffany & Co-",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "returns": 0.04906418508430832,
+    "variances": 0.2570182002055394,
+    "Group": 1
+  },
+  {
+    "Name": "Tractor Supply Company",
+    "GICS Sub-Industry": "Specialty Stores",
+    "returns": 0.29269536509145233,
+    "variances": 0.39281867247119423,
+    "Group": 3
+  },
+  {
+    "Name": "Ulta Beauty",
+    "GICS Sub-Industry": "Specialty Stores",
+    "returns": 0.06312919588060148,
+    "variances": 0.6554808151375081,
+    "Group": 1
+  },
+  {
+    "Name": "Under Armour (Class A)",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "returns": -0.1779466833875869,
+    "variances": 0.7082905702254366,
+    "Group": 4
+  },
+  {
+    "Name": "Under Armour (Class C)",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "returns": -0.19429024933290417,
+    "variances": 0.6790442433976104,
+    "Group": 4
+  },
+  {
+    "Name": "VF Corporation",
+    "GICS Sub-Industry": "Apparel, Accessories & Luxury Goods",
+    "returns": -0.08864499779127577,
+    "variances": 0.5759499267720638,
+    "Group": 1
+  },
+  {
+    "Name": "Whirlpool Corp-",
+    "GICS Sub-Industry": "Household Appliances",
+    "returns": 0.2680072156095239,
+    "variances": 0.6146551237205243,
+    "Group": 3
+  },
+  {
+    "Name": "Wynn Resorts Ltd",
+    "GICS Sub-Industry": "Casinos & Gaming",
+    "returns": -0.24428729704512175,
+    "variances": 0.8625823892402564,
+    "Group": 4
+  },
+  {
+    "Name": "Yum! Brands Inc",
+    "GICS Sub-Industry": "Restaurants",
+    "returns": 0.045645546610169965,
+    "variances": 0.4305432897749876,
+    "Group": 1
+  },
+  {
+    "Name": "eBay Inc-",
+    "GICS Sub-Industry": "Internet & Direct Marketing Retail",
+    "returns": 0.3220300289967275,
+    "variances": 0.3734112984681406,
+    "Group": 3
+  }
+]

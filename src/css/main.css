@@ -10,19 +10,75 @@
 /* Header Stylesheet */
 
 .header-container {
-    background-color: #282c34;
+    background-color: #ffffff;
     height: 100px;
-    color: white;
-    padding: 10px;
+    color: rgb(31, 31, 31);
+    padding: 15px;
+    font-size: 40px;
+    text-align: left;
 }
 
 /* Container Stylesheet */
 
 .main-container {
-    background-color: #ececec;
+    background-color: #ffffff;
     min-height: 600px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.viz-container {
+    background-color: #ffffff;
+    min-height: 600px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 10px;
+}
+
+.custom-tooltip {
+    background-color: rgb(119, 119, 119);
+    opacity: 0.7;
+    height: 250px;
+    width: 250px;
     color: white;
     padding: 10px;
+    font-size: 13px;
+    overflow-y: hidden;
+}
+
+.custom-tooltip-scatter {
+    background-color: rgb(119, 119, 119);
+    opacity: 0.8;
+    height: 200px;
+    width: 200px;
+    color: white;
+    padding: 8px;
+    font-size: 9px;
+    font-weight: bold;
+    overflow-y: scroll;
+    text-align: left;
+}
+
+.landing-container {
+    height: 550px;
+    padding: 20px;
+}
+
+.image-class {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.abstract-class {
+    font-size: 12px;
+}
+
+.github-button {
+    border-style: solid;
+    border-color: rgb(206, 206, 206);
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px;
+    color:rgb(0, 0, 0);
 }
 
 /* Footer Stylesheet */

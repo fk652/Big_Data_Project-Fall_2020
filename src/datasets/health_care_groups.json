@@ -1,0 +1,443 @@
+[
+  {
+    "Name": "ABIOMED Inc",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.19796705728234798,
+    "variances": 0.513864453887133,
+    "Group": 0
+  },
+  {
+    "Name": "AbbVie Inc-",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "returns": 0.11105344841930001,
+    "variances": 0.3484194791847746,
+    "Group": 0
+  },
+  {
+    "Name": "Abbott Laboratories",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.27287220792516287,
+    "variances": 0.3899172176649872,
+    "Group": 3
+  },
+  {
+    "Name": "Agilent Technologies Inc",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.3419879666528605,
+    "variances": 0.36144010167270596,
+    "Group": 3
+  },
+  {
+    "Name": "Alexion Pharmaceuticals",
+    "GICS Sub-Industry": "Biotechnology",
+    "returns": 0.16460219734801826,
+    "variances": 0.40590496252109187,
+    "Group": 0
+  },
+  {
+    "Name": "Align Technology",
+    "GICS Sub-Industry": "Health Care Supplies",
+    "returns": 0.5496061004645405,
+    "variances": 0.6881759404242991,
+    "Group": 1
+  },
+  {
+    "Name": "AmerisourceBergen Corp",
+    "GICS Sub-Industry": "Health Care Distributors",
+    "returns": 0.213891249008646,
+    "variances": 0.4124942131302201,
+    "Group": 0
+  },
+  {
+    "Name": "Amgen Inc-",
+    "GICS Sub-Industry": "Biotechnology",
+    "returns": 0.07204895917147613,
+    "variances": 0.3779096500446721,
+    "Group": 0
+  },
+  {
+    "Name": "Anthem",
+    "GICS Sub-Industry": "Managed Health Care",
+    "returns": 0.11153303522698631,
+    "variances": 0.5452784788806988,
+    "Group": 0
+  },
+  {
+    "Name": "Baxter International Inc-",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.011233306790177986,
+    "variances": 0.36928343259652996,
+    "Group": 2
+  },
+  {
+    "Name": "Becton Dickinson",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": -0.022358470360862803,
+    "variances": 0.3633695232024111,
+    "Group": 2
+  },
+  {
+    "Name": "Bio-Rad Laboratories",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "returns": 0.526233513399073,
+    "variances": 0.4015086732724031,
+    "Group": 1
+  },
+  {
+    "Name": "Biogen Inc-",
+    "GICS Sub-Industry": "Biotechnology",
+    "returns": -0.1270590824908719,
+    "variances": 0.6672132394466346,
+    "Group": 2
+  },
+  {
+    "Name": "Boston Scientific",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": -0.10796380385842719,
+    "variances": 0.4398421522724535,
+    "Group": 2
+  },
+  {
+    "Name": "Bristol-Myers Squibb",
+    "GICS Sub-Industry": "Health Care Distributors",
+    "returns": 0.08236383337098192,
+    "variances": 0.29473400537429,
+    "Group": 0
+  },
+  {
+    "Name": "CIGNA Corp-",
+    "GICS Sub-Industry": "Managed Health Care",
+    "returns": 0.11405182254178214,
+    "variances": 0.5328742681113661,
+    "Group": 0
+  },
+  {
+    "Name": "CVS Health",
+    "GICS Sub-Industry": "Health Care Services",
+    "returns": -0.045296488446094685,
+    "variances": 0.3808995473368794,
+    "Group": 2
+  },
+  {
+    "Name": "Cardinal Health Inc-",
+    "GICS Sub-Industry": "Health Care Distributors",
+    "returns": 0.020938542842954672,
+    "variances": 0.4511754923808343,
+    "Group": 2
+  },
+  {
+    "Name": "Catalent",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "returns": 0.7298512697464785,
+    "variances": 0.5218666479226287,
+    "Group": 1
+  },
+  {
+    "Name": "Centene Corporation",
+    "GICS Sub-Industry": "Managed Health Care",
+    "returns": 0.18200301817405504,
+    "variances": 0.5327385920253912,
+    "Group": 0
+  },
+  {
+    "Name": "Cerner",
+    "GICS Sub-Industry": "Health Care Technology",
+    "returns": 0.09822985546687057,
+    "variances": 0.3152895860133313,
+    "Group": 0
+  },
+  {
+    "Name": "DaVita Inc-",
+    "GICS Sub-Industry": "Health Care Facilities",
+    "returns": 0.4451852692917502,
+    "variances": 0.40572957021198014,
+    "Group": 1
+  },
+  {
+    "Name": "Danaher Corp-",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.49544811668709604,
+    "variances": 0.333076436836933,
+    "Group": 1
+  },
+  {
+    "Name": "Dentsply Sirona",
+    "GICS Sub-Industry": "Health Care Supplies",
+    "returns": -0.09767922772151261,
+    "variances": 0.4739544669520779,
+    "Group": 2
+  },
+  {
+    "Name": "DexCom",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.4789855878064344,
+    "variances": 0.5531902655276475,
+    "Group": 1
+  },
+  {
+    "Name": "Edwards Lifesciences",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": -0.0012220272392715614,
+    "variances": 0.4361174212272892,
+    "Group": 2
+  },
+  {
+    "Name": "Gilead Sciences",
+    "GICS Sub-Industry": "Biotechnology",
+    "returns": -0.0713337433416666,
+    "variances": 0.3775816521289774,
+    "Group": 2
+  },
+  {
+    "Name": "HCA Healthcare",
+    "GICS Sub-Industry": "Health Care Facilities",
+    "returns": 0.0813512765132174,
+    "variances": 0.6031068421191419,
+    "Group": 0
+  },
+  {
+    "Name": "Henry Schein",
+    "GICS Sub-Industry": "Health Care Distributors",
+    "returns": -0.04191199573742922,
+    "variances": 0.4412944915088768,
+    "Group": 2
+  },
+  {
+    "Name": "Hologic",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.39165212605580413,
+    "variances": 0.46922759023698607,
+    "Group": 3
+  },
+  {
+    "Name": "Humana Inc-",
+    "GICS Sub-Industry": "Managed Health Care",
+    "returns": 0.25589013479431344,
+    "variances": 0.5022060304473152,
+    "Group": 3
+  },
+  {
+    "Name": "IDEXX Laboratories",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.5574688499578659,
+    "variances": 0.41173616489991904,
+    "Group": 1
+  },
+  {
+    "Name": "IQVIA Holdings Inc-",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "returns": 0.1716274488527869,
+    "variances": 0.5010385051077721,
+    "Group": 0
+  },
+  {
+    "Name": "Illumina Inc",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "returns": 0.009335662602444998,
+    "variances": 0.4585308925704364,
+    "Group": 2
+  },
+  {
+    "Name": "Incyte",
+    "GICS Sub-Industry": "Biotechnology",
+    "returns": -0.04929199977387366,
+    "variances": 0.4213714719511656,
+    "Group": 2
+  },
+  {
+    "Name": "Intuitive Surgical Inc-",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.2797407761723347,
+    "variances": 0.45342464801967575,
+    "Group": 3
+  },
+  {
+    "Name": "Johnson & Johnson",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "returns": 0.10513811109949067,
+    "variances": 0.2994352270301738,
+    "Group": 0
+  },
+  {
+    "Name": "Laboratory Corp- of America Holding",
+    "GICS Sub-Industry": "Health Care Services",
+    "returns": 0.15139045697996686,
+    "variances": 0.522245333598362,
+    "Group": 0
+  },
+  {
+    "Name": "Lilly (Eli) & Co-",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "returns": 0.2294317297565298,
+    "variances": 0.4086966151292362,
+    "Group": 3
+  },
+  {
+    "Name": "McKesson Corp-",
+    "GICS Sub-Industry": "Health Care Distributors",
+    "returns": 0.2100593853597879,
+    "variances": 0.4516428590793025,
+    "Group": 0
+  },
+  {
+    "Name": "Medtronic plc",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.003918801293934848,
+    "variances": 0.4100417982935608,
+    "Group": 2
+  },
+  {
+    "Name": "Merck & Co-",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "returns": -0.04591450749454572,
+    "variances": 0.31691738245883844,
+    "Group": 2
+  },
+  {
+    "Name": "Mettler Toledo",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "returns": 0.48851517152384005,
+    "variances": 0.40749388761634825,
+    "Group": 1
+  },
+  {
+    "Name": "PerkinElmer",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.3734006921552879,
+    "variances": 0.37079744274219373,
+    "Group": 3
+  },
+  {
+    "Name": "Perrigo",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "returns": -0.006501438725142472,
+    "variances": 0.46831669331960984,
+    "Group": 2
+  },
+  {
+    "Name": "Pfizer Inc-",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "returns": 0.03531328260307377,
+    "variances": 0.34720869575751095,
+    "Group": 2
+  },
+  {
+    "Name": "Quest Diagnostics",
+    "GICS Sub-Industry": "Health Care Services",
+    "returns": 0.15357476946915938,
+    "variances": 0.4094240064833752,
+    "Group": 0
+  },
+  {
+    "Name": "Regeneron Pharmaceuticals",
+    "GICS Sub-Industry": "Biotechnology",
+    "returns": 0.49618597388064417,
+    "variances": 0.42361491110450195,
+    "Group": 1
+  },
+  {
+    "Name": "ResMed",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.3783153504868446,
+    "variances": 0.48938404342704345,
+    "Group": 3
+  },
+  {
+    "Name": "STERIS plc",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.259334434360869,
+    "variances": 0.38006626652155645,
+    "Group": 3
+  },
+  {
+    "Name": "Stryker Corp-",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.11738970283979189,
+    "variances": 0.4912615690961194,
+    "Group": 0
+  },
+  {
+    "Name": "Teleflex",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.049244379599426444,
+    "variances": 0.44450013503376024,
+    "Group": 0
+  },
+  {
+    "Name": "The Cooper Companies",
+    "GICS Sub-Industry": "Health Care Supplies",
+    "returns": 0.12254753534750767,
+    "variances": 0.3983138712619943,
+    "Group": 0
+  },
+  {
+    "Name": "Thermo Fisher Scientific",
+    "GICS Sub-Industry": "Life Sciences Tools & Services",
+    "returns": 0.4652950289509139,
+    "variances": 0.3642774675504675,
+    "Group": 1
+  },
+  {
+    "Name": "UnitedHealth Group Inc-",
+    "GICS Sub-Industry": "Managed Health Care",
+    "returns": 0.2778061310940005,
+    "variances": 0.48193757854777136,
+    "Group": 3
+  },
+  {
+    "Name": "Universal Health Services",
+    "GICS Sub-Industry": "Health Care Facilities",
+    "returns": -0.07983483837682748,
+    "variances": 0.6615067288261428,
+    "Group": 2
+  },
+  {
+    "Name": "Varian Medical Systems",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.30212863530818,
+    "variances": 0.46224588575757236,
+    "Group": 3
+  },
+  {
+    "Name": "Vertex Pharmaceuticals Inc",
+    "GICS Sub-Industry": "Biotechnology",
+    "returns": 0.07225415524255843,
+    "variances": 0.46850695336441467,
+    "Group": 0
+  },
+  {
+    "Name": "Viatris",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "returns": -0.12950403179255598,
+    "variances": 0.45038632036088067,
+    "Group": 2
+  },
+  {
+    "Name": "Waters Corporation",
+    "GICS Sub-Industry": "Health Care Distributors",
+    "returns": 0.06816419667012052,
+    "variances": 0.3961424918915566,
+    "Group": 0
+  },
+  {
+    "Name": "West Pharmaceutical Services",
+    "GICS Sub-Industry": "Health Care Supplies",
+    "returns": 0.6615854194889659,
+    "variances": 0.3854060749777021,
+    "Group": 1
+  },
+  {
+    "Name": "Zimmer Biomet",
+    "GICS Sub-Industry": "Health Care Equipment",
+    "returns": 0.03072625053565048,
+    "variances": 0.4937550082135006,
+    "Group": 2
+  },
+  {
+    "Name": "Zoetis",
+    "GICS Sub-Industry": "Pharmaceuticals",
+    "returns": 0.34065518788690147,
+    "variances": 0.39237279177498763,
+    "Group": 3
+  }
+]

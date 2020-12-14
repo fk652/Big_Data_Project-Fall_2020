@@ -5,7 +5,7 @@ Parth Merchant, Fahim Khan, Nathalie Darvas
 -------------------------------------------------------------------------------------------
 ### Dependencies
 1. Jupyter Notebook: Python3, NumPy, Pandas, Matplotlib, Seaborn, Spark
-2. Visualization Interface: NodeJS, npm (Node Package Manager), D3, recharts, colorbrewer
+2. Visualization Interface: NodeJS, npm (Node Package Manager), recharts
 -------------------------------------------------------------------------------------------
 
 ## How to use
