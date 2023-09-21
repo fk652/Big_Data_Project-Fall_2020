@@ -1,5 +1,5 @@
 import '../css/main.css';
-import { AreaChart, Area, XAxis, YAxis, Tooltip, Legend } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, Tooltip } from 'recharts';
 import {React, Component} from 'react';
 import aggregate_data from '../datasets/S&P_500_Aggregate_Join_Oxford_JohnHopkins_News.json';
 

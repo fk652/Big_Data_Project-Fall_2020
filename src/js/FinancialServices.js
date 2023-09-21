@@ -1,5 +1,5 @@
 import '../css/main.css';
-import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, LabelList, Legend } from 'recharts';
+import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import {React, Component} from 'react';
 import data from '../datasets/financial_services_groups.json';
 

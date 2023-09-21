@@ -1,6 +1,6 @@
 import '../css/main.css';
-import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, LabelList, Legend } from 'recharts';
-import {React, Component, PropTypes} from 'react';
+import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import {React, Component} from 'react';
 import data from '../datasets/communication_services_groups.json';
 
 let group0 = [];

@@ -1,5 +1,5 @@
 import {React, Component } from 'react';
-import {BarChart, Bar, Cell, XAxis, YAxis, Tooltip, Legend, ReferenceLine } from 'recharts';
+import {BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ReferenceLine } from 'recharts';
 import '../css/main.css';
 import aggregate_data from '../datasets/S&P_500_Aggregate_Join_Oxford_JohnHopkins_News.json';
 

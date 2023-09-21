@@ -1,4 +1,4 @@
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import '../css/main.css';
 import {React, Component} from 'react';
 import data from '../datasets/S&P_500_Aggregate_Join_Oxford_JohnHopkins_News.json';
@@ -48,7 +48,7 @@ const formatNews = (arr) => {
     return null;
   };
 
-export default class Strig_Covid extends Component {
+export default class StrigCovid extends Component {
 
   render() {
     return (

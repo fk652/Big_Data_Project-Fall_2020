@@ -1,9 +1,9 @@
 import '../css/main.css';
-import { AreaChart, Area, XAxis, YAxis, Tooltip, Legend } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, Tooltip } from 'recharts';
 import sector_data from '../datasets/s&p500_sectors.json';
 import {React, Component} from 'react';
 
-export default class Sector_Filter extends Component { 
+export default class SectorFilter extends Component { 
 
     constructor(props) {
         super(props);

@@ -1,4 +1,4 @@
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import '../css/main.css';
 import {React, Component} from 'react';
 import data from '../datasets/S&P_500_Aggregate_Join_Oxford_JohnHopkins_News.json';
@@ -12,14 +12,14 @@ const formatNews = (arr) => {
     );
   };
   
-  const fixData = (data) => {
-    let i = 0;
-    for (i=0; i<data.length; i++){
-      if (data[i]["Close"] === null){
-        data[i]["Close"] = data[i-1]["Close"]
-      }
-    }
-  }
+  // const fixData = (data) => {
+  //   let i = 0;
+  //   for (i=0; i<data.length; i++){
+  //     if (data[i]["Close"] === null){
+  //       data[i]["Close"] = data[i-1]["Close"]
+  //     }
+  //   }
+  // }
   
   const getNews = (label) => {
     let i = 0;
@@ -56,7 +56,7 @@ const formatNews = (arr) => {
     return null;
   };
 
-export default class SP500_Strig extends Component {
+export default class SP500Strig extends Component {
 
   render() {
     return (

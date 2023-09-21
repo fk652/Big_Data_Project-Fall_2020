@@ -1,6 +1,6 @@
 import '../css/main.css';
-import {BarChart, Bar, Cell, XAxis, YAxis, Tooltip, Legend, ReferenceLine } from 'recharts';
-import {React, Component, PropTypes} from 'react';
+import {BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ReferenceLine } from 'recharts';
+import {React, Component} from 'react';
 import aggregate_data from '../datasets/GainsDrops.json';
 
 const formatNews = (arr) => {
@@ -42,7 +42,7 @@ const CustomToolTip = ({ active, payload, label }) => {
   return null;
 };
 
-export default class Aggregate_Gains_Drops extends Component { 
+export default class AggregateGainsDrops extends Component { 
 
   render() {
   return (

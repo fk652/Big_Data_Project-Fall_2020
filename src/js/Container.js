@@ -2,13 +2,13 @@ import '../css/main.css';
 import {React, Component} from 'react';
 import Landing from './Landing';
 import Index from './Index';
-import Sector_Filter from './Sector_Filter';
+import SectorFilter from './SectorFilter';
 import Aggregate from './Aggregate';
-import Aggregate_Gains_Drops from './Aggregate_Gains_Drops';
+import AggregateGainsDrops from './AggregateGainsDrops';
 import ConsumerDiscretionary from './ConsumerDiscretionary';
 import DualAxis from './DualAxis';
-import SP500_Strig from './SP500_Strig';
-import Strig_Covid from './Strig_Covid';
+import SP500Strig from './SP500Strig';
+import StrigCovid from './StrigCovid';
 import CommunicationServices from './CommunicationServices';
 import FinancialServices from './FinancialServices';
 import HealthCare from './HealthCare';
@@ -25,13 +25,13 @@ export default class Container extends Component {
       <Index />
       <hr className="hr-div"></hr>
       <h3>S&P Sectors Interactive Line Graph with Dropdown Filter</h3>
-      <Sector_Filter />
+      <SectorFilter />
       <hr className="hr-div"></hr>
       <h3>S&P Aggregate Daily Log Changes (Interactive Positive Negative Bar Chart)</h3>
       <Aggregate />
       <hr className="hr-div"></hr>
       <h3>S&P Aggregate Top 5 Gains and Drops (Interactive Positive Negative Bar Chart)</h3>
-      <Aggregate_Gains_Drops />
+      <AggregateGainsDrops />
       <hr className="hr-div"></hr>
       <h3>Consumer Discretionary Clusters (Interactive Scatterplot)</h3>
       <ConsumerDiscretionary />
@@ -52,10 +52,10 @@ export default class Container extends Component {
       <DualAxis />
       <hr className="hr-div"></hr>
       <h3>S&P 500 Log Change & Stringency Log Change</h3>
-      <SP500_Strig />
+      <SP500Strig />
       <hr className="hr-div"></hr>
       <h3>Stringency Log Change Cumulative and USA Covid Cases Log Change Cumulative </h3>
-      <Strig_Covid />
+      <StrigCovid />
     </div>
   );
   }
